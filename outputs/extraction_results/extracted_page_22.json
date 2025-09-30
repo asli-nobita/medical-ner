@@ -1,0 +1,121 @@
+{
+  "page": 22,
+  "patient_info": {
+    "name": "Mr. K NAGASHANKAR RAO",
+    "age": "63",
+    "gender": "Male"
+  },
+  "test_results": [
+    {
+      "test_name": "Creatinine",
+      "value": "1.39",
+      "unit": "mg/dL",
+      "confidence": 91.2,
+      "line_number": 20
+    },
+    {
+      "test_name": "GFR Estimated",
+      "value": "57",
+      "unit": "mL/min/",
+      "confidence": 93.4,
+      "line_number": 23
+    },
+    {
+      "test_name": "Urea",
+      "value": "49.00",
+      "unit": "mg/dL",
+      "confidence": 91.6,
+      "line_number": 25
+    },
+    {
+      "test_name": "Urea Nitrogen Blood",
+      "value": "22.88",
+      "unit": "mg/dL",
+      "confidence": 94.0,
+      "line_number": 28
+    },
+    {
+      "test_name": "UricAcid",
+      "value": "4.90",
+      "unit": "mg/dL",
+      "confidence": 88.67,
+      "line_number": 31
+    },
+    {
+      "test_name": "AST (SGOT)",
+      "value": "21.0",
+      "unit": "U/L",
+      "confidence": 94.8,
+      "line_number": 34
+    },
+    {
+      "test_name": "ALT (SGPT)",
+      "value": "18.0",
+      "unit": "U/L",
+      "confidence": 95.0,
+      "line_number": 36
+    },
+    {
+      "test_name": "GGTP",
+      "value": "119.0",
+      "unit": "U/L",
+      "confidence": 93.75,
+      "line_number": 38
+    },
+    {
+      "test_name": "Alkaline Phosphatase (ALP)",
+      "value": "121.00",
+      "unit": "U/L",
+      "confidence": 94.0,
+      "line_number": 40
+    },
+    {
+      "test_name": "Bilirubin Total",
+      "value": "0.42",
+      "unit": "mg/dL",
+      "confidence": 91.6,
+      "line_number": 43
+    },
+    {
+      "test_name": "Bilirubin Direct",
+      "value": "0.09",
+      "unit": "mg/dL",
+      "confidence": 86.0,
+      "line_number": 45
+    },
+    {
+      "test_name": "Bilirubin Indirect",
+      "value": "0.33",
+      "unit": "mg/dL",
+      "confidence": 87.0,
+      "line_number": 48
+    },
+    {
+      "test_name": "Total Protein",
+      "value": "7.80",
+      "unit": "g/dL",
+      "confidence": 93.17,
+      "line_number": 50
+    },
+    {
+      "test_name": "Albumin",
+      "value": "4.10",
+      "unit": "g/dL",
+      "confidence": 94.2,
+      "line_number": 53
+    },
+    {
+      "test_name": "Globulin(Calculated)",
+      "value": "3.70",
+      "unit": "gm/dL",
+      "confidence": 87.75,
+      "line_number": 59
+    }
+  ],
+  "other_fields": {},
+  "confidence_scores": {
+    "name": 79.17,
+    "age": 95.0,
+    "gender": 94.57
+  }
+}

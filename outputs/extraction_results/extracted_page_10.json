@@ -1,0 +1,31 @@
+{
+  "page": 10,
+  "patient_info": {
+    "age": "40",
+    "patient_id": "6186848"
+  },
+  "test_results": [
+    {
+      "test_name": "Age",
+      "value": "40",
+      "unit": "Years",
+      "confidence": 78.73,
+      "line_number": 12
+    },
+    {
+      "test_name": "Bilirubin Indirect",
+      "value": "0.49",
+      "unit": "mg/dL",
+      "confidence": 92.0,
+      "line_number": 17
+    }
+  ],
+  "other_fields": {
+    "phone": "9035707662"
+  },
+  "confidence_scores": {
+    "age": 78.73,
+    "patient_id": 78.73,
+    "phone": 78.73
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "page": 42,
+  "patient_info": {
+    "name": "awnfrom outsidesource.",
+    "age": "41",
+    "gender": "Female"
+  },
+  "test_results": [],
+  "other_fields": {
+    "doctor": "awnfrom"
+  },
+  "confidence_scores": {
+    "name": 95.0,
+    "age": 92.12,
+    "gender": 96.0,
+    "doctor": 95.0
+  }
+}

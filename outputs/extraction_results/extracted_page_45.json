@@ -1,0 +1,29 @@
+{
+  "page": 45,
+  "patient_info": {},
+  "test_results": [
+    {
+      "test_name": "Triglycerides",
+      "value": "220.00",
+      "unit": "mg/dL",
+      "confidence": 89.75,
+      "line_number": 22
+    },
+    {
+      "test_name": "HDL Cholesterol",
+      "value": "38.00",
+      "unit": "mg/dL",
+      "confidence": 90.6,
+      "line_number": 23
+    },
+    {
+      "test_name": "Non-HDL Cholesterol",
+      "value": "154",
+      "unit": "mg/dL",
+      "confidence": 90.2,
+      "line_number": 26
+    }
+  ],
+  "other_fields": {},
+  "confidence_scores": {}
+}

@@ -1,0 +1,15 @@
+{
+  "page": 27,
+  "patient_info": {
+    "name": "Mr. K NAGASHANKAR RAO",
+    "age": "63",
+    "gender": "Male"
+  },
+  "test_results": [],
+  "other_fields": {},
+  "confidence_scores": {
+    "name": 91.33,
+    "age": 95.0,
+    "gender": 94.14
+  }
+}

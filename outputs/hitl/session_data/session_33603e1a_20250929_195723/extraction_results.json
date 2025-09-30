@@ -1,0 +1,2130 @@
+[
+  {
+    "page": 1,
+    "patient_info": {
+      "age": "40",
+      "patient_id": "6186848"
+    },
+    "test_results": [
+      {
+        "test_name": "Adjusted Calcium",
+        "value": "8.1",
+        "unit": "mg/dL",
+        "confidence": 91.83,
+        "line_number": 8
+      },
+      {
+        "test_name": "Chloride",
+        "value": "109",
+        "unit": "mEq/L",
+        "confidence": 94.8,
+        "line_number": 11
+      }
+    ],
+    "other_fields": {},
+    "confidence_scores": {
+      "age": 66.73,
+      "patient_id": 66.73
+    }
+  },
+  {
+    "page": 2,
+    "patient_info": {
+      "age": "40",
+      "patient_id": "6186848",
+      "name": "prajwal a"
+    },
+    "test_results": [
+      {
+        "test_name": "Bilirubin Indirect",
+        "value": "0.49",
+        "unit": "mg/dL",
+        "confidence": 91.4,
+        "line_number": 6
+      }
+    ],
+    "other_fields": {
+      "doctor": "prajwal a"
+    },
+    "confidence_scores": {
+      "age": 70.0,
+      "patient_id": 70.0,
+      "name": 91.2,
+      "doctor": 91.2
+    }
+  },
+  {
+    "page": 3,
+    "patient_info": {
+      "age": "40",
+      "patient_id": "6186848",
+      "name": "prajwal a"
+    },
+    "test_results": [
+      {
+        "test_name": "Urea",
+        "value": "31.24",
+        "unit": "mg/dL",
+        "confidence": 88.25,
+        "line_number": 9
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "1.11",
+        "unit": "mg/dL",
+        "confidence": 86.25,
+        "line_number": 11
+      },
+      {
+        "test_name": "Uric Acid",
+        "value": "5.0",
+        "unit": "mg/dL",
+        "confidence": 90.2,
+        "line_number": 13
+      },
+      {
+        "test_name": "Sodium",
+        "value": "140",
+        "unit": "mEq/L",
+        "confidence": 94.6,
+        "line_number": 15
+      },
+      {
+        "test_name": "Potassium",
+        "value": "4.36",
+        "unit": "mEq/L",
+        "confidence": 93.25,
+        "line_number": 18
+      },
+      {
+        "test_name": "Chloride H",
+        "value": "109",
+        "unit": "mEq/L",
+        "confidence": 94.33,
+        "line_number": 20
+      },
+      {
+        "test_name": "BUN",
+        "value": "14.56",
+        "unit": "mg/dL",
+        "confidence": 92.17,
+        "line_number": 23
+      },
+      {
+        "test_name": "Blood Glucose Levels",
+        "value": "96.00",
+        "unit": "mg/dL",
+        "confidence": 92.44,
+        "line_number": 26
+      }
+    ],
+    "other_fields": {
+      "doctor": "prajwal a"
+    },
+    "confidence_scores": {
+      "age": 70.0,
+      "patient_id": 70.0,
+      "name": 91.2,
+      "doctor": 91.2
+    }
+  },
+  {
+    "page": 4,
+    "patient_info": {
+      "age": "40",
+      "patient_id": "hormone",
+      "name": "prajwal a"
+    },
+    "test_results": [],
+    "other_fields": {
+      "doctor": "prajwal a"
+    },
+    "confidence_scores": {
+      "age": 68.25,
+      "patient_id": 95.17,
+      "doctor": 88.8,
+      "name": 88.8
+    }
+  },
+  {
+    "page": 5,
+    "patient_info": {
+      "age": "40",
+      "patient_id": "6186848",
+      "name": "prajwal a"
+    },
+    "test_results": [
+      {
+        "test_name": "deficiency.ActiveVitamin",
+        "value": "812",
+        "unit": "levelswill",
+        "confidence": 94.54,
+        "line_number": 18
+      }
+    ],
+    "other_fields": {
+      "doctor": "prajwal a"
+    },
+    "confidence_scores": {
+      "age": 70.0,
+      "patient_id": 70.0,
+      "name": 92.0,
+      "doctor": 92.0
+    }
+  },
+  {
+    "page": 6,
+    "patient_info": {
+      "patient_id": "portion",
+      "name": "ashwin kumar a s"
+    },
+    "test_results": [
+      {
+        "test_name": "SODIUM",
+        "value": "121",
+        "unit": "mmol/L",
+        "confidence": 95.8,
+        "line_number": 15
+      },
+      {
+        "test_name": "POTASSIUM",
+        "value": "4.4",
+        "unit": "mmol/L",
+        "confidence": 93.0,
+        "line_number": 17
+      },
+      {
+        "test_name": "CHLORIDE",
+        "value": "84",
+        "unit": "mmol/L",
+        "confidence": 95.8,
+        "line_number": 19
+      },
+      {
+        "test_name": "lue. kindlysubmitrequestwith in",
+        "value": "2",
+        "unit": "days",
+        "confidence": 95.43,
+        "line_number": 49
+      }
+    ],
+    "other_fields": {
+      "doctor": "biochemist"
+    },
+    "confidence_scores": {
+      "patient_id": 93.58,
+      "name": 89.11,
+      "doctor": 91.5
+    }
+  },
+  {
+    "page": 7,
+    "patient_info": {
+      "patient_id": "p0893801",
+      "name": "mrs.",
+      "age": "18"
+    },
+    "test_results": [
+      {
+        "test_name": "BILIRUBIN TOTAL",
+        "value": "0.44",
+        "unit": "mg/dl",
+        "confidence": 92.83,
+        "line_number": 16
+      },
+      {
+        "test_name": "BILIRUBIN DIRECT",
+        "value": "0.26",
+        "unit": "mg/dl",
+        "confidence": 92.67,
+        "line_number": 18
+      },
+      {
+        "test_name": "BILIRUBIN INDIRECT",
+        "value": "0.18",
+        "unit": "mg/dl",
+        "confidence": 93.33,
+        "line_number": 20
+      },
+      {
+        "test_name": "TOTAL PROTEIN",
+        "value": "7.1",
+        "unit": "g/dL",
+        "confidence": 74.11,
+        "line_number": 22
+      },
+      {
+        "test_name": "ALBUMIN",
+        "value": "3.9",
+        "unit": "g/L",
+        "confidence": 91.14,
+        "line_number": 31
+      },
+      {
+        "test_name": "GLOBULIN",
+        "value": "3.2",
+        "unit": "g/dL",
+        "confidence": 92.4,
+        "line_number": 36
+      },
+      {
+        "test_name": "GGT",
+        "value": "15",
+        "unit": "U/L",
+        "confidence": 93.8,
+        "line_number": 45
+      },
+      {
+        "test_name": "ALKALINE PHOSPHATASE",
+        "value": "67",
+        "unit": "U/L",
+        "confidence": 95.17,
+        "line_number": 47
+      }
+    ],
+    "other_fields": {},
+    "confidence_scores": {
+      "patient_id": 92.27,
+      "name": 92.88,
+      "age": 89.75
+    }
+  },
+  {
+    "page": 8,
+    "patient_info": {
+      "patient_id": "p0893801",
+      "name": "concerningtherequestand",
+      "age": "16"
+    },
+    "test_results": [
+      {
+        "test_name": "Wallach",
+        "value": "10",
+        "unit": "th",
+        "confidence": 94.67,
+        "line_number": 14
+      },
+      {
+        "test_name": "lue. kindlysubmitrequestwith in",
+        "value": "2",
+        "unit": "days",
+        "confidence": 95.0,
+        "line_number": 38
+      }
+    ],
+    "other_fields": {
+      "doctor": "biochemist"
+    },
+    "confidence_scores": {
+      "patient_id": 92.36,
+      "name": 93.28,
+      "age": 96.0,
+      "doctor": 91.5
+    }
+  },
+  {
+    "page": 9,
+    "patient_info": {
+      "patient_id": "portion",
+      "name": "ashwin kumar a s"
+    },
+    "test_results": [
+      {
+        "test_name": "SODIUM",
+        "value": "121",
+        "unit": "mmol/L",
+        "confidence": 95.8,
+        "line_number": 16
+      },
+      {
+        "test_name": "POTASSIUM",
+        "value": "4.4",
+        "unit": "mmol/L",
+        "confidence": 92.8,
+        "line_number": 18
+      },
+      {
+        "test_name": "CHLORIDE",
+        "value": "84",
+        "unit": "mmol/L",
+        "confidence": 95.8,
+        "line_number": 20
+      },
+      {
+        "test_name": "lue. kindlysubmitrequestwith in",
+        "value": "2",
+        "unit": "days",
+        "confidence": 95.43,
+        "line_number": 50
+      }
+    ],
+    "other_fields": {
+      "doctor": "biochemist"
+    },
+    "confidence_scores": {
+      "patient_id": 93.79,
+      "name": 89.0,
+      "doctor": 91.5
+    }
+  },
+  {
+    "page": 10,
+    "patient_info": {
+      "age": "79"
+    },
+    "test_results": [
+      {
+        "test_name": "deficiency.ActiveVitamin",
+        "value": "812",
+        "unit": "levelswill",
+        "confidence": 94.92,
+        "line_number": 18
+      }
+    ],
+    "other_fields": {
+      "doctor": "bhuvaneshwari n b"
+    },
+    "confidence_scores": {
+      "age": 67.75,
+      "doctor": 85.2
+    }
+  },
+  {
+    "page": 11,
+    "patient_info": {
+      "age": "79",
+      "name": "prajwal a"
+    },
+    "test_results": [
+      {
+        "test_name": "Plasma Glucose F",
+        "value": "102",
+        "unit": "mg/dL",
+        "confidence": 92.78,
+        "line_number": 7
+      },
+      {
+        "test_name": "Potassium",
+        "value": "4.57",
+        "unit": "mEq/L",
+        "confidence": 93.0,
+        "line_number": 18
+      }
+    ],
+    "other_fields": {
+      "doctor": "prajwal a"
+    },
+    "confidence_scores": {
+      "age": 68.88,
+      "name": 91.2,
+      "doctor": 91.2
+    }
+  },
+  {
+    "page": 12,
+    "patient_info": {
+      "age": "40",
+      "name": "prajwal a"
+    },
+    "test_results": [],
+    "other_fields": {
+      "doctor": "prajwal a"
+    },
+    "confidence_scores": {
+      "age": 82.7,
+      "doctor": 90.8,
+      "name": 90.8
+    }
+  },
+  {
+    "page": 13,
+    "patient_info": {
+      "age": "79",
+      "name": "pradeep kumarv"
+    },
+    "test_results": [
+      {
+        "test_name": "e in reference range as per ADA",
+        "value": "2021",
+        "unit": "guidelines",
+        "confidence": 94.82,
+        "line_number": 20
+      }
+    ],
+    "other_fields": {
+      "doctor": "pradeep kumarv"
+    },
+    "confidence_scores": {
+      "age": 68.88,
+      "name": 93.17,
+      "doctor": 93.17
+    }
+  },
+  {
+    "page": 14,
+    "patient_info": {
+      "age": "79",
+      "name": "prajwal a"
+    },
+    "test_results": [
+      {
+        "test_name": "TSH",
+        "value": "5.25",
+        "unit": "yIU/mL",
+        "confidence": 77.0,
+        "line_number": 7
+      }
+    ],
+    "other_fields": {
+      "doctor": "prajwal a"
+    },
+    "confidence_scores": {
+      "age": 68.88,
+      "name": 90.0,
+      "doctor": 90.0
+    }
+  },
+  {
+    "page": 15,
+    "patient_info": {
+      "name": "traceable"
+    },
+    "test_results": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.39",
+        "unit": "mg/dL",
+        "confidence": 91.2,
+        "line_number": 9
+      },
+      {
+        "test_name": "GFR Estimated",
+        "value": "57",
+        "unit": "mL/min/",
+        "confidence": 92.8,
+        "line_number": 12
+      },
+      {
+        "test_name": "Urea",
+        "value": "49.00",
+        "unit": "mg/dL",
+        "confidence": 91.6,
+        "line_number": 14
+      },
+      {
+        "test_name": "Urea Nitrogen Blood",
+        "value": "22.88",
+        "unit": "mg/dL",
+        "confidence": 94.0,
+        "line_number": 17
+      },
+      {
+        "test_name": "Creatinine Ratio",
+        "value": "16",
+        "unit": "",
+        "confidence": 94.67,
+        "line_number": 19
+      },
+      {
+        "test_name": "UricAcid",
+        "value": "4.90",
+        "unit": "mg/dL",
+        "confidence": 88.67,
+        "line_number": 20
+      },
+      {
+        "test_name": "GGTP",
+        "value": "119.0",
+        "unit": "U/L",
+        "confidence": 92.5,
+        "line_number": 27
+      },
+      {
+        "test_name": "Bilirubin Total",
+        "value": "0.42",
+        "unit": "mg/dL",
+        "confidence": 91.6,
+        "line_number": 32
+      },
+      {
+        "test_name": "Bilirubin Direct",
+        "value": "0.09",
+        "unit": "mg/dL",
+        "confidence": 85.83,
+        "line_number": 34
+      },
+      {
+        "test_name": "Bilirubin Indirect",
+        "value": "0.33",
+        "unit": "mg/dL",
+        "confidence": 85.8,
+        "line_number": 37
+      },
+      {
+        "test_name": "Total Protein",
+        "value": "7.80",
+        "unit": "g/dL",
+        "confidence": 93.17,
+        "line_number": 39
+      },
+      {
+        "test_name": "Albumin",
+        "value": "4.10",
+        "unit": "g/dL",
+        "confidence": 93.4,
+        "line_number": 42
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 93.2
+    }
+  },
+  {
+    "page": 16,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "Phosphorus",
+        "value": "4.40",
+        "unit": "mg/dL",
+        "confidence": 90.6,
+        "line_number": 8
+      },
+      {
+        "test_name": "Sodium",
+        "value": "135.30",
+        "unit": "mEq/L",
+        "confidence": 94.4,
+        "line_number": 11
+      },
+      {
+        "test_name": "Potassium",
+        "value": "4.16",
+        "unit": "mEq/L",
+        "confidence": 94.6,
+        "line_number": 14
+      },
+      {
+        "test_name": "Chloride",
+        "value": "96.00",
+        "unit": "mEq/L",
+        "confidence": 95.2,
+        "line_number": 17
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 95.57
+    }
+  },
+  {
+    "page": 17,
+    "patient_info": {
+      "name": "results",
+      "patient_id": "association"
+    },
+    "test_results": [
+      {
+        "test_name": "Total",
+        "value": "181.00",
+        "unit": "mg/dL",
+        "confidence": 86.2,
+        "line_number": 9
+      },
+      {
+        "test_name": "Triglycerides",
+        "value": "179.00",
+        "unit": "mg/dL",
+        "confidence": 88.5,
+        "line_number": 10
+      },
+      {
+        "test_name": "HDL Cholesterol",
+        "value": "51.00",
+        "unit": "mg/dL",
+        "confidence": 90.2,
+        "line_number": 11
+      },
+      {
+        "test_name": "Calculated",
+        "value": "94.20",
+        "unit": "mg/dL",
+        "confidence": 88.5,
+        "line_number": 12
+      },
+      {
+        "test_name": "Calculated",
+        "value": "35.80",
+        "unit": "mg/dL",
+        "confidence": 85.0,
+        "line_number": 13
+      },
+      {
+        "test_name": "Non-HDL Cholesterol",
+        "value": "130",
+        "unit": "mg/dL",
+        "confidence": 89.4,
+        "line_number": 14
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 96.0,
+      "patient_id": 95.67
+    }
+  },
+  {
+    "page": 18,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "Glucose Fasting",
+        "value": "270.00",
+        "unit": "mg/dL",
+        "confidence": 92.17,
+        "line_number": 10
+      },
+      {
+        "test_name": "Cyanocobalamin",
+        "value": "199.00",
+        "unit": "pg/mL",
+        "confidence": 94.43,
+        "line_number": 14
+      },
+      {
+        "test_name": "Hydroxy",
+        "value": "23.42",
+        "unit": "nmol/L",
+        "confidence": 94.38,
+        "line_number": 36
+      }
+    ],
+    "other_fields": {
+      "doctor": "oxy"
+    },
+    "confidence_scores": {
+      "doctor": 94.38,
+      "name": 96.0
+    }
+  },
+  {
+    "page": 19,
+    "patient_info": {
+      "name": "is also available",
+      "patient_id": "hormone"
+    },
+    "test_results": [
+      {
+        "test_name": "levels exceeding",
+        "value": "75",
+        "unit": "nmol/L",
+        "confidence": 93.0,
+        "line_number": 19
+      },
+      {
+        "test_name": "Total",
+        "value": "0.73",
+        "unit": "ng/mL",
+        "confidence": 89.83,
+        "line_number": 29
+      },
+      {
+        "test_name": "TSH",
+        "value": "5.58",
+        "unit": "yIU/mL",
+        "confidence": 81.4,
+        "line_number": 34
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 90.6,
+      "patient_id": 93.4
+    }
+  },
+  {
+    "page": 20,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 95.57
+    }
+  },
+  {
+    "page": 21,
+    "patient_info": {
+      "name": "results",
+      "age": "18"
+    },
+    "test_results": [],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 95.86,
+      "age": 91.86
+    }
+  },
+  {
+    "page": 22,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.75,
+      "name": 95.71
+    }
+  },
+  {
+    "page": 23,
+    "patient_info": {
+      "age": "40",
+      "patient_id": "6186848"
+    },
+    "test_results": [
+      {
+        "test_name": "Haemoglobin",
+        "value": "14.5",
+        "unit": "g/dL",
+        "confidence": 92.0,
+        "line_number": 9
+      },
+      {
+        "test_name": "Mean CorpuscularVolume",
+        "value": "84.4",
+        "unit": "fL",
+        "confidence": 88.83,
+        "line_number": 18
+      },
+      {
+        "test_name": "Mean Corpuscular Hemoglobin",
+        "value": "27.3",
+        "unit": "pg",
+        "confidence": 93.71,
+        "line_number": 20
+      },
+      {
+        "test_name": "Mean Corpuscular Hb",
+        "value": "32.4",
+        "unit": "g/dL",
+        "confidence": 91.14,
+        "line_number": 23
+      },
+      {
+        "test_name": "Total WBC Count",
+        "value": "7000",
+        "unit": "Cellsicmm",
+        "confidence": 91.71,
+        "line_number": 30
+      },
+      {
+        "test_name": "Neutrophil",
+        "value": "60.7",
+        "unit": "%",
+        "confidence": 93.75,
+        "line_number": 33
+      },
+      {
+        "test_name": "Lymphocyte",
+        "value": "28.9",
+        "unit": "%",
+        "confidence": 91.0,
+        "line_number": 35
+      }
+    ],
+    "other_fields": {},
+    "confidence_scores": {
+      "age": 70.0,
+      "patient_id": 70.0
+    }
+  },
+  {
+    "page": 24,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "Hemoglobin",
+        "value": "13.60",
+        "unit": "g/dL",
+        "confidence": 93.2,
+        "line_number": 10
+      },
+      {
+        "test_name": "MCHC",
+        "value": "32.00",
+        "unit": "g/dL",
+        "confidence": 93.6,
+        "line_number": 21
+      },
+      {
+        "test_name": "Segmented Neutrophils",
+        "value": "50.50",
+        "unit": "%",
+        "confidence": 94.17,
+        "line_number": 26
+      },
+      {
+        "test_name": "Lymphocytes",
+        "value": "37.80",
+        "unit": "%",
+        "confidence": 93.6,
+        "line_number": 28
+      },
+      {
+        "test_name": "Monocytes",
+        "value": "8.00",
+        "unit": "%",
+        "confidence": 93.0,
+        "line_number": 30
+      },
+      {
+        "test_name": "Eosinophils",
+        "value": "2.70",
+        "unit": "%",
+        "confidence": 94.2,
+        "line_number": 32
+      },
+      {
+        "test_name": "Basophils",
+        "value": "1.00",
+        "unit": "%",
+        "confidence": 92.5,
+        "line_number": 34
+      },
+      {
+        "test_name": "Neutrophils",
+        "value": "4.61",
+        "unit": "thou/mm",
+        "confidence": 93.6,
+        "line_number": 36
+      },
+      {
+        "test_name": "Lymphocytes",
+        "value": "3.45",
+        "unit": "thou/mm",
+        "confidence": 94.0,
+        "line_number": 38
+      },
+      {
+        "test_name": "Monocytes",
+        "value": "0.73",
+        "unit": "thou/mm",
+        "confidence": 93.8,
+        "line_number": 40
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,oi"
+    },
+    "confidence_scores": {
+      "doctor": 86.0,
+      "name": 96.0
+    }
+  },
+  {
+    "page": 25,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "Basophils",
+        "value": "0.09",
+        "unit": "thou/mm",
+        "confidence": 93.6,
+        "line_number": 7
+      },
+      {
+        "test_name": "Platelet Count",
+        "value": "288",
+        "unit": "thou/mm",
+        "confidence": 94.83,
+        "line_number": 9
+      }
+    ],
+    "other_fields": {
+      "doctor": "lalpathlabsltd"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 95.86
+    }
+  },
+  {
+    "page": 26,
+    "patient_info": {
+      "name": "concerning the test"
+    },
+    "test_results": [
+      {
+        "test_name": "e. Kindly submit request within",
+        "value": "72",
+        "unit": "hours",
+        "confidence": 85.29,
+        "line_number": 12
+      }
+    ],
+    "other_fields": {
+      "doctor": "awnfrom outsidesource.",
+      "date": "91-11-4988"
+    },
+    "confidence_scores": {
+      "doctor": 95.0,
+      "name": 89.91,
+      "date": 91.67
+    }
+  },
+  {
+    "page": 27,
+    "patient_info": {
+      "name": "traceable"
+    },
+    "test_results": [
+      {
+        "test_name": "Creatinine",
+        "value": "0.63",
+        "unit": "mg/dL",
+        "confidence": 86.4,
+        "line_number": 9
+      },
+      {
+        "test_name": "GFR Estimated",
+        "value": "114",
+        "unit": "mL/min/",
+        "confidence": 94.0,
+        "line_number": 12
+      },
+      {
+        "test_name": "Urea",
+        "value": "17.00",
+        "unit": "mg/dL",
+        "confidence": 87.4,
+        "line_number": 14
+      },
+      {
+        "test_name": "Urea Nitrogen Blood",
+        "value": "7.94",
+        "unit": "mg/dL",
+        "confidence": 93.57,
+        "line_number": 17
+      },
+      {
+        "test_name": "Creatinine Ratio",
+        "value": "13",
+        "unit": "",
+        "confidence": 94.33,
+        "line_number": 19
+      },
+      {
+        "test_name": "UricAcid",
+        "value": "3.40",
+        "unit": "mg/dL",
+        "confidence": 93.83,
+        "line_number": 20
+      },
+      {
+        "test_name": "GGTP",
+        "value": "13.0",
+        "unit": "U/L",
+        "confidence": 93.25,
+        "line_number": 27
+      },
+      {
+        "test_name": "Bilirubin Total",
+        "value": "0.63",
+        "unit": "mg/dL",
+        "confidence": 91.8,
+        "line_number": 32
+      },
+      {
+        "test_name": "Bilirubin Direct",
+        "value": "0.14",
+        "unit": "mg/dL",
+        "confidence": 85.83,
+        "line_number": 34
+      },
+      {
+        "test_name": "Bilirubin Indirect",
+        "value": "0.52",
+        "unit": "mg/dL",
+        "confidence": 86.6,
+        "line_number": 37
+      },
+      {
+        "test_name": "Total Protein",
+        "value": "7.20",
+        "unit": "g/dL",
+        "confidence": 93.83,
+        "line_number": 39
+      },
+      {
+        "test_name": "Albumin",
+        "value": "3.90",
+        "unit": "g/dL",
+        "confidence": 93.2,
+        "line_number": 42
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 93.0
+    }
+  },
+  {
+    "page": 28,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "Phosphorus",
+        "value": "4.26",
+        "unit": "mg/dL",
+        "confidence": 93.4,
+        "line_number": 8
+      },
+      {
+        "test_name": "Sodium",
+        "value": "134.90",
+        "unit": "mEq/L",
+        "confidence": 94.4,
+        "line_number": 11
+      },
+      {
+        "test_name": "Potassium",
+        "value": "5.75",
+        "unit": "mEq/L",
+        "confidence": 94.6,
+        "line_number": 14
+      },
+      {
+        "test_name": "Chloride",
+        "value": "104.00",
+        "unit": "mEq/L",
+        "confidence": 94.0,
+        "line_number": 17
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 95.57
+    }
+  },
+  {
+    "page": 29,
+    "patient_info": {
+      "name": "results",
+      "patient_id": "association"
+    },
+    "test_results": [
+      {
+        "test_name": "Total",
+        "value": "174.00",
+        "unit": "mg/dL",
+        "confidence": 86.8,
+        "line_number": 9
+      },
+      {
+        "test_name": "Triglycerides",
+        "value": "140.00",
+        "unit": "mg/dL",
+        "confidence": 88.5,
+        "line_number": 10
+      },
+      {
+        "test_name": "HDL Cholesterol",
+        "value": "45.00",
+        "unit": "mg/dL",
+        "confidence": 89.8,
+        "line_number": 11
+      },
+      {
+        "test_name": "Calculated",
+        "value": "101.00",
+        "unit": "mg/dL",
+        "confidence": 88.5,
+        "line_number": 12
+      },
+      {
+        "test_name": "Calculated",
+        "value": "28.00",
+        "unit": "mg/dL",
+        "confidence": 85.0,
+        "line_number": 13
+      },
+      {
+        "test_name": "Non-HDL Cholesterol",
+        "value": "129",
+        "unit": "mg/dL",
+        "confidence": 89.4,
+        "line_number": 14
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 96.0,
+      "patient_id": 95.67
+    }
+  },
+  {
+    "page": 30,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "Glucose Fasting",
+        "value": "93.00",
+        "unit": "mg/dL",
+        "confidence": 92.17,
+        "line_number": 10
+      },
+      {
+        "test_name": "Cyanocobalamin",
+        "value": "133.80",
+        "unit": "pg/mL",
+        "confidence": 94.29,
+        "line_number": 14
+      },
+      {
+        "test_name": "Hydroxy",
+        "value": "33.17",
+        "unit": "nmol/L",
+        "confidence": 94.5,
+        "line_number": 36
+      }
+    ],
+    "other_fields": {
+      "doctor": "oxy"
+    },
+    "confidence_scores": {
+      "doctor": 94.5,
+      "name": 96.0
+    }
+  },
+  {
+    "page": 31,
+    "patient_info": {
+      "name": "is also available",
+      "patient_id": "hormone"
+    },
+    "test_results": [
+      {
+        "test_name": "levels exceeding",
+        "value": "75",
+        "unit": "nmol/L",
+        "confidence": 93.0,
+        "line_number": 19
+      },
+      {
+        "test_name": "Total",
+        "value": "1.36",
+        "unit": "ng/mL",
+        "confidence": 94.0,
+        "line_number": 29
+      },
+      {
+        "test_name": "TSH",
+        "value": "3.15",
+        "unit": "yIU/mL",
+        "confidence": 81.2,
+        "line_number": 34
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 90.6,
+      "patient_id": 93.4
+    }
+  },
+  {
+    "page": 32,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 95.57
+    }
+  },
+  {
+    "page": 33,
+    "patient_info": {
+      "name": "results",
+      "age": "18"
+    },
+    "test_results": [],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 95.86,
+      "age": 91.86
+    }
+  },
+  {
+    "page": 34,
+    "patient_info": {
+      "age": "40",
+      "patient_id": "6186848",
+      "name": "pradeep kumarv"
+    },
+    "test_results": [
+      {
+        "test_name": "Eosinophil",
+        "value": "2.1",
+        "unit": "%",
+        "confidence": 94.75,
+        "line_number": 6
+      },
+      {
+        "test_name": "Monocytes",
+        "value": "7.7",
+        "unit": "%",
+        "confidence": 93.5,
+        "line_number": 8
+      },
+      {
+        "test_name": "Basophil",
+        "value": "0.6",
+        "unit": "%",
+        "confidence": 92.0,
+        "line_number": 10
+      },
+      {
+        "test_name": "Platelet Count",
+        "value": "335000",
+        "unit": "Cellsicmm",
+        "confidence": 86.83,
+        "line_number": 13
+      }
+    ],
+    "other_fields": {
+      "doctor": "pradeep kumarv"
+    },
+    "confidence_scores": {
+      "age": 70.0,
+      "patient_id": 70.0,
+      "name": 91.5,
+      "doctor": 91.5
+    }
+  },
+  {
+    "page": 35,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "MCHC",
+        "value": "27.30",
+        "unit": "g/dL",
+        "confidence": 93.2,
+        "line_number": 19
+      },
+      {
+        "test_name": "Segmented Neutrophils",
+        "value": "66.60",
+        "unit": "%",
+        "confidence": 94.17,
+        "line_number": 24
+      },
+      {
+        "test_name": "Lymphocytes",
+        "value": "23.80",
+        "unit": "%",
+        "confidence": 93.6,
+        "line_number": 26
+      },
+      {
+        "test_name": "Monocytes",
+        "value": "5.90",
+        "unit": "%",
+        "confidence": 93.0,
+        "line_number": 28
+      },
+      {
+        "test_name": "Eosinophils",
+        "value": "2.90",
+        "unit": "%",
+        "confidence": 93.8,
+        "line_number": 30
+      },
+      {
+        "test_name": "Basophils",
+        "value": "0.80",
+        "unit": "%",
+        "confidence": 91.5,
+        "line_number": 32
+      },
+      {
+        "test_name": "Neutrophils",
+        "value": "4.20",
+        "unit": "thou/mm",
+        "confidence": 94.2,
+        "line_number": 34
+      },
+      {
+        "test_name": "Lymphocytes",
+        "value": "1.50",
+        "unit": "thou/mm",
+        "confidence": 94.2,
+        "line_number": 36
+      },
+      {
+        "test_name": "Monocytes",
+        "value": "0.37",
+        "unit": "thou/mm",
+        "confidence": 94.0,
+        "line_number": 38
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,oi"
+    },
+    "confidence_scores": {
+      "doctor": 83.75,
+      "name": 96.0
+    }
+  },
+  {
+    "page": 36,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "Basophils",
+        "value": "0.05",
+        "unit": "thou/mm",
+        "confidence": 93.6,
+        "line_number": 7
+      },
+      {
+        "test_name": "Platelet Count",
+        "value": "478",
+        "unit": "thou/mm",
+        "confidence": 94.83,
+        "line_number": 9
+      }
+    ],
+    "other_fields": {
+      "doctor": "lalpathlabsltd"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 95.86
+    }
+  },
+  {
+    "page": 37,
+    "patient_info": {
+      "name": "concerning the test"
+    },
+    "test_results": [
+      {
+        "test_name": "e. Kindly submit request within",
+        "value": "72",
+        "unit": "hours",
+        "confidence": 85.29,
+        "line_number": 12
+      }
+    ],
+    "other_fields": {
+      "doctor": "awnfrom outsidesource.",
+      "date": "91-11-4988"
+    },
+    "confidence_scores": {
+      "doctor": 95.0,
+      "name": 89.91,
+      "date": 91.67
+    }
+  },
+  {
+    "page": 38,
+    "patient_info": {
+      "name": "traceable"
+    },
+    "test_results": [
+      {
+        "test_name": "Creatinine",
+        "value": "0.90",
+        "unit": "mg/dL",
+        "confidence": 93.6,
+        "line_number": 9
+      },
+      {
+        "test_name": "GFR Estimated",
+        "value": "105",
+        "unit": "mL/min/",
+        "confidence": 93.4,
+        "line_number": 12
+      },
+      {
+        "test_name": "Urea",
+        "value": "19.00",
+        "unit": "mg/dL",
+        "confidence": 93.6,
+        "line_number": 14
+      },
+      {
+        "test_name": "Urea Nitrogen Blood",
+        "value": "8.87",
+        "unit": "mg/dL",
+        "confidence": 92.0,
+        "line_number": 17
+      },
+      {
+        "test_name": "Creatinine Ratio",
+        "value": "10",
+        "unit": "",
+        "confidence": 94.33,
+        "line_number": 19
+      },
+      {
+        "test_name": "UricAcid",
+        "value": "3.30",
+        "unit": "mg/dL",
+        "confidence": 88.33,
+        "line_number": 20
+      },
+      {
+        "test_name": "GGTP",
+        "value": "65.0",
+        "unit": "U/L",
+        "confidence": 92.5,
+        "line_number": 27
+      },
+      {
+        "test_name": "Bilirubin Total",
+        "value": "0.50",
+        "unit": "mg/dL",
+        "confidence": 91.6,
+        "line_number": 32
+      },
+      {
+        "test_name": "Bilirubin Direct",
+        "value": "0.03",
+        "unit": "mg/dL",
+        "confidence": 85.83,
+        "line_number": 34
+      },
+      {
+        "test_name": "Bilirubin Indirect",
+        "value": "0.47",
+        "unit": "mg/dL",
+        "confidence": 86.6,
+        "line_number": 37
+      },
+      {
+        "test_name": "Total Protein",
+        "value": "8.10",
+        "unit": "g/dL",
+        "confidence": 94.0,
+        "line_number": 39
+      },
+      {
+        "test_name": "Albumin",
+        "value": "4.20",
+        "unit": "g/dL",
+        "confidence": 93.4,
+        "line_number": 42
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 93.0
+    }
+  },
+  {
+    "page": 39,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "Phosphorus",
+        "value": "3.05",
+        "unit": "mg/dL",
+        "confidence": 93.4,
+        "line_number": 8
+      },
+      {
+        "test_name": "Sodium",
+        "value": "131.30",
+        "unit": "mEq/L",
+        "confidence": 94.4,
+        "line_number": 11
+      },
+      {
+        "test_name": "Potassium",
+        "value": "4.73",
+        "unit": "mEq/L",
+        "confidence": 94.6,
+        "line_number": 14
+      },
+      {
+        "test_name": "Chloride",
+        "value": "99.00",
+        "unit": "mEq/L",
+        "confidence": 95.2,
+        "line_number": 17
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 95.57
+    }
+  },
+  {
+    "page": 40,
+    "patient_info": {
+      "name": "results",
+      "patient_id": "association"
+    },
+    "test_results": [
+      {
+        "test_name": "Total",
+        "value": "192.00",
+        "unit": "mg/dL",
+        "confidence": 86.8,
+        "line_number": 9
+      },
+      {
+        "test_name": "Triglycerides",
+        "value": "220.00",
+        "unit": "mg/dL",
+        "confidence": 88.5,
+        "line_number": 10
+      },
+      {
+        "test_name": "HDL Cholesterol",
+        "value": "38.00",
+        "unit": "mg/dL",
+        "confidence": 90.2,
+        "line_number": 11
+      },
+      {
+        "test_name": "Calculated",
+        "value": "110.00",
+        "unit": "mg/dL",
+        "confidence": 88.5,
+        "line_number": 12
+      },
+      {
+        "test_name": "Calculated",
+        "value": "44.00",
+        "unit": "mg/dL",
+        "confidence": 85.0,
+        "line_number": 13
+      },
+      {
+        "test_name": "Non-HDL Cholesterol",
+        "value": "154",
+        "unit": "mg/dL",
+        "confidence": 89.4,
+        "line_number": 14
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 96.0,
+      "patient_id": 95.67
+    }
+  },
+  {
+    "page": 41,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "Glucose Fasting",
+        "value": "281.00",
+        "unit": "mg/dL",
+        "confidence": 92.17,
+        "line_number": 10
+      },
+      {
+        "test_name": "Cyanocobalamin",
+        "value": "147.10",
+        "unit": "pg/mL",
+        "confidence": 94.29,
+        "line_number": 14
+      },
+      {
+        "test_name": "Hydroxy",
+        "value": "32.39",
+        "unit": "nmol/L",
+        "confidence": 94.5,
+        "line_number": 36
+      }
+    ],
+    "other_fields": {
+      "doctor": "oxy"
+    },
+    "confidence_scores": {
+      "doctor": 94.5,
+      "name": 96.0
+    }
+  },
+  {
+    "page": 42,
+    "patient_info": {
+      "name": "is also available",
+      "patient_id": "hormone"
+    },
+    "test_results": [
+      {
+        "test_name": "levels exceeding",
+        "value": "75",
+        "unit": "nmol/L",
+        "confidence": 93.0,
+        "line_number": 19
+      },
+      {
+        "test_name": "Total",
+        "value": "0.94",
+        "unit": "ng/mL",
+        "confidence": 93.5,
+        "line_number": 29
+      },
+      {
+        "test_name": "Total",
+        "value": "6.17",
+        "unit": "yg/dL",
+        "confidence": 92.0,
+        "line_number": 31
+      },
+      {
+        "test_name": "TSH",
+        "value": "41.26",
+        "unit": "yIU/mL",
+        "confidence": 81.4,
+        "line_number": 33
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 90.6,
+      "patient_id": 93.4
+    }
+  },
+  {
+    "page": 43,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 95.57
+    }
+  },
+  {
+    "page": 44,
+    "patient_info": {
+      "name": "results",
+      "age": "18"
+    },
+    "test_results": [],
+    "other_fields": {
+      "doctor": "ess,opp prestige cessna park,"
+    },
+    "confidence_scores": {
+      "doctor": 93.25,
+      "name": 96.0,
+      "age": 91.86
+    }
+  },
+  {
+    "page": 45,
+    "patient_info": {
+      "age": "40",
+      "patient_id": "6186848"
+    },
+    "test_results": [
+      {
+        "test_name": "Cholesterol",
+        "value": "118",
+        "unit": "mg/dL",
+        "confidence": 89.2,
+        "line_number": 8
+      },
+      {
+        "test_name": "Triglyceride",
+        "value": "154",
+        "unit": "mg/dL",
+        "confidence": 91.83,
+        "line_number": 13
+      },
+      {
+        "test_name": "HDL Cholesterol",
+        "value": "45.0",
+        "unit": "mg/dL",
+        "confidence": 91.38,
+        "line_number": 22
+      }
+    ],
+    "other_fields": {},
+    "confidence_scores": {
+      "age": 70.0,
+      "patient_id": 70.0
+    }
+  },
+  {
+    "page": 46,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "Hemoglobin",
+        "value": "14.60",
+        "unit": "g/dL",
+        "confidence": 93.4,
+        "line_number": 10
+      },
+      {
+        "test_name": "MCHC",
+        "value": "33.30",
+        "unit": "g/dL",
+        "confidence": 93.6,
+        "line_number": 20
+      },
+      {
+        "test_name": "Segmented Neutrophils",
+        "value": "44.10",
+        "unit": "%",
+        "confidence": 94.17,
+        "line_number": 26
+      },
+      {
+        "test_name": "Lymphocytes",
+        "value": "44.00",
+        "unit": "%",
+        "confidence": 93.8,
+        "line_number": 28
+      },
+      {
+        "test_name": "Monocytes",
+        "value": "6.40",
+        "unit": "%",
+        "confidence": 92.8,
+        "line_number": 30
+      },
+      {
+        "test_name": "Eosinophils",
+        "value": "4.60",
+        "unit": "%",
+        "confidence": 93.4,
+        "line_number": 32
+      },
+      {
+        "test_name": "Basophils",
+        "value": "0.90",
+        "unit": "%",
+        "confidence": 92.5,
+        "line_number": 34
+      },
+      {
+        "test_name": "Neutrophils",
+        "value": "3.09",
+        "unit": "thou/mm",
+        "confidence": 94.2,
+        "line_number": 36
+      },
+      {
+        "test_name": "Lymphocytes",
+        "value": "3.08",
+        "unit": "thou/mm",
+        "confidence": 94.2,
+        "line_number": 38
+      },
+      {
+        "test_name": "Monocytes",
+        "value": "0.45",
+        "unit": "thou/mm",
+        "confidence": 94.0,
+        "line_number": 40
+      }
+    ],
+    "other_fields": {
+      "doctor": "ess,oi"
+    },
+    "confidence_scores": {
+      "doctor": 86.25,
+      "name": 96.0
+    }
+  },
+  {
+    "page": 47,
+    "patient_info": {
+      "name": "results"
+    },
+    "test_results": [
+      {
+        "test_name": "Basophils",
+        "value": "0.06",
+        "unit": "thou/mm",
+        "confidence": 93.6,
+        "line_number": 7
+      },
+      {
+        "test_name": "Platelet Count",
+        "value": "147",
+        "unit": "thou/mm",
+        "confidence": 94.83,
+        "line_number": 9
+      }
+    ],
+    "other_fields": {
+      "doctor": "lalpathlabsltd"
+    },
+    "confidence_scores": {
+      "doctor": 92.5,
+      "name": 95.86
+    }
+  },
+  {
+    "page": 48,
+    "patient_info": {
+      "name": "concerning the test"
+    },
+    "test_results": [
+      {
+        "test_name": "e. Kindly submit request within",
+        "value": "72",
+        "unit": "hours",
+        "confidence": 85.29,
+        "line_number": 12
+      }
+    ],
+    "other_fields": {
+      "doctor": "awnfrom outsidesource.",
+      "date": "91-11-4988"
+    },
+    "confidence_scores": {
+      "doctor": 95.0,
+      "name": 89.91,
+      "date": 91.67
+    }
+  },
+  {
+    "page": 49,
+    "patient_info": {
+      "age": "10",
+      "patient_id": "6186848",
+      "name": "prajwal a"
+    },
+    "test_results": [
+      {
+        "test_name": "NON HDL Cholestrol",
+        "value": "73.0",
+        "unit": "mg/dL",
+        "confidence": 93.22,
+        "line_number": 6
+      },
+      {
+        "test_name": "TSH",
+        "value": "1.45",
+        "unit": "yIU/mL",
+        "confidence": 85.2,
+        "line_number": 23
+      },
+      {
+        "test_name": "C- Reactive Protein",
+        "value": "0.20",
+        "unit": "mg/dL",
+        "confidence": 91.83,
+        "line_number": 28
+      },
+      {
+        "test_name": "Calcium",
+        "value": "8.50",
+        "unit": "mg/dL",
+        "confidence": 90.4,
+        "line_number": 31
+      },
+      {
+        "test_name": "Albumin",
+        "value": "4.44",
+        "unit": "g/dL",
+        "confidence": 65.4,
+        "line_number": 34
+      },
+      {
+        "test_name": "Adjusted Calcium L",
+        "value": "8.1",
+        "unit": "mg/dL",
+        "confidence": 92.29,
+        "line_number": 36
+      }
+    ],
+    "other_fields": {
+      "doctor": "prajwal a"
+    },
+    "confidence_scores": {
+      "age": 94.2,
+      "patient_id": 70.0,
+      "name": 91.6,
+      "doctor": 91.6
+    }
+  },
+  {
+    "page": 50,
+    "patient_info": {
+      "age": "40",
+      "patient_id": "6186848"
+    },
+    "test_results": [],
+    "other_fields": {},
+    "confidence_scores": {
+      "age": 70.0,
+      "patient_id": 70.0
+    }
+  },
+  {
+    "page": 51,
+    "patient_info": {
+      "age": "40",
+      "patient_id": "6186848",
+      "name": "pradeep kumarv"
+    },
+    "test_results": [],
+    "other_fields": {
+      "doctor": "pradeep kumarv"
+    },
+    "confidence_scores": {
+      "age": 70.0,
+      "patient_id": 70.0,
+      "name": 93.17,
+      "doctor": 93.17
+    }
+  },
+  {
+    "page": 52,
+    "patient_info": {
+      "age": "40",
+      "patient_id": "6186848"
+    },
+    "test_results": [
+      {
+        "test_name": "Cholesterol",
+        "value": "118",
+        "unit": "mg/dL",
+        "confidence": 89.2,
+        "line_number": 8
+      },
+      {
+        "test_name": "Albumin",
+        "value": "4.44",
+        "unit": "g/dL",
+        "confidence": 92.4,
+        "line_number": 15
+      },
+      {
+        "test_name": "Globulin",
+        "value": "2.40",
+        "unit": "g/dL",
+        "confidence": 95.25,
+        "line_number": 18
+      },
+      {
+        "test_name": "Alkaline Phosphatase",
+        "value": "97.0",
+        "unit": "U/L",
+        "confidence": 93.5,
+        "line_number": 27
+      },
+      {
+        "test_name": "Gamma Glutamyl Transferase",
+        "value": "15.0",
+        "unit": "U/L",
+        "confidence": 91.33,
+        "line_number": 30
+      },
+      {
+        "test_name": "Bilirubin Total",
+        "value": "0.80",
+        "unit": "mg/dL",
+        "confidence": 90.4,
+        "line_number": 32
+      },
+      {
+        "test_name": "Bilirubin-Direct",
+        "value": "0.31",
+        "unit": "mg/dL",
+        "confidence": 89.0,
+        "line_number": 34
+      }
+    ],
+    "other_fields": {},
+    "confidence_scores": {
+      "age": 70.0,
+      "patient_id": 70.0
+    }
+  }
+]

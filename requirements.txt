@@ -1,0 +1,23 @@
+# Core dependencies from notebook
+opencv-python
+numpy
+pandas
+pillow
+pdf2image
+pytesseract
+kagglehub
+
+# Machine Learning
+scikit-learn
+ipywidgets
+
+# Data processing
+imutils
+
+# System and utilities
+uuid
+datetime
+json
+os
+re
+collections

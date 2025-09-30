@@ -1,0 +1,19 @@
+{
+  "page": 25,
+  "patient_info": {},
+  "test_results": [
+    {
+      "test_name": "Glucose Fasting",
+      "value": "270.00",
+      "unit": "mg/dL",
+      "confidence": 92.17,
+      "line_number": 21
+    }
+  ],
+  "other_fields": {
+    "doctor": "oxy"
+  },
+  "confidence_scores": {
+    "doctor": 94.62
+  }
+}

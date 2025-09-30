@@ -1,0 +1,59 @@
+{
+  "page": 6,
+  "patient_info": {
+    "age": "40",
+    "patient_id": "6186848"
+  },
+  "test_results": [
+    {
+      "test_name": "NON HDL Cholestrol",
+      "value": "73.0",
+      "unit": "mg/dL",
+      "confidence": 92.44,
+      "line_number": 19
+    },
+    {
+      "test_name": "TSH",
+      "value": "1.45",
+      "unit": "yIU/mL",
+      "confidence": 82.4,
+      "line_number": 35
+    },
+    {
+      "test_name": "C- Reactive Protein",
+      "value": "0.20",
+      "unit": "mg/dL",
+      "confidence": 91.83,
+      "line_number": 40
+    },
+    {
+      "test_name": "Calcium",
+      "value": "8.50",
+      "unit": "mg/dL",
+      "confidence": 90.8,
+      "line_number": 43
+    },
+    {
+      "test_name": "Albumin",
+      "value": "4.44",
+      "unit": "g/dL",
+      "confidence": 89.4,
+      "line_number": 46
+    },
+    {
+      "test_name": "Adjusted Calcium L",
+      "value": "8.1",
+      "unit": "mg/dL",
+      "confidence": 92.29,
+      "line_number": 49
+    }
+  ],
+  "other_fields": {
+    "phone": "9035707662"
+  },
+  "confidence_scores": {
+    "age": 72.17,
+    "patient_id": 72.17,
+    "phone": 72.17
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "page": 48,
+  "patient_info": {
+    "name": "Mr. MANISH BAJPIE",
+    "age": "48",
+    "gender": "Male"
+  },
+  "test_results": [],
+  "other_fields": {},
+  "confidence_scores": {
+    "name": 92.4,
+    "age": 95.29,
+    "gender": 94.14
+  }
+}

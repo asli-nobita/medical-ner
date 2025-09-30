@@ -1,0 +1,33 @@
+{
+  "page": 41,
+  "patient_info": {
+    "name": "LalPathLabsLtd",
+    "age": "41",
+    "gender": "Female"
+  },
+  "test_results": [
+    {
+      "test_name": "Basophils",
+      "value": "0.05",
+      "unit": "thou/mm",
+      "confidence": 93.4,
+      "line_number": 19
+    },
+    {
+      "test_name": "Platelet Count",
+      "value": "478",
+      "unit": "thou/mm",
+      "confidence": 94.67,
+      "line_number": 21
+    }
+  ],
+  "other_fields": {
+    "doctor": "LalPathLabsLtd"
+  },
+  "confidence_scores": {
+    "name": 93.5,
+    "age": 91.12,
+    "gender": 96.0,
+    "doctor": 93.5
+  }
+}

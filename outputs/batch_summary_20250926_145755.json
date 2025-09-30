@@ -1,0 +1,3417 @@
+{
+  "timestamp": "20250926_145755",
+  "total_documents": 426,
+  "successful": 0,
+  "failed": 426,
+  "total_entities": 0,
+  "results": [
+    {
+      "document": "AHD-0425-PA-0007561_JITENDRA TRIVEDI DS_28-04-2025_1019-21_AM.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 1: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "AHD-0425-PA-0007719_E-REPORTS_250427_2032@E.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 2: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "AHD-0425-PA-0007719_E-REPORTS_250427_2032@E.pdf_page_7.png",
+      "success": false,
+      "errors": [
+        "Error processing document 3: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "AHD-0425-PA-0008061_E-mahendrasinghdischargecard_250427_1114@E.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 4: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "AHD-0425-PA-0008061_E-mahendrasinghdischargecard_250427_1114@E.pdf_page_27.png",
+      "success": false,
+      "errors": [
+        "Error processing document 5: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0036693_ARVIND REDDY REPALA 0036693_28-04-2025_1120-45_AM@E.pdf_page_24.png",
+      "success": false,
+      "errors": [
+        "Error processing document 6: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0037318_SASHANK P K 0037318 2 OF 2_28-04-2025_1007-19_AM@E.pdf_page_20.png",
+      "success": false,
+      "errors": [
+        "Error processing document 7: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0037318_SASHANK P K 0037318 2 OF 2_28-04-2025_1007-19_AM@E.pdf_page_29.png",
+      "success": false,
+      "errors": [
+        "Error processing document 8: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0037318_SASHANK P K 0037318 2 OF 2_28-04-2025_1007-19_AM@E.pdf_page_31.png",
+      "success": false,
+      "errors": [
+        "Error processing document 9: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0037318_SASHANK P K 0037318 2 OF 2_28-04-2025_1007-19_AM@E.pdf_page_33.png",
+      "success": false,
+      "errors": [
+        "Error processing document 10: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0038965_BIPUL CHAKRABORTY 0038965 2 OF 2_28-04-2025_1014-26_AM.pdf_page_16.png",
+      "success": false,
+      "errors": [
+        "Error processing document 11: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0038965_BIPUL CHAKRABORTY 0038965 2 OF 2_28-04-2025_1014-26_AM.pdf_page_7.png",
+      "success": false,
+      "errors": [
+        "Error processing document 12: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0038965_BIPUL CHAKRABORTY 0038965 2 OF 2_28-04-2025_1014-26_AM.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 13: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0039192_05c45741fa5d4b5180df06f200423a00__2_files_merged__26-04-2025_0430-01_PM@E.pdf_page_104.png",
+      "success": false,
+      "errors": [
+        "Error processing document 14: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0039192_E-PareshwarFinalBill_250427_1337@E.pdf_page_88.png",
+      "success": false,
+      "errors": [
+        "Error processing document 15: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0039192_E-PareshwarFinalBill_250427_1337@E.pdf_page_99.png",
+      "success": false,
+      "errors": [
+        "Error processing document 16: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0039192_E-ParmeshwarRunningBill_250426_1612@E.pdf_page_93.png",
+      "success": false,
+      "errors": [
+        "Error processing document 17: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0039192_a044492e47444b7ca0f3e3bbe049ce2c_compressed_27-04-2025_0228-52_PM@E.pdf_page_76.png",
+      "success": false,
+      "errors": [
+        "Error processing document 18: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0039320_501848074 Final bill and DS   26042025_27-04-2025_1054-20_AM.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 19: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0039883_ALL CLAIMS DOCM BHUVANESHWARI VIDAL_0001_27-04-2025_1131-10_AM@E.pdf_page_38.png",
+      "success": false,
+      "errors": [
+        "Error processing document 20: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0039883_ALL CLAIMS DOCM BHUVANESHWARI VIDAL_0001_27-04-2025_1131-10_AM@E.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 21: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0039930_E-BABY_OF_SIREESHA_BADVELU_2_250427_1048@E.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 22: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0039930_E-BABY_OF_SIREESHA_BADVELU_2_250427_1048@E.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 23: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0040301_Q-Report3_250422_1436@F.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 24: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0040326_Lab Report Sunita_27-04-2025_0131-15_PM@G.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 25: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0040652_LAB MERG_27-04-2025_1239-18_PM@E.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 26: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0040652_LAB MERG_27-04-2025_1239-18_PM@E.pdf_page_7.png",
+      "success": false,
+      "errors": [
+        "Error processing document 27: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0040749_F-RAJU_GODUGULA_1_250422_1924@G.pdf_page_24.png",
+      "success": false,
+      "errors": [
+        "Error processing document 28: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0040749_G RAJU_27-04-2025_1103-55_PM.pdf_page_35.png",
+      "success": false,
+      "errors": [
+        "Error processing document 29: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0040749_G RAJU_27-04-2025_1103-55_PM.pdf_page_42.png",
+      "success": false,
+      "errors": [
+        "Error processing document 30: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0040761_BLR0425PA0040761 TURYA KULAKRNI   INVESTIGATION REPORTS_27-04-2025_0633-05_PM@G.pdf_page_3.png",
+      "success": false,
+      "errors": [
+        "Error processing document 31: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0040880_E-1745741621426SUSHILADEVIds_250427_1347@E.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 32: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041078_D CARD AND REPORT_11zon_27-04-2025_1204-56_PM.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 33: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041109_F-PREAUTH202504230003_250423_1752@G.pdf_page_7.png",
+      "success": false,
+      "errors": [
+        "Error processing document 34: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041171_MEKHA LAMBA STAY LETTER_26-04-2025_0253-30_PM@E.pdf_page_24.png",
+      "success": false,
+      "errors": [
+        "Error processing document 35: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041313_F-sudhirpreauth_250424_1309@G.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 36: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041374_E-REPORT_250427_1413@E.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 37: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041577_PA REQUEST_24-04-2025_0744-39_PM@G.pdf_page_15.png",
+      "success": false,
+      "errors": [
+        "Error processing document 38: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041591_DISCHARGE_0001_27-04-2025_0313-06_PM.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 39: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041660_KAUSHAL REPORTS_26-04-2025_1047-39_PM@F.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 40: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041660_KAUSHAL REPORTS_27-04-2025_0924-48_AM.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 41: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041660_KAUSHAL REPORTS_27-04-2025_0924-48_AM@E.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 42: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041660_KAUSHAL REPORTS_27-04-2025_1009-13_AM@E.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 43: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041660_KAUSHAL_REPORTS_26-04-2025_0822-20_PM@F.pdf_page_6.png",
+      "success": false,
+      "errors": [
+        "Error processing document 44: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041660_KAUSHAL_REPORTS_26-04-2025_0822-20_PM@F.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 45: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0041664_ef7835c4565245d6afdb7d905cf4d4a1_27-04-2025_0520-51_PM@E.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 46: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042255_E-SITAMAHALAKSHMI_KATTA_2_250427_1224@E.pdf_page_5.png",
+      "success": false,
+      "errors": [
+        "Error processing document 47: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042347_Mayuri_salve_pt_preaurth_form_26-04-2025_0411-17_PM@G.pdf_page_20.png",
+      "success": false,
+      "errors": [
+        "Error processing document 48: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042483_F-CamScanner0426202520.02_250426_2031@G.pdf_page_20.png",
+      "success": false,
+      "errors": [
+        "Error processing document 49: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042483_Q-CamScanner0428202511.39_250428_1144@F.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 50: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042494_Malathi_Sudheendra_LAB_26-04-2025_0923-40_PM@G.pdf_page_3.png",
+      "success": false,
+      "errors": [
+        "Error processing document 51: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042494_Malathi_Sudheendra_LAB_26-04-2025_0923-40_PM@G.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 52: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042521_F-1745734178007ICPNOTESOFPRASANNAKUMAR_250427_1146@G.pdf_page_16.png",
+      "success": false,
+      "errors": [
+        "Error processing document 53: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042555_F-KYC_PC_VAMSI_MOHANA_JAKKINAPALLI_1_250427_1354@G.pdf_page_18.png",
+      "success": false,
+      "errors": [
+        "Error processing document 54: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042563_Q-1745819430717VasanthaKumarilab_250428_1123@F.pdf_page_1.png",
+      "success": false,
+      "errors": [
+        "Error processing document 55: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042567_F-RAJEEVPREAUTH_250427_1441@G.pdf_page_16.png",
+      "success": false,
+      "errors": [
+        "Error processing document 56: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042578_F-1745748343928ICPNOTESOFJAYALAKSHMI_250427_1542@G.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 57: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042579_F-SARAFATHIMAPREAUTHREQUEST_250427_1545@G.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 58: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042583_F-1745749507807ICPNOTESOFCHUNCHAIAH2_250427_1601@G.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 59: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042585_F-RARI_S_MANIKANDAN_1_250427_1609@G.pdf_page_37.png",
+      "success": false,
+      "errors": [
+        "Error processing document 60: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042594_F-BABYOFSSIRISHAICP_250427_1634@G.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 61: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042598_Q-bgh20250427165405127229018626_250427_1656@F.pdf_page_28.png",
+      "success": false,
+      "errors": [
+        "Error processing document 62: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042614_F-KYC_PC_BARNISH_ARULMOZHIE_1_250427_1745@G.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 63: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042618_F-1745754894410SUBRAMANILAB_250427_1816@G.pdf_page_3.png",
+      "success": false,
+      "errors": [
+        "Error processing document 64: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042625_F-PREAUTHREQUEST_250427_1911@G.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 65: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042650_F-SHWETAPA_250428_0922@G.pdf_page_18.png",
+      "success": false,
+      "errors": [
+        "Error processing document 66: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042659_REPORT_0001_28-04-2025_1015-20_AM@G.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 67: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042659_REPORT_0001_28-04-2025_1015-20_AM@G.pdf_page_7.png",
+      "success": false,
+      "errors": [
+        "Error processing document 68: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042670_F-NiyaAdwithaQueryReplied_250428_1045@G.pdf_page_6.png",
+      "success": false,
+      "errors": [
+        "Error processing document 69: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "BLR-0425-PA-0042674_F-HALEEMALAB28_250428_1048@G.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 70: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHD-0425-PA-0008729_REQUEST FOR ENHACEMENT_27-04-2025_1049-52_AM.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 71: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHD-0425-PA-0008729_REQUEST FOR ENHACEMENT_28-04-2025_1006-46_AM.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 72: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHD-0425-PA-0008729_REQUEST FOR ENHACEMENT_28-04-2025_1006-46_AM.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 73: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHD-0425-PA-0009734_rr_27-04-2025_0153-00_PM@G.pdf_page_5.png",
+      "success": false,
+      "errors": [
+        "Error processing document 74: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHD-0425-PA-0009736_F-JANAKRANI_250427_1826@G.pdf_page_6.png",
+      "success": false,
+      "errors": [
+        "Error processing document 75: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0325-PA-0010741_AL REPORTS_25-04-2025_0346-49_PM@F.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 76: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0325-PA-0010741_AL REPORTS_28-04-2025_1147-05_AM@E.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 77: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0012251_Q-1745740582093MNJUQR_250427_1329@F.pdf_page_62.png",
+      "success": false,
+      "errors": [
+        "Error processing document 78: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0013118_E-FBANDS_250427_1234@E.pdf_page_28.png",
+      "success": false,
+      "errors": [
+        "Error processing document 79: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0013293_E-1745731046905VIJAYLAKSHMIDS_250427_1050@E.pdf_page_7.png",
+      "success": false,
+      "errors": [
+        "Error processing document 80: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0013491_E-LABREPORT_250428_1031@E.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 81: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0013889_ALL CLAIMS DOCM HARIPRIYA VIDAL_0001_27-04-2025_1124-43_AM.pdf_page_23.png",
+      "success": false,
+      "errors": [
+        "Error processing document 82: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0013910_F-MR._TANUJ_JAIN_1_250423_1230@G.pdf_page_21.png",
+      "success": false,
+      "errors": [
+        "Error processing document 83: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0013990_E-DischargeSummary_250427_1530@E.pdf_page_3.png",
+      "success": false,
+      "errors": [
+        "Error processing document 84: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0013990_Final Reports_27-04-2025_0256-06_PM.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 85: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0013990_Final Reports_27-04-2025_0256-06_PM.pdf_page_5.png",
+      "success": false,
+      "errors": [
+        "Error processing document 86: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014100_KALIAMMAL RECONSIDER REQUEST_27-04-2025_0931-54_AM@F.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 87: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014100_KALIAMMAL RECONSIDER REQUEST_28-04-2025_0951-48_AM@F.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 88: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014100_KALIAMMAL RECONSIDER REQUEST_28-04-2025_1125-47_AM@F.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 89: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014100_KALIAMMAL RECONSIDER REQUEST_28-04-2025_1125-47_AM@F.pdf_page_7.png",
+      "success": false,
+      "errors": [
+        "Error processing document 90: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014111_QUERY REPLY  MR.SOORYA PRAKASH_27-04-2025_0130-33_PM.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 91: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014111_SOORYA PRAKASH INVESTIGATIONS_compressed_27-04-2025_0130-33_PM.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 92: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014111_SOORYA PRAKASH INVESTIGATIONS_compressed_27-04-2025_0130-33_PM.pdf_page_16.png",
+      "success": false,
+      "errors": [
+        "Error processing document 93: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014111_SOORYA PRAKASH INVESTIGATIONS_compressed_27-04-2025_0130-33_PM.pdf_page_5.png",
+      "success": false,
+      "errors": [
+        "Error processing document 94: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014111_SOORYA PRAKASH INVESTIGATIONS_compressed_27-04-2025_0130-33_PM@F.pdf_page_5.png",
+      "success": false,
+      "errors": [
+        "Error processing document 95: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014115_Q-Chandruquery_250427_1853@F.pdf_page_33.png",
+      "success": false,
+      "errors": [
+        "Error processing document 96: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014202_E-BLOODREPORTPREMA_250428_0045@E.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 97: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014256_Doc Apr 27 2025 16.08_27-04-2025_0418-53_PM.pdf_page_19.png",
+      "success": false,
+      "errors": [
+        "Error processing document 98: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014385_E-INDOORCASEPAPER_250428_1152@E.pdf_page_31.png",
+      "success": false,
+      "errors": [
+        "Error processing document 99: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014385_E-INDOORCASEPAPER_250428_1152@E.pdf_page_40.png",
+      "success": false,
+      "errors": [
+        "Error processing document 100: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014450_F-ASHOKLAB_250427_1146@G.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 101: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014457_Q-SaraswathiQueryreply_250428_1139@F.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 102: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "CHE-0425-PA-0014457_Q-SaraswathiQueryreply_250428_1139@F.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 103: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "COM-0425-PA-0017017_COM0425PA0017017 fb_27-04-2025_1216-45_PM@E.pdf_page_15.png",
+      "success": false,
+      "errors": [
+        "Error processing document 104: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0049315_H_34982_9279936111_13_53_PREAUTHOFPOLAVARAPUSRIDEVI_22-04-2025_1200-25_PM@G.pdf_page_16.png",
+      "success": false,
+      "errors": [
+        "Error processing document 105: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0050734_ALL INVESTIGATION REPORTS_27-04-2025_0320-14_PM@G.pdf_page_16.png",
+      "success": false,
+      "errors": [
+        "Error processing document 106: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0050734_ALL INVESTIGATION REPORTS_27-04-2025_0320-14_PM@G.pdf_page_17.png",
+      "success": false,
+      "errors": [
+        "Error processing document 107: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0050734_ALL INVESTIGATION REPORTS_27-04-2025_0320-14_PM@G.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 108: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0051395_FINAL BILL OF Mrs. GANIPISETTY RAJYALAKSHMI_27-04-2025_0328-59_PM@E.pdf_page_26.png",
+      "success": false,
+      "errors": [
+        "Error processing document 109: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0051555_E-MINAXIBENVYASFINAL_250427_0638@E.pdf_page_31.png",
+      "success": false,
+      "errors": [
+        "Error processing document 110: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0052162_FINAL BILL OF PT. MR. VIKAS TYAGI_compressed_27-04-2025_1215-38_PM@G.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 111: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0052208_F-1745734467763VENKATNARAYANAPREAUTH0001_250427_1150@G.pdf_page_17.png",
+      "success": false,
+      "errors": [
+        "Error processing document 112: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0052208_F-1745734467763VENKATNARAYANAPREAUTH0001_250427_1150@G.pdf_page_18.png",
+      "success": false,
+      "errors": [
+        "Error processing document 113: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0052212_F-LabReportMultiple_250427_1201@G.pdf_page_3.png",
+      "success": false,
+      "errors": [
+        "Error processing document 114: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0052238_F-THIRUSHANTHINIPREAUTHREQUEST_250427_1458@G.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 115: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0052248_DEL-0425-PA-0052238 pa_27-04-2025_0405-42_PM@G.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 116: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0052259_qqrr_27-04-2025_0524-02_PM@G.pdf_page_26.png",
+      "success": false,
+      "errors": [
+        "Error processing document 117: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0052264_F-dilllrammm19021_250427_1906@G.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 118: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0052315_F-labreport_250428_1029@G.pdf_page_6.png",
+      "success": false,
+      "errors": [
+        "Error processing document 119: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "DEL-0425-PA-0052368_F-1745820554223RANPALSINGHKUNTALPREUATH_250428_1146@G.pdf_page_23.png",
+      "success": false,
+      "errors": [
+        "Error processing document 120: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "FBD-0425-PA-0031221_Vikash Kumar PreAuth Vidal TPA_compressed (1)_27-04-2025_0950-50_AM@G.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 121: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "FBD-0425-PA-0031292_F-KYC_PC_MR._PRADEEP_KUMAR_PARVAT_1_250427_1718@G.pdf_page_21.png",
+      "success": false,
+      "errors": [
+        "Error processing document 122: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "FBD-0425-PA-0031292_F-KYC_PC_MR._PRADEEP_KUMAR_PARVAT_1_250427_1718@G.pdf_page_28.png",
+      "success": false,
+      "errors": [
+        "Error processing document 123: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0325-PA-0036985_Q-RAMFAL_250427_1347@F.pdf_page_27.png",
+      "success": false,
+      "errors": [
+        "Error processing document 124: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0325-PA-0037914_Q-BABYSEEMAREPORTS29211_250428_1130@F.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 125: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0325-PA-0038152_Q-RAJESH_250427_1356@F.pdf_page_23.png",
+      "success": false,
+      "errors": [
+        "Error processing document 126: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0325-PA-0038152_Q-RAJESH_250427_1356@F.pdf_page_27.png",
+      "success": false,
+      "errors": [
+        "Error processing document 127: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0325-PA-0043338_Q-DINESHIPDFILE11zon1_250422_1309@F.pdf_page_33.png",
+      "success": false,
+      "errors": [
+        "Error processing document 128: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-CL-0177710_EMP_SRT_25042025131749INVR_Pallavi Reports.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 129: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-CL-0177710_EMP_SRT_25042025131749INVR_Pallavi Reports.pdf_page_6.png",
+      "success": false,
+      "errors": [
+        "Error processing document 130: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-CL-0194518_INW_ilovepdf_merged_28042025114132.pdf_page_16.png",
+      "success": false,
+      "errors": [
+        "Error processing document 131: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-CL-0194864_EMP_INW_25042025101859INVR_Preeti Yellan Pathology Reports Shreeyas Hospital.pdf_page_1.png",
+      "success": false,
+      "errors": [
+        "Error processing document 132: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-CL-0195381_EMP_INW_19042025183215INVR_LabReport.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 133: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-CL-0196324_INW_GUR-0425-CL-0196324_27042025165908.pdf_page_16.png",
+      "success": false,
+      "errors": [
+        "Error processing document 134: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0044765_Q-PURAVALLINVESTIGATIONREPORTANDXRAYREPORTANDVITALCHART_250428_1134@F.pdf_page_3.png",
+      "success": false,
+      "errors": [
+        "Error processing document 135: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0044765_Q-PURAVALLINVESTIGATIONREPORTANDXRAYREPORTANDVITALCHART_250428_1134@F.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 136: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0045348_Q-FINALBILLWITHDISCHARGEDOCUMENTS_250411_1130@F.pdf_page_101.png",
+      "success": false,
+      "errors": [
+        "Error processing document 137: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0045348_Q-FINALBILLWITHDISCHARGEDOCUMENTS_250411_1130@F.pdf_page_125.png",
+      "success": false,
+      "errors": [
+        "Error processing document 138: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0045348_Q-FINALBILLWITHDISCHARGEDOCUMENTS_250411_1130@F.pdf_page_126.png",
+      "success": false,
+      "errors": [
+        "Error processing document 139: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0045348_Q-FINALBILLWITHDISCHARGEDOCUMENTS_250411_1130@F.pdf_page_79.png",
+      "success": false,
+      "errors": [
+        "Error processing document 140: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0045348_Q-FINALBILLWITHDISCHARGEDOCUMENTS_250411_1130@F.pdf_page_85.png",
+      "success": false,
+      "errors": [
+        "Error processing document 141: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0045348_Q-FINALBILLWITHDISCHARGEDOCUMENTS_250411_1130@F.pdf_page_86.png",
+      "success": false,
+      "errors": [
+        "Error processing document 142: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0045348_Q-FINALBILLWITHDISCHARGEDOCUMENTS_250411_1130@F.pdf_page_87.png",
+      "success": false,
+      "errors": [
+        "Error processing document 143: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0045348_Q-FINALBILLWITHDISCHARGEDOCUMENTS_250411_1130@F.pdf_page_89.png",
+      "success": false,
+      "errors": [
+        "Error processing document 144: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0047249_CH ACHIYYA CHOWDARY 0047249_28-04-2025_1118-26_AM@E.pdf_page_25.png",
+      "success": false,
+      "errors": [
+        "Error processing document 145: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0047910_Q-MANISHA13.04.20250001compressed_250427_1054@F.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 146: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0047954_Q-FINAL0001_250422_1558@F.pdf_page_36.png",
+      "success": false,
+      "errors": [
+        "Error processing document 147: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0048512_Q-POOJA4759000111zon_250424_1524@F.pdf_page_35.png",
+      "success": false,
+      "errors": [
+        "Error processing document 148: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0048512_Q-POOJA4759000111zon_250424_1524@F.pdf_page_43.png",
+      "success": false,
+      "errors": [
+        "Error processing document 149: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0048512_Q-POOJA4759000111zon_250424_1524@F.pdf_page_48.png",
+      "success": false,
+      "errors": [
+        "Error processing document 150: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0048851_Q-FINAL0001_250422_1251@F.pdf_page_47.png",
+      "success": false,
+      "errors": [
+        "Error processing document 151: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0048851_Q-FINAL0001_250422_1251@F.pdf_page_50.png",
+      "success": false,
+      "errors": [
+        "Error processing document 152: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0049511_Q-QueryReply_250423_1100@F.pdf_page_67.png",
+      "success": false,
+      "errors": [
+        "Error processing document 153: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0049533_Q-VIKRAM_250427_1414@F.pdf_page_31.png",
+      "success": false,
+      "errors": [
+        "Error processing document 154: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0049535_Q-11zonmergedFiles20250424T142233.73111zon_250424_1441@F.pdf_page_61.png",
+      "success": false,
+      "errors": [
+        "Error processing document 155: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0049535_Q-11zonmergedFiles20250424T142233.73111zon_250424_1441@F.pdf_page_67.png",
+      "success": false,
+      "errors": [
+        "Error processing document 156: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0049535_Q-11zonmergedFiles20250427T123253.76311zon_250427_1234@F.pdf_page_37.png",
+      "success": false,
+      "errors": [
+        "Error processing document 157: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0049547_Q-BECHUIPD1104_250424_1548@F.pdf_page_32.png",
+      "success": false,
+      "errors": [
+        "Error processing document 158: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0049547_Q-BECHUIPD1104_250424_1548@F.pdf_page_36.png",
+      "success": false,
+      "errors": [
+        "Error processing document 159: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0049547_Q-BECHUIPD1104_250424_1548@F.pdf_page_57.png",
+      "success": false,
+      "errors": [
+        "Error processing document 160: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0049999_Q-KRISHNAKUMAR10413compressed_250427_1526@F.pdf_page_54.png",
+      "success": false,
+      "errors": [
+        "Error processing document 161: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0050321_GUR0425PA0050321_E_27-04-2025_0740-55_PM@F.pdf_page_18.png",
+      "success": false,
+      "errors": [
+        "Error processing document 162: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0050321_GUR0425PA0050321_E_27-04-2025_0740-55_PM@F.pdf_page_21.png",
+      "success": false,
+      "errors": [
+        "Error processing document 163: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0050464_Q-RAJBALA201030001compressed_250423_1248@F.pdf_page_75.png",
+      "success": false,
+      "errors": [
+        "Error processing document 164: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051111_Q-FINAL0001_250427_1153@F.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 165: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051111_Q-FINAL0001_250427_1153@F.pdf_page_60.png",
+      "success": false,
+      "errors": [
+        "Error processing document 166: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051495_Q-FINAL0001_250427_1709@F.pdf_page_53.png",
+      "success": false,
+      "errors": [
+        "Error processing document 167: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051559_Q-11zonmergedFiles2711zon_250427_1425@F.pdf_page_34.png",
+      "success": false,
+      "errors": [
+        "Error processing document 168: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051559_Q-11zonmergedFiles2711zon_250427_1425@F.pdf_page_51.png",
+      "success": false,
+      "errors": [
+        "Error processing document 169: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051559_Q-11zonmergedFiles2711zon_250427_1425@F.pdf_page_63.png",
+      "success": false,
+      "errors": [
+        "Error processing document 170: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051559_Q-11zonmergedFiles2711zon_250427_1425@F.pdf_page_73.png",
+      "success": false,
+      "errors": [
+        "Error processing document 171: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051584_Q-11zonmergedFiles2911zon_250427_1452@F.pdf_page_51.png",
+      "success": false,
+      "errors": [
+        "Error processing document 172: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051584_Q-11zonmergedFiles2911zon_250427_1452@F.pdf_page_56.png",
+      "success": false,
+      "errors": [
+        "Error processing document 173: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051604_Q-ASHISHKUMAR4813000111zon_250427_1255@F.pdf_page_31.png",
+      "success": false,
+      "errors": [
+        "Error processing document 174: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051612_Q-DEEPAKKUMAR4814000111zon_250427_1341@F.pdf_page_42.png",
+      "success": false,
+      "errors": [
+        "Error processing document 175: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051619_Q-RADHA20.04.20250001compressed_250427_1038@F.pdf_page_30.png",
+      "success": false,
+      "errors": [
+        "Error processing document 176: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051619_Q-RADHA20.04.20250001compressed_250427_1038@F.pdf_page_32.png",
+      "success": false,
+      "errors": [
+        "Error processing document 177: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051634_Q-KANTADEVI20.04.20250001compressed_250427_1050@F.pdf_page_31.png",
+      "success": false,
+      "errors": [
+        "Error processing document 178: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051634_Q-KANTADEVI20.04.20250001compressed_250427_1050@F.pdf_page_33.png",
+      "success": false,
+      "errors": [
+        "Error processing document 179: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051634_Q-KANTADEVI20.04.20250001compressed_250427_1050@F.pdf_page_44.png",
+      "success": false,
+      "errors": [
+        "Error processing document 180: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051642_Q-DARSHANA20.04.20250001compressed3_250427_1609@F.pdf_page_34.png",
+      "success": false,
+      "errors": [
+        "Error processing document 181: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051651_Q-ARCHANA20.04.20250001compressed_250427_1427@F.pdf_page_32.png",
+      "success": false,
+      "errors": [
+        "Error processing document 182: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051651_Q-ARCHANA20.04.20250001compressed_250427_1427@F.pdf_page_39.png",
+      "success": false,
+      "errors": [
+        "Error processing document 183: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051651_Q-ARCHANA20.04.20250001compressed_250427_1427@F.pdf_page_45.png",
+      "success": false,
+      "errors": [
+        "Error processing document 184: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051667_Q-ANJALIGOSWAMI20.04.20250001compressed_250427_1632@F.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 185: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051725_Q-DEVKI19.04.20250001compressed_250427_1059@F.pdf_page_47.png",
+      "success": false,
+      "errors": [
+        "Error processing document 186: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051757_Q-HEMANTDHALWAL19.04.20250001compressed_250427_1031@F.pdf_page_53.png",
+      "success": false,
+      "errors": [
+        "Error processing document 187: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051757_Q-HEMANTDHALWAL19.04.20250001compressed_250427_1031@F.pdf_page_62.png",
+      "success": false,
+      "errors": [
+        "Error processing document 188: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051761_Q-NEHA19.04.20250001compressed_250427_1034@F.pdf_page_30.png",
+      "success": false,
+      "errors": [
+        "Error processing document 189: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051761_Q-NEHA19.04.20250001compressed_250427_1034@F.pdf_page_45.png",
+      "success": false,
+      "errors": [
+        "Error processing document 190: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051769_Q-DEVSINGH19.04.20250001compressed1_250427_1433@F.pdf_page_30.png",
+      "success": false,
+      "errors": [
+        "Error processing document 191: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0051769_Q-DEVSINGH19.04.20250001compressed1_250427_1433@F.pdf_page_45.png",
+      "success": false,
+      "errors": [
+        "Error processing document 192: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052092_Q-11zonmergedFiles20250424T145803.40111zon_250424_1459@F.pdf_page_73.png",
+      "success": false,
+      "errors": [
+        "Error processing document 193: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052234_Q-REPORTS_250422_1655@F.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 194: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052234_Q-REPORTS_250422_1655@F.pdf_page_19.png",
+      "success": false,
+      "errors": [
+        "Error processing document 195: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052242_Q-GITADEVI20.04.20250001compressed_250427_1036@F.pdf_page_33.png",
+      "success": false,
+      "errors": [
+        "Error processing document 196: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052251_Q-KRANTIDEVI21.04.20250001compressed_250427_1106@F.pdf_page_29.png",
+      "success": false,
+      "errors": [
+        "Error processing document 197: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052251_Q-KRANTIDEVI21.04.20250001compressed_250427_1106@F.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 198: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052255_Q-ANU21.04.20250001compressed1_250427_1025@F.pdf_page_30.png",
+      "success": false,
+      "errors": [
+        "Error processing document 199: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052255_Q-ANU21.04.20250001compressed1_250427_1025@F.pdf_page_37.png",
+      "success": false,
+      "errors": [
+        "Error processing document 200: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052255_Q-ANU21.04.20250001compressed1_250427_1025@F.pdf_page_40.png",
+      "success": false,
+      "errors": [
+        "Error processing document 201: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052259_Q-SOPENDAR10425_250427_1518@F.pdf_page_38.png",
+      "success": false,
+      "errors": [
+        "Error processing document 202: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052271_Q-RAMFEERPANDEY21.04.20250001compressed1_250427_1439@F.pdf_page_40.png",
+      "success": false,
+      "errors": [
+        "Error processing document 203: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052271_Q-RAMFEERPANDEY21.04.20250001compressed1_250427_1439@F.pdf_page_42.png",
+      "success": false,
+      "errors": [
+        "Error processing document 204: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052276_Q-FINAL0001_250427_1711@F.pdf_page_32.png",
+      "success": false,
+      "errors": [
+        "Error processing document 205: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052331_Q-gomati201590001compressed_250422_1706@F.pdf_page_53.png",
+      "success": false,
+      "errors": [
+        "Error processing document 206: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052331_Q-gomati201590001compressed_250422_1706@F.pdf_page_61.png",
+      "success": false,
+      "errors": [
+        "Error processing document 207: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052830_Q-NAVITA21.04.20250001compressed_250427_1047@F.pdf_page_29.png",
+      "success": false,
+      "errors": [
+        "Error processing document 208: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052831_Q-FINAL0001_250427_1155@F.pdf_page_46.png",
+      "success": false,
+      "errors": [
+        "Error processing document 209: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052918_Q-SONU104890001merged2_250427_1622@F.pdf_page_37.png",
+      "success": false,
+      "errors": [
+        "Error processing document 210: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052925_Q-BIJENDERVATS21.04.20250001compressed_250427_1101@F.pdf_page_40.png",
+      "success": false,
+      "errors": [
+        "Error processing document 211: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052925_Q-BIJENDERVATS21.04.20250001compressed_250427_1101@F.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 212: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052925_Q-BIJENDERVATS21.04.20250001compressed_250427_1101@F.pdf_page_49.png",
+      "success": false,
+      "errors": [
+        "Error processing document 213: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052940_Q-DULARI104920001mergedcompressed_250427_1625@F.pdf_page_33.png",
+      "success": false,
+      "errors": [
+        "Error processing document 214: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052974_claim love yadav_27-04-2025_0232-13_PM.pdf_page_28.png",
+      "success": false,
+      "errors": [
+        "Error processing document 215: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0052974_claim love yadav_27-04-2025_0232-13_PM.pdf_page_38.png",
+      "success": false,
+      "errors": [
+        "Error processing document 216: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053227_Q-BABYOFANJLI14042025compressed_250428_1153@F.pdf_page_45.png",
+      "success": false,
+      "errors": [
+        "Error processing document 217: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053260_Q-SARVANKUMAR10451_250427_1617@F.pdf_page_28.png",
+      "success": false,
+      "errors": [
+        "Error processing document 218: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053260_Q-SARVANKUMAR10451_250427_1617@F.pdf_page_35.png",
+      "success": false,
+      "errors": [
+        "Error processing document 219: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053274_Q-sonamatidevi10227compressed_250427_1530@F.pdf_page_30.png",
+      "success": false,
+      "errors": [
+        "Error processing document 220: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053274_Q-sonamatidevi10227compressed_250427_1530@F.pdf_page_40.png",
+      "success": false,
+      "errors": [
+        "Error processing document 221: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053395_Q-VIMLA21.04.20250001compressed_250427_1103@F.pdf_page_33.png",
+      "success": false,
+      "errors": [
+        "Error processing document 222: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053395_Q-VIMLA21.04.20250001compressed_250427_1103@F.pdf_page_46.png",
+      "success": false,
+      "errors": [
+        "Error processing document 223: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053395_Q-VIMLA21.04.20250001compressed_250427_1103@F.pdf_page_48.png",
+      "success": false,
+      "errors": [
+        "Error processing document 224: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053405_Q-RANJANADEVI21.04.20250001compressed_250427_1041@F.pdf_page_38.png",
+      "success": false,
+      "errors": [
+        "Error processing document 225: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053405_Q-RANJANADEVI21.04.20250001compressed_250427_1041@F.pdf_page_40.png",
+      "success": false,
+      "errors": [
+        "Error processing document 226: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053405_Q-RANJANADEVI21.04.20250001compressed_250427_1041@F.pdf_page_42.png",
+      "success": false,
+      "errors": [
+        "Error processing document 227: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053405_Q-RANJANADEVI21.04.20250001compressed_250427_1041@F.pdf_page_46.png",
+      "success": false,
+      "errors": [
+        "Error processing document 228: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053408_Q-SATISHKUMAR19.04.20250001compressed_250427_1052@F.pdf_page_30.png",
+      "success": false,
+      "errors": [
+        "Error processing document 229: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053408_Q-SATISHKUMAR19.04.20250001compressed_250427_1052@F.pdf_page_37.png",
+      "success": false,
+      "errors": [
+        "Error processing document 230: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053411_Q-PREETIKA19.04.20250001compressed_250427_1027@F.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 231: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053434_Q-PREETI4837000111zon_250427_1314@F.pdf_page_35.png",
+      "success": false,
+      "errors": [
+        "Error processing document 232: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053434_Q-PREETI4837000111zon_250427_1314@F.pdf_page_38.png",
+      "success": false,
+      "errors": [
+        "Error processing document 233: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053434_Q-PREETI4837000111zon_250427_1314@F.pdf_page_42.png",
+      "success": false,
+      "errors": [
+        "Error processing document 234: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053454_Q-11zonmergedFiles2411zon_250427_1324@F.pdf_page_27.png",
+      "success": false,
+      "errors": [
+        "Error processing document 235: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053454_Q-11zonmergedFiles2411zon_250427_1324@F.pdf_page_30.png",
+      "success": false,
+      "errors": [
+        "Error processing document 236: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053454_Q-11zonmergedFiles2411zon_250427_1324@F.pdf_page_36.png",
+      "success": false,
+      "errors": [
+        "Error processing document 237: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053481_Q-CHHAYADEVI21.04.20250001compressed_250427_1617@F.pdf_page_34.png",
+      "success": false,
+      "errors": [
+        "Error processing document 238: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053481_Q-CHHAYADEVI21.04.20250001compressed_250427_1617@F.pdf_page_38.png",
+      "success": false,
+      "errors": [
+        "Error processing document 239: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053481_Q-CHHAYADEVI21.04.20250001compressed_250427_1617@F.pdf_page_39.png",
+      "success": false,
+      "errors": [
+        "Error processing document 240: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053481_Q-CHHAYADEVI21.04.20250001compressed_250427_1617@F.pdf_page_42.png",
+      "success": false,
+      "errors": [
+        "Error processing document 241: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053566_Q-SHYAMA000111zon_250427_1643@F.pdf_page_29.png",
+      "success": false,
+      "errors": [
+        "Error processing document 242: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053566_Q-SHYAMA000111zon_250427_1643@F.pdf_page_34.png",
+      "success": false,
+      "errors": [
+        "Error processing document 243: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053567_Q-PT.ROSHNIESIBUNCH11zon_250427_1622@F.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 244: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053567_Q-PT.ROSHNIESIBUNCH11zon_250427_1622@F.pdf_page_63.png",
+      "success": false,
+      "errors": [
+        "Error processing document 245: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053567_Q-PT.ROSHNIESIBUNCH11zon_250427_1622@F.pdf_page_70.png",
+      "success": false,
+      "errors": [
+        "Error processing document 246: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053590_E-FinalBillAndDischargeSummary_250427_1355@E.pdf_page_100.png",
+      "success": false,
+      "errors": [
+        "Error processing document 247: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053605_RAJ RANI CLAIM FILE 23.04.25_27-04-2025_0257-11_PM@E.pdf_page_27.png",
+      "success": false,
+      "errors": [
+        "Error processing document 248: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053605_RAJ RANIREPORTS_0001 (1)_23-04-2025_0442-32_PM@F.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 249: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053884_Q-112674POOJADEVI_250427_1547@F.pdf_page_32.png",
+      "success": false,
+      "errors": [
+        "Error processing document 250: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053930_Q-REKHA10500_250427_1509@F.pdf_page_27.png",
+      "success": false,
+      "errors": [
+        "Error processing document 251: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053930_Q-REKHA10500_250427_1509@F.pdf_page_28.png",
+      "success": false,
+      "errors": [
+        "Error processing document 252: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053972_E-SANDEEPKUMARMID_250427_1418@E.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 253: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0053972_E-SANDEEPKUMARMID_250427_1418@E.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 254: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054021_Q-manhorfinalbill_250427_1343@F.pdf_page_29.png",
+      "success": false,
+      "errors": [
+        "Error processing document 255: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054021_Q-manhorfinalbill_250427_1343@F.pdf_page_40.png",
+      "success": false,
+      "errors": [
+        "Error processing document 256: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054043_Q-VIRENDER000111zon_250423_1719@F.pdf_page_22.png",
+      "success": false,
+      "errors": [
+        "Error processing document 257: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054044_Q-FINAL0001_250427_1157@F.pdf_page_36.png",
+      "success": false,
+      "errors": [
+        "Error processing document 258: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054524_E-FinalbillanddischargeSangitadevi_250427_1834@E.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 259: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054524_E-FinalbillanddischargeSangitadevi_250427_1834@E.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 260: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054745_Q-REPORTS_250427_1041@F.pdf_page_7.png",
+      "success": false,
+      "errors": [
+        "Error processing document 261: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054811_Q-GUDDUKUMAR10534_250427_1457@F.pdf_page_31.png",
+      "success": false,
+      "errors": [
+        "Error processing document 262: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054840_Q-pawankumarfinal_250427_1337@F.pdf_page_29.png",
+      "success": false,
+      "errors": [
+        "Error processing document 263: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054840_Q-pawankumarfinal_250427_1337@F.pdf_page_32.png",
+      "success": false,
+      "errors": [
+        "Error processing document 264: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054840_Q-pawankumarfinal_250427_1337@F.pdf_page_34.png",
+      "success": false,
+      "errors": [
+        "Error processing document 265: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054840_Q-pawankumarfinal_250427_1337@F.pdf_page_36.png",
+      "success": false,
+      "errors": [
+        "Error processing document 266: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054840_Q-pawankumarfinal_250427_1337@F.pdf_page_40.png",
+      "success": false,
+      "errors": [
+        "Error processing document 267: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054886_Q-112714RASMITA_250427_1433@F.pdf_page_32.png",
+      "success": false,
+      "errors": [
+        "Error processing document 268: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054989_Q-112752REETADEVI_250427_1429@F.pdf_page_31.png",
+      "success": false,
+      "errors": [
+        "Error processing document 269: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0054989_Q-112752REETADEVI_250427_1429@F.pdf_page_37.png",
+      "success": false,
+      "errors": [
+        "Error processing document 270: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055053_Q-1745410679910ArtiKumariinv0001_250423_1751@F.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 271: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055057_F-KYC_PC_Mrs_CHANDER_KANTA_1_250422_1418@G.pdf_page_7.png",
+      "success": false,
+      "errors": [
+        "Error processing document 272: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055117_E-SANTKUMARREPORTS27042025_250427_1719@E.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 273: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055247_Q-Muraliquery_250427_1736@F.pdf_page_5.png",
+      "success": false,
+      "errors": [
+        "Error processing document 274: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055258_Q-BIMLA000411zon_250423_1700@F.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 275: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055258_Q-BIMLA000411zon_250423_1700@F.pdf_page_23.png",
+      "success": false,
+      "errors": [
+        "Error processing document 276: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055398_SUNILA ARORA INVESTIGATION  FOR ENHANCMENT _26-04-2025_0642-20_PM@G.pdf_page_19.png",
+      "success": false,
+      "errors": [
+        "Error processing document 277: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055398_SUNILA ARORA INVESTIGATION  FOR ENHANCMENT _27-04-2025_1111-09_AM.pdf_page_16.png",
+      "success": false,
+      "errors": [
+        "Error processing document 278: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055398_SUNILA ARORA INVESTIGATION  FOR ENHANCMENT _27-04-2025_1111-09_AM.pdf_page_6.png",
+      "success": false,
+      "errors": [
+        "Error processing document 279: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055398_SUNILA ARORA INVESTIGATION  FOR ENHANCMENT _27-04-2025_1111-09_AM.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 280: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055418_Q-Princeipd_250428_0930@F.pdf_page_21.png",
+      "success": false,
+      "errors": [
+        "Error processing document 281: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055449_Q-SEEMAKUMARI202600001compressed_250428_1147@F.pdf_page_46.png",
+      "success": false,
+      "errors": [
+        "Error processing document 282: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055458_Q-SARLAKUMAR202630001compressed_250428_1149@F.pdf_page_33.png",
+      "success": false,
+      "errors": [
+        "Error processing document 283: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055460_Q-LOKESHYADAV202580001compressed_250428_1148@F.pdf_page_32.png",
+      "success": false,
+      "errors": [
+        "Error processing document 284: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055511_Q-ROHIT4854000111zon_250427_1412@F.pdf_page_23.png",
+      "success": false,
+      "errors": [
+        "Error processing document 285: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055511_Q-ROHIT4854000111zon_250427_1412@F.pdf_page_31.png",
+      "success": false,
+      "errors": [
+        "Error processing document 286: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055576_Q-kailashfnalbill_250427_1333@F.pdf_page_33.png",
+      "success": false,
+      "errors": [
+        "Error processing document 287: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055576_Q-kailashfnalbill_250427_1333@F.pdf_page_35.png",
+      "success": false,
+      "errors": [
+        "Error processing document 288: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055576_Q-kailashfnalbill_250427_1333@F.pdf_page_37.png",
+      "success": false,
+      "errors": [
+        "Error processing document 289: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055576_Q-kailashfnalbill_250427_1333@F.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 290: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055578_Q-gautamfinalbill_250427_1341@F.pdf_page_27.png",
+      "success": false,
+      "errors": [
+        "Error processing document 291: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055727_F-RAJESHWARIPACHAURI_250423_1427@G.pdf_page_17.png",
+      "success": false,
+      "errors": [
+        "Error processing document 292: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055727_F-RAJESHWARIPACHAURI_250423_1427@G.pdf_page_22.png",
+      "success": false,
+      "errors": [
+        "Error processing document 293: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055833_F-REPORTS_250423_1613@G.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 294: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055833_F-REPORTS_250423_1613@G.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 295: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055868_F-DOCUMENTAMRITPAL_250423_1639@G.pdf_page_19.png",
+      "success": false,
+      "errors": [
+        "Error processing document 296: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055928_Q-QUERYREPLYMSSAUMYASINGH_250423_1911@F.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 297: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055942_IV REPORTS_27-04-2025_1102-25_AM@E.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 298: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0055942_IV_REPORTS_27-04-2025_1112-47_AM@E.pdf_page_1.png",
+      "success": false,
+      "errors": [
+        "Error processing document 299: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056008_ASHISH BAGDIYA CN GUR0425PA0056008_27-04-2025_0517-33_PM@E.pdf_page_45.png",
+      "success": false,
+      "errors": [
+        "Error processing document 300: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056064_F-PARINALEPCHAPA_250423_2059@G.pdf_page_16.png",
+      "success": false,
+      "errors": [
+        "Error processing document 301: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056064_Q-PARINALEPCHAQR_250424_1328@F.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 302: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056087_E-SIVASUM_250427_1015@E.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 303: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056087_E-SIVASUM_250427_1015@E.pdf_page_5.png",
+      "success": false,
+      "errors": [
+        "Error processing document 304: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056189_Q-rahulfinalbill_250427_1335@F.pdf_page_32.png",
+      "success": false,
+      "errors": [
+        "Error processing document 305: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056262_Q-KAVITA000311zon1_250427_1703@F.pdf_page_23.png",
+      "success": false,
+      "errors": [
+        "Error processing document 306: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056268_Q-11zonmergedPDF20250427T102800.865_250427_1734@F.pdf_page_1.png",
+      "success": false,
+      "errors": [
+        "Error processing document 307: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056282_F-KYC_PC_SHANAZ_1_250424_1254@G.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 308: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056282_F-SHANAZ_1_250424_1254@G.pdf_page_15.png",
+      "success": false,
+      "errors": [
+        "Error processing document 309: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056304_GUR0425PA0056304_FB_27-04-2025_0538-54_PM.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 310: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056304_GUR0425PA0056304_FB_27-04-2025_0711-07_PM@F.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 311: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056338_Q-ANUSAINI0001_250427_1742@F.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 312: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056411_Q-2025042755_250427_1536@F.pdf_page_35.png",
+      "success": false,
+      "errors": [
+        "Error processing document 313: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056418_F-REPORTS_250424_1452@G.pdf_page_1.png",
+      "success": false,
+      "errors": [
+        "Error processing document 314: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056422_CASHLESS CLAIM FILE GAURAB PATHAK_0001_compressed_27-04-2025_0804-45_PM@E.pdf_page_28.png",
+      "success": false,
+      "errors": [
+        "Error processing document 315: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056422_CASHLESS CLAIM FILE GAURAB PATHAK_0001_compressed_27-04-2025_0804-45_PM@E.pdf_page_34.png",
+      "success": false,
+      "errors": [
+        "Error processing document 316: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056422_CASHLESS CLAIM FILE GAURAB PATHAK_0001_compressed_27-04-2025_0804-45_PM@E.pdf_page_37.png",
+      "success": false,
+      "errors": [
+        "Error processing document 317: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056422_CASHLESS CLAIM FILE GAURAB PATHAK_0001_compressed_27-04-2025_0804-45_PM@E.pdf_page_45.png",
+      "success": false,
+      "errors": [
+        "Error processing document 318: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056479_Q-BLOODINVESTIGATIONREPORTS_250428_1155@F.pdf_page_6.png",
+      "success": false,
+      "errors": [
+        "Error processing document 319: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056519_discharge virendra_11zon_28-04-2025_1115-27_AM.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 320: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056519_discharge virendra_11zon_28-04-2025_1115-27_AM@G.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 321: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056519_discharge virendra_11zon_28-04-2025_1132-57_AM@G.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 322: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056519_preauth virender _24-04-2025_0447-58_PM@G.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 323: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056568_E-REPORTS_250427_1436@E.pdf_page_1.png",
+      "success": false,
+      "errors": [
+        "Error processing document 324: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056573_CoPayment_Charg_compressed_28-04-2025_1157-08_AM@E.pdf_page_32.png",
+      "success": false,
+      "errors": [
+        "Error processing document 325: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056644_Q-REPORT_250428_1140@F.pdf_page_6.png",
+      "success": false,
+      "errors": [
+        "Error processing document 326: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056644_Q-REPORT_250428_1140@F.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 327: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056646_Q-VARSHAKUMARI202790001compressed_250428_1144@F.pdf_page_36.png",
+      "success": false,
+      "errors": [
+        "Error processing document 328: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056771_GUR0425PA0056771_27-04-2025_0235-32_PM@E.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 329: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056771_GUR0425PA0056771_27-04-2025_0235-32_PM@E.pdf_page_5.png",
+      "success": false,
+      "errors": [
+        "Error processing document 330: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056771_GUR0425PA0056771_PA_27-04-2025_0235-32_PM@E.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 331: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056853_E-CHITRAKSHIFINALBILLDISCHARGESUMMARY_250427_1048@E.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 332: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056892_GUR0425PA0056892_Q_27-04-2025_0620-20_PM.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 333: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056892_GUR0425PA0056892_Q_27-04-2025_0620-20_PM.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 334: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056892_Q-ilovepdfmerged_250427_1756@F.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 335: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056892_Q-ilovepdfmerged_250427_1756@F.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 336: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0056928_E-LabReports_250428_1008@E.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 337: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057162_Q-2025042717_250427_1635@F.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 338: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057256_E-LABREPORTS_250427_1425@E.pdf_page_1.png",
+      "success": false,
+      "errors": [
+        "Error processing document 339: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057305_E-FBOFPTSHIVKUMAR_250427_1228@E.pdf_page_15.png",
+      "success": false,
+      "errors": [
+        "Error processing document 340: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057706_MXSS01_9292854212_02_47_DINESHICP_27-04-2025_1207-08_PM@F.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 341: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057745_Q-LABREPORTS_250428_1121@F.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 342: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057759_Q-RAJINDERKUMARPHANDAQR_250427_1311@F.pdf_page_28.png",
+      "success": false,
+      "errors": [
+        "Error processing document 343: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057759_Q-RAJINDERKUMARPHANDAQR_250427_1311@F.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 344: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057759_Q-RAJINDERKUMARPHANDAQR_250427_1311@F.pdf_page_43.png",
+      "success": false,
+      "errors": [
+        "Error processing document 345: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057804_Q-RAMESHKUMARQR_250427_1055@F.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 346: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057805_E-gauravqewr_250427_1916@E.pdf_page_21.png",
+      "success": false,
+      "errors": [
+        "Error processing document 347: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057805_Q-GAURAVQERQWER_250427_1004@F.pdf_page_45.png",
+      "success": false,
+      "errors": [
+        "Error processing document 348: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057813_Shivani Preautharization request_26-04-2025_0924-28_PM@G.pdf_page_7.png",
+      "success": false,
+      "errors": [
+        "Error processing document 349: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057825_Akshaya Kumar Preauth (1)_27-04-2025_0857-23_AM@G.pdf_page_17.png",
+      "success": false,
+      "errors": [
+        "Error processing document 350: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057848_Q-manjuopdfinalbill20250428094456_250428_0950@F.pdf_page_27.png",
+      "success": false,
+      "errors": [
+        "Error processing document 351: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057871_F-image67213_250427_1140@G.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 352: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057881_PRE_AUTH_PYARI_27-04-2025_1157-12_AM@G.pdf_page_17.png",
+      "success": false,
+      "errors": [
+        "Error processing document 353: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057899_F-ANJALI_NEGI_1_250427_1248@G.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 354: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057914_Q-AdditionalDocument_250427_1443@F.pdf_page_15.png",
+      "success": false,
+      "errors": [
+        "Error processing document 355: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057917_F-KYC_PC_Mast_MANU_PUSHKARNA_1_250427_1321@G.pdf_page_6.png",
+      "success": false,
+      "errors": [
+        "Error processing document 356: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057917_F-Mast_MANU_PUSHKARNA_1_250427_1321@G.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 357: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057918_F-KARUNA_1_250427_1321@G.pdf_page_34.png",
+      "success": false,
+      "errors": [
+        "Error processing document 358: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057918_F-KYC_PC_KARUNA_1_250427_1321@G.pdf_page_29.png",
+      "success": false,
+      "errors": [
+        "Error processing document 359: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057918_F-KYC_PC_KARUNA_1_250427_1321@G.pdf_page_34.png",
+      "success": false,
+      "errors": [
+        "Error processing document 360: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057918_F-KYC_PC_KARUNA_1_250427_1321@G.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 361: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057923_F-KYC_PC_CHOPPAVARAPU_PRABHAVATHI_1_250427_1339@G.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 362: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057931_F-SachinPreAuth_250427_1410@G.pdf_page_12.png",
+      "success": false,
+      "errors": [
+        "Error processing document 363: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057956_F-DIPENDRABHATTPREAUTHREQ0001_250427_1509@G.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 364: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0057991_F-EchsDept27042025162653392807_250427_1637@G.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 365: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058016_F-KYC_PC_RAMKUMAR_SANTOSH_KUMAR_1_250427_1718@G.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 366: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058034_F-MANJEET_SINGH_1_250427_1803@G.pdf_page_28.png",
+      "success": false,
+      "errors": [
+        "Error processing document 367: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058034_F-MANJEET_SINGH_1_250427_1803@G.pdf_page_30.png",
+      "success": false,
+      "errors": [
+        "Error processing document 368: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058034_F-MANJEET_SINGH_1_250427_1803@G.pdf_page_32.png",
+      "success": false,
+      "errors": [
+        "Error processing document 369: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058035_F-PKJosephcasesheetreports_250427_1808@G.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 370: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058035_F-PKJosephcasesheetreports_250427_1808@G.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 371: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058039_F-ARVEENKAURPREAUTHREQ_250427_1818@G.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 372: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058042_F-KYC_PC_BHUMI_1_250427_1830@G.pdf_page_18.png",
+      "success": false,
+      "errors": [
+        "Error processing document 373: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058071_F-POOJA0003_250428_0917@G.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 374: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058082_F-NARENDERKUMARVIDAL28.04.2025_250428_1009@G.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 375: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058111_F-ALalshmiKoundinyaDocuments_250428_1100@G.pdf_page_6.png",
+      "success": false,
+      "errors": [
+        "Error processing document 376: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058111_F-ALalshmiKoundinyaDocuments_250428_1100@G.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 377: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "GUR-0425-PA-0058142_F-815515NEELAM_250428_1142@G.pdf_page_21.png",
+      "success": false,
+      "errors": [
+        "Error processing document 378: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "HYD-0425-PA-0006452_D ADINARAYANA PREAUTH DOCUMENTS_27-04-2025_1212-53_PM@E.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 379: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "HYD-0425-PA-0006452_D ADINARAYANA PREAUTH DOCUMENTS_27-04-2025_1212-53_PM@E.pdf_page_14.png",
+      "success": false,
+      "errors": [
+        "Error processing document 380: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "HYD-0425-PA-0006452_DARLA ADINARAYANA CLAIM DOCUMENTS _27-04-2025_1212-54_PM@E.pdf_page_19.png",
+      "success": false,
+      "errors": [
+        "Error processing document 381: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "HYD-0425-PA-0006452_DARLA ADINARAYANA CLAIM DOCUMENTS _27-04-2025_1212-54_PM@E.pdf_page_22.png",
+      "success": false,
+      "errors": [
+        "Error processing document 382: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "HYD-0425-PA-0006452_DARLA ADINARAYANA CLAIM DOCUMENTS _27-04-2025_1212-54_PM@E.pdf_page_28.png",
+      "success": false,
+      "errors": [
+        "Error processing document 383: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "HYD-0425-PA-0007281_Q-QUERYREPLYOFPT.GTSRINIVASARAO_250427_0957@F.pdf_page_8.png",
+      "success": false,
+      "errors": [
+        "Error processing document 384: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "HYD-0425-PA-0007281_Q-QUERYREPLYOFPT.GTSRINIVASARAO_250427_0957@F.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 385: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "IND-0425-PA-0032901_E-H2658992802126194907ilovepdfmerged15compressed_250427_1710@E.pdf_page_66.png",
+      "success": false,
+      "errors": [
+        "Error processing document 386: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "IND-0425-PA-0032901_E-H2658992802126194907ilovepdfmerged15compressed_250427_1710@E.pdf_page_67.png",
+      "success": false,
+      "errors": [
+        "Error processing document 387: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "IND-0425-PA-0032901_E-H2658992802126194907ilovepdfmerged15compressed_250427_1710@E.pdf_page_81.png",
+      "success": false,
+      "errors": [
+        "Error processing document 388: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "IND-0425-PA-0032901_E-H2658992802126194907ilovepdfmerged15compressed_250427_1710@E.pdf_page_90.png",
+      "success": false,
+      "errors": [
+        "Error processing document 389: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "IND-0425-PA-0033745_SANKET CBC_27-04-2025_0431-24_PM@F.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 390: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "IND-0425-PA-0033745_SANTOSH2_28-04-2025_1029-26_AM@G.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 391: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "IND-0425-PA-0033745_SANTOSH334_27-04-2025_0431-24_PM@F.pdf_page_3.png",
+      "success": false,
+      "errors": [
+        "Error processing document 392: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "JPR-0425-PA-0004885_Claim File_27-04-2025_0223-58_AM@E.pdf_page_29.png",
+      "success": false,
+      "errors": [
+        "Error processing document 393: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "JPR-0425-PA-0005044_H_26671_9290939312_57_59_YUDHAANICPANDREPORTS001_27-04-2025_0101-02_PM.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 394: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "JPR-0425-PA-0005053_Q-HEMLATA_YADAV_2_250427_1136@F.pdf_page_17.png",
+      "success": false,
+      "errors": [
+        "Error processing document 395: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "JPR-0425-PA-0005062_Q-reports_250427_1123@F.pdf_page_3.png",
+      "success": false,
+      "errors": [
+        "Error processing document 396: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "JPR-0425-PA-0005068_E-AnnuFinal_250427_1502@E.pdf_page_19.png",
+      "success": false,
+      "errors": [
+        "Error processing document 397: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "JPR-0425-PA-0005076_H_36220_9294528109_59_40_MANMOHAN_28-04-2025_1036-30_AM@G.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 398: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "JPR-0425-PA-0005079_PA_FILE_OF_PT_BIMALA_DEVI_304_28-04-2025_1132-59_AM@G.pdf_page_9.png",
+      "success": false,
+      "errors": [
+        "Error processing document 399: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "KNP-0425-PA-0004341_H_37142_9265055811_15_20_queryreplyofmamtasrivastavaaa_27-04-2025_1119-57_AM.pdf_page_41.png",
+      "success": false,
+      "errors": [
+        "Error processing document 400: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "KNP-0425-PA-0004341_H_37142_9265055811_15_20_queryreplyofmamtasrivastavaaa_27-04-2025_1119-57_AM.pdf_page_47.png",
+      "success": false,
+      "errors": [
+        "Error processing document 401: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "KNP-0425-PA-0004341_H_37142_9265055811_15_20_queryreplyofmamtasrivastavaaa_27-04-2025_1119-57_AM@F.pdf_page_47.png",
+      "success": false,
+      "errors": [
+        "Error processing document 402: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "KOC-0425-PA-0009630_Q-AnilCasesheet_250427_1458@F.pdf_page_21.png",
+      "success": false,
+      "errors": [
+        "Error processing document 403: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "KOL-0425-PA-0004068_E-1745819838697ANKURSAXENAFINALBILLconverted_250428_1144@E.pdf_page_16.png",
+      "success": false,
+      "errors": [
+        "Error processing document 404: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "KOL-0425-PA-0004210_REPORT_27-04-2025_0729-34_PM.pdf_page_7.png",
+      "success": false,
+      "errors": [
+        "Error processing document 405: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0125-PA-0001141_W2500438UNADKAT ASHWIN_27-04-2025_1001-12_AM.pdf_page_112.png",
+      "success": false,
+      "errors": [
+        "Error processing document 406: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0125-PA-0001141_W2500438UNADKAT ASHWIN_27-04-2025_1001-12_AM.pdf_page_113.png",
+      "success": false,
+      "errors": [
+        "Error processing document 407: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0125-PA-0001141_W2500438UNADKAT ASHWIN_27-04-2025_1001-12_AM.pdf_page_74.png",
+      "success": false,
+      "errors": [
+        "Error processing document 408: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0125-PA-0001141_W2500438UNADKAT ASHWIN_27-04-2025_1001-12_AM.pdf_page_80.png",
+      "success": false,
+      "errors": [
+        "Error processing document 409: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0125-PA-0001141_W2500438UNADKAT ASHWIN_27-04-2025_1001-12_AM.pdf_page_83.png",
+      "success": false,
+      "errors": [
+        "Error processing document 410: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0125-PA-0001141_W2500438UNADKAT ASHWIN_27-04-2025_1002-19_AM.pdf_page_114.png",
+      "success": false,
+      "errors": [
+        "Error processing document 411: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0125-PA-0001141_W2500438UNADKAT ASHWIN_27-04-2025_1002-19_AM.pdf_page_118.png",
+      "success": false,
+      "errors": [
+        "Error processing document 412: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0125-PA-0001141_W2500438UNADKAT ASHWIN_27-04-2025_1002-19_AM.pdf_page_80.png",
+      "success": false,
+      "errors": [
+        "Error processing document 413: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0125-PA-0001141_W2500438UNADKAT ASHWIN_27-04-2025_1002-19_AM.pdf_page_91.png",
+      "success": false,
+      "errors": [
+        "Error processing document 414: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0425-PA-0003769_E-BodakheParvatiDischargeSummary_250427_1201@E.pdf_page_5.png",
+      "success": false,
+      "errors": [
+        "Error processing document 415: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0425-PA-0003769_E-BodakheParvatiReports_250427_1201@E.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 416: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0425-PA-0003975_JAYANTILALA_27-04-2025_0319-39_PM.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 417: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0425-PA-0004284_E-1745743986041ARCHANARANAFINALBILLO_250427_1425@E.pdf_page_4.png",
+      "success": false,
+      "errors": [
+        "Error processing document 418: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0425-PA-0004291_LAB REPORT_26-04-2025_0523-21_PM@G.pdf_page_1.png",
+      "success": false,
+      "errors": [
+        "Error processing document 419: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0425-PA-0004300_REPORTS_27-04-2025_0134-06_PM@G.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 420: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "MUM-0425-PA-0004300_REPORTS_27-04-2025_0134-06_PM@G.pdf_page_13.png",
+      "success": false,
+      "errors": [
+        "Error processing document 421: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "PUN-0425-PA-0011414_Lab Report_27-04-2025_0949-24_PM.pdf_page_1.png",
+      "success": false,
+      "errors": [
+        "Error processing document 422: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "PUN-0425-PA-0011414_Lab Report_27-04-2025_0949-24_PM.pdf_page_11.png",
+      "success": false,
+      "errors": [
+        "Error processing document 423: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "PUN-0425-PA-0011414_Lab Report_27-04-2025_0949-24_PM.pdf_page_2.png",
+      "success": false,
+      "errors": [
+        "Error processing document 424: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "PUN-0425-PA-0011414_Lab Report_27-04-2025_0949-24_PM@F.pdf_page_10.png",
+      "success": false,
+      "errors": [
+        "Error processing document 425: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    },
+    {
+      "document": "RJT-0425-PA-0003571_H_24489_9286123311_52_00_REPORTOFDEVENDRA_28-04-2025_1158-13_AM@E.pdf_page_23.png",
+      "success": false,
+      "errors": [
+        "Error processing document 426: 'list' object has no attribute 'lower'"
+      ],
+      "outputs": {}
+    }
+  ]
+}

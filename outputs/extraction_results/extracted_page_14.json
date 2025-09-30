@@ -1,0 +1,36 @@
+{
+  "page": 14,
+  "patient_info": {
+    "name": "Ashwin Kumar A S"
+  },
+  "test_results": [
+    {
+      "test_name": "SODIUM",
+      "value": "121",
+      "unit": "mmol/L",
+      "confidence": 95.6,
+      "line_number": 29
+    },
+    {
+      "test_name": "POTASSIUM",
+      "value": "4.4",
+      "unit": "mmol/L",
+      "confidence": 94.2,
+      "line_number": 31
+    },
+    {
+      "test_name": "CHLORIDE",
+      "value": "84",
+      "unit": "mmol/L",
+      "confidence": 96.0,
+      "line_number": 33
+    }
+  ],
+  "other_fields": {
+    "doctor": "Ashwin"
+  },
+  "confidence_scores": {
+    "name": 90.67,
+    "doctor": 90.67
+  }
+}

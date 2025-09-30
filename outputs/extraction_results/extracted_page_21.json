@@ -1,0 +1,19 @@
+{
+  "page": 21,
+  "patient_info": {
+    "age": "79"
+  },
+  "test_results": [
+    {
+      "test_name": "TSH",
+      "value": "5.25",
+      "unit": "yIU/mL",
+      "confidence": 82.2,
+      "line_number": 16
+    }
+  ],
+  "other_fields": {},
+  "confidence_scores": {
+    "age": 79.0
+  }
+}

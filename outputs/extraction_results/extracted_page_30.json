@@ -1,0 +1,61 @@
+{
+  "page": 30,
+  "patient_info": {
+    "name": "Mr. K NAGASHANKAR RAO",
+    "age": "63",
+    "gender": "Male"
+  },
+  "test_results": [
+    {
+      "test_name": "Hemoglobin",
+      "value": "13.60",
+      "unit": "g/dL",
+      "confidence": 92.8,
+      "line_number": 21
+    },
+    {
+      "test_name": "MCHC",
+      "value": "32.00",
+      "unit": "g/dL",
+      "confidence": 92.8,
+      "line_number": 32
+    },
+    {
+      "test_name": "Neutrophils",
+      "value": "4.61",
+      "unit": "thou/mm",
+      "confidence": 93.4,
+      "line_number": 47
+    },
+    {
+      "test_name": "Lymphocytes",
+      "value": "3.45",
+      "unit": "thou/mm",
+      "confidence": 93.6,
+      "line_number": 49
+    },
+    {
+      "test_name": "Monocytes",
+      "value": "0.73",
+      "unit": "thou/mm",
+      "confidence": 93.6,
+      "line_number": 51
+    },
+    {
+      "test_name": "Eosinophils",
+      "value": "0.25",
+      "unit": "thou/mm",
+      "confidence": 94.2,
+      "line_number": 53
+    }
+  ],
+  "other_fields": {
+    "doctor": "Lat"
+  },
+  "confidence_scores": {
+    "name": 91.83,
+    "doctor": 67.33,
+    "age": 94.75,
+    "gender": 96.0
+  }
+}

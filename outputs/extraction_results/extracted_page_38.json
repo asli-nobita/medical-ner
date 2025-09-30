@@ -1,0 +1,15 @@
+{
+  "page": 38,
+  "patient_info": {
+    "name": "Mrs. SWARNA LATA",
+    "age": "41",
+    "gender": "Female"
+  },
+  "test_results": [],
+  "other_fields": {},
+  "confidence_scores": {
+    "name": 93.0,
+    "age": 95.29,
+    "gender": 94.29
+  }
+}

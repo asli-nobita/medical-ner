@@ -1,0 +1,14 @@
+{
+  "page": 16,
+  "patient_info": {
+    "name": "Ashwin Kumar A S"
+  },
+  "test_results": [],
+  "other_fields": {
+    "doctor": "Ashwin"
+  },
+  "confidence_scores": {
+    "name": 93.67,
+    "doctor": 93.67
+  }
+}

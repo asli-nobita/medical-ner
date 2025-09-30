@@ -1,0 +1,1 @@
+Please provide the desired project directory structure, including folders, subfolders, and files, so I can assist you in organizing the Jupyter Notebook code accordingly.

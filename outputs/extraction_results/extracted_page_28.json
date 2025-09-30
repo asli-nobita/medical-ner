@@ -1,0 +1,15 @@
+{
+  "page": 28,
+  "patient_info": {},
+  "test_results": [
+    {
+      "test_name": "Estimated average glucose (eAG)",
+      "value": "283",
+      "unit": "mg/dL",
+      "confidence": 91.83,
+      "line_number": 22
+    }
+  ],
+  "other_fields": {},
+  "confidence_scores": {}
+}

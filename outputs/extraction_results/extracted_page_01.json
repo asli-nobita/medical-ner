@@ -1,0 +1,18 @@
+{
+  "page": 1,
+  "patient_info": {
+    "age": "40",
+    "patient_id": "6186848"
+  },
+  "test_results": [],
+  "other_fields": {
+    "phone": "9035707662",
+    "doctor": "VIKRAM KAMATH"
+  },
+  "confidence_scores": {
+    "age": 70.92,
+    "patient_id": 70.92,
+    "phone": 70.92,
+    "doctor": 72.29
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "page": 12,
+  "patient_info": {
+    "age": "40",
+    "patient_id": "6186848",
+    "name": "Prajwal A"
+  },
+  "test_results": [
+    {
+      "test_name": "Vitamin D (Total)",
+      "value": "35.00",
+      "unit": "ng/mL",
+      "confidence": 93.6,
+      "line_number": 18
+    }
+  ],
+  "other_fields": {
+    "phone": "9035707662",
+    "doctor": "Prajwal"
+  },
+  "confidence_scores": {
+    "age": 72.17,
+    "patient_id": 72.17,
+    "phone": 72.17,
+    "doctor": 93.4,
+    "name": 93.4
+  }
+}

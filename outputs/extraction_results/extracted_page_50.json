@@ -1,0 +1,61 @@
+{
+  "page": 50,
+  "patient_info": {
+    "name": "Mr. MANISH BAJPIE",
+    "age": "48",
+    "gender": "Male"
+  },
+  "test_results": [
+    {
+      "test_name": "Hemoglobin",
+      "value": "14.60",
+      "unit": "g/dL",
+      "confidence": 92.8,
+      "line_number": 21
+    },
+    {
+      "test_name": "MCHC",
+      "value": "33.30",
+      "unit": "g/dL",
+      "confidence": 91.8,
+      "line_number": 31
+    },
+    {
+      "test_name": "Neutrophils",
+      "value": "3.09",
+      "unit": "thou/mm",
+      "confidence": 93.8,
+      "line_number": 47
+    },
+    {
+      "test_name": "Lymphocytes",
+      "value": "3.08",
+      "unit": "thou/mm",
+      "confidence": 94.0,
+      "line_number": 49
+    },
+    {
+      "test_name": "Monocytes",
+      "value": "0.45",
+      "unit": "thou/mm",
+      "confidence": 93.8,
+      "line_number": 51
+    },
+    {
+      "test_name": "Eosinophils",
+      "value": "0.32",
+      "unit": "thou/mm",
+      "confidence": 94.2,
+      "line_number": 53
+    }
+  ],
+  "other_fields": {
+    "doctor": "Lat"
+  },
+  "confidence_scores": {
+    "name": 92.6,
+    "doctor": 67.33,
+    "age": 94.12,
+    "gender": 96.0
+  }
+}

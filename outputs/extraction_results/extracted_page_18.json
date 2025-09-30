@@ -1,0 +1,11 @@
+{
+  "page": 18,
+  "patient_info": {
+    "age": "79"
+  },
+  "test_results": [],
+  "other_fields": {},
+  "confidence_scores": {
+    "age": 79.0
+  }
+}

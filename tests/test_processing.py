@@ -1,0 +1,1 @@
+Please provide the desired project directory structure, including the folders, subfolders, and files you want to create.

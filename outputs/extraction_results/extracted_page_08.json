@@ -1,0 +1,20 @@
+{
+  "page": 8,
+  "patient_info": {
+    "age": "40",
+    "patient_id": "6186848",
+    "name": "Pradeep KumarV"
+  },
+  "test_results": [],
+  "other_fields": {
+    "phone": "9035707662",
+    "doctor": "Pradeep"
+  },
+  "confidence_scores": {
+    "age": 70.92,
+    "patient_id": 70.92,
+    "phone": 70.92,
+    "doctor": 94.5,
+    "name": 94.5
+  }
+}
