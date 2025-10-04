@@ -1,7 +1,7 @@
 # Medical Named Entity Recognition (NER) Project Report
 
 *A comprehensive document processing pipeline for extracting structured information from medical reports*  
-*GitHub link: *
+*[**GitHub link**](https://github.com/asli-nobita/medical-ner)*
 
 ---
 
