@@ -1,0 +1,56 @@
+{
+  "patient_info": {},
+  "test_results": [
+    {
+      "test_name": "TOTAL CHOLESTEROL PHOTOMETRY",
+      "value": "150",
+      "unit": "mg/dl",
+      "confidence": 93.5,
+      "line_number": 20
+    },
+    {
+      "test_name": "HDL CHOLESTEROL DIRECT PHOTOMETRY",
+      "value": "48",
+      "unit": "mg/dl",
+      "confidence": 93.57,
+      "line_number": 21
+    },
+    {
+      "test_name": "TRIGLYCERIDES PHOTOMETRY",
+      "value": "98",
+      "unit": "mg/dl",
+      "confidence": 93.0,
+      "line_number": 23
+    },
+    {
+      "test_name": "LDL CHOLESTEROL DIRECT PHOTOMETRY",
+      "value": "90",
+      "unit": "mg/dl",
+      "confidence": 94.0,
+      "line_number": 24
+    },
+    {
+      "test_name": "VLDL CHOLESTEROL CALCULATED",
+      "value": "19.66",
+      "unit": "mg/dl",
+      "confidence": 92.33,
+      "line_number": 26
+    },
+    {
+      "test_name": "NON-HDL CHOLESTEROL CALCULATED",
+      "value": "101.6",
+      "unit": "mg/dl",
+      "confidence": 92.5,
+      "line_number": 29
+    }
+  ],
+  "other_fields": {},
+  "confidence_scores": {},
+  "page": 77,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
+}

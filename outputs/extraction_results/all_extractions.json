@@ -1,1842 +1,3454 @@
 {
-  "total_pages": 52,
+  "total_pages": 88,
   "pages": [
     {
-      "page": 1,
       "patient_info": {
-        "age": "40",
-        "patient_id": "6186848"
+        "name": "that all tests have been performed or"
       },
       "test_results": [],
       "other_fields": {
-        "phone": "9035707662",
-        "doctor": "VIKRAM KAMATH"
+        "doctor": "doctor"
       },
       "confidence_scores": {
-        "age": 70.92,
-        "patient_id": 70.92,
-        "phone": 70.92,
-        "doctor": 72.29
+        "name": 95.59
+      },
+      "page": 1,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
       }
     },
     {
-      "page": 2,
-      "patient_info": {
-        "age": "40",
-        "patient_id": "6186848",
-        "name": "Prajwal A"
-      },
+      "patient_info": {},
       "test_results": [
         {
-          "test_name": "Homocysteine",
-          "value": "7.02",
-          "unit": "mol/L",
-          "confidence": 80.4,
-          "line_number": 21
-        }
-      ],
-      "other_fields": {
-        "phone": "9035707662",
-        "doctor": "Prajwal"
-      },
-      "confidence_scores": {
-        "age": 72.17,
-        "patient_id": 72.17,
-        "phone": 72.17,
-        "doctor": 93.4,
-        "name": 93.4
-      }
-    },
-    {
-      "page": 3,
-      "patient_info": {
-        "name": "MrK P SHRAVAN",
-        "patient_id": "6186848",
-        "lab_id": "50641000301",
-        "gender": "Male",
-        "age": "40"
-      },
-      "test_results": [
+          "test_name": "Sc Age",
+          "value": "55.0",
+          "unit": "Year",
+          "confidence": 85.0,
+          "line_number": 11
+        },
         {
-          "test_name": "Haemoglobin",
-          "value": "14.5",
-          "unit": "g/dL",
-          "confidence": 92.6,
+          "test_name": "Glucose fasting",
+          "value": "152",
+          "unit": "mg/dL",
+          "confidence": 94.17,
           "line_number": 22
         },
         {
-          "test_name": "RBC (Electrical Impedance)",
-          "value": "5.31",
-          "unit": "millionfemm",
-          "confidence": 81.29,
+          "test_name": "Glucose post prandial",
+          "value": "212",
+          "unit": "mg/dL",
+          "confidence": 93.57,
+          "line_number": 29
+        }
+      ],
+      "other_fields": {},
+      "confidence_scores": {},
+      "page": 2,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {
+        "name": "omes. hsCRP levels should not be substituted for assessment oftraditional cardiovascular risk factors. Patients with persistently"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "omes."
+      },
+      "confidence_scores": {
+        "name": 95.47
+      },
+      "page": 3,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "NAYANA SURTI (61Y/F) SAMPLE COLLECTEDAT :"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "Arjun"
+      },
+      "confidence_scores": {
+        "name": 89.56
+      },
+      "page": 4,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [],
+      "other_fields": {},
+      "confidence_scores": {},
+      "page": 5,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [],
+      "other_fields": {},
+      "confidence_scores": {},
+      "page": 6,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {
+        "name": "NAYANA SURTI (61Y/F) SAMPLE COLLECTED AT:"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "Arjun"
+      },
+      "confidence_scores": {
+        "name": 92.12
+      },
+      "page": 7,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "NAYANA SURTI (61Y/F) SAMPLE COLLECTEDAT :"
+      },
+      "test_results": [
+        {
+          "test_name": "IRON PHOTOMETRY",
+          "value": "45.1",
+          "unit": "yg/dl",
+          "confidence": 81.0,
+          "line_number": 23
+        }
+      ],
+      "other_fields": {
+        "doctor": "Arjun"
+      },
+      "confidence_scores": {
+        "name": 89.56
+      },
+      "page": 8,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "TOTAL CHOLESTEROL PHOTOMETRY",
+          "value": "199",
+          "unit": "mg/dl",
+          "confidence": 93.83,
+          "line_number": 23
+        },
+        {
+          "test_name": "HDL CHOLESTEROL DIRECT PHOTOMETRY",
+          "value": "62",
+          "unit": "mg/dl",
+          "confidence": 93.71,
+          "line_number": 24
+        },
+        {
+          "test_name": "LDL CHOLESTEROL DIRECT PHOTOMETRY",
+          "value": "115",
+          "unit": "mg/dl",
+          "confidence": 93.86,
+          "line_number": 26
+        },
+        {
+          "test_name": "TRIGLYCERIDES PHOTOMETRY",
+          "value": "116",
+          "unit": "mg/dl",
+          "confidence": 94.0,
           "line_number": 28
         },
         {
-          "test_name": "Mean Corpuscular Volume",
-          "value": "84.4",
-          "unit": "fL",
-          "confidence": 89.71,
+          "test_name": "VLDL CHOLESTEROL CALCULATED",
+          "value": "23.28",
+          "unit": "mg/dl",
+          "confidence": 91.67,
           "line_number": 31
         },
         {
-          "test_name": "Mean Corpuscular Hemoglobin",
-          "value": "27.3",
-          "unit": "pg",
-          "confidence": 94.14,
+          "test_name": "NON-HDL CHOLESTEROL CALCULATED",
+          "value": "136.8",
+          "unit": "mg/dl",
+          "confidence": 93.17,
+          "line_number": 32
+        }
+      ],
+      "other_fields": {
+        "doctor": "Arjun"
+      },
+      "confidence_scores": {},
+      "page": 9,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "ALKALINE PHOSPHATASE PHOTOMETRY",
+          "value": "91.6",
+          "unit": "U/L",
+          "confidence": 94.5,
+          "line_number": 22
+        },
+        {
+          "test_name": "BILIRUBIN TOTAL PHOTOMETRY",
+          "value": "0.36",
+          "unit": "mg/dl",
+          "confidence": 92.5,
+          "line_number": 23
+        },
+        {
+          "test_name": "BILIRUBIN -DIRECT PHOTOMETRY",
+          "value": "0.11",
+          "unit": "mg/dl",
+          "confidence": 80.83,
+          "line_number": 25
+        },
+        {
+          "test_name": "BILIRUBIN (INDIRECT) CALCULATED",
+          "value": "0.25",
+          "unit": "mg/dl",
+          "confidence": 93.0,
+          "line_number": 27
+        },
+        {
+          "test_name": "GAMMA GLUTAMYL TRANSFERASE (GGT) PHOTOMETRY",
+          "value": "14.4",
+          "unit": "U/I",
+          "confidence": 93.56,
+          "line_number": 28
+        },
+        {
+          "test_name": "ASPARTATE AMINOTRANSFERASE (SGOT ) PHOTOMETRY",
+          "value": "26.5",
+          "unit": "U/I",
+          "confidence": 93.89,
+          "line_number": 29
+        },
+        {
+          "test_name": "ALANINE TRANSAMINASE (SGPT) PHOTOMETRY",
+          "value": "17.2",
+          "unit": "U/I",
+          "confidence": 93.25,
+          "line_number": 30
+        },
+        {
+          "test_name": "PROTEIN TOTAL PHOTOMETRY",
+          "value": "7.33",
+          "unit": "gm/dl",
+          "confidence": 93.17,
+          "line_number": 31
+        },
+        {
+          "test_name": "ALBUMIN SERUM PHOTOMETRY",
+          "value": "4.16",
+          "unit": "gm/dl",
+          "confidence": 93.67,
+          "line_number": 33
+        },
+        {
+          "test_name": "SERUM GLOBULIN PHOTOMETRY",
+          "value": "3.17",
+          "unit": "gm/dL",
+          "confidence": 93.17,
+          "line_number": 36
+        },
+        {
+          "test_name": "Sample Collected on (SCT)",
+          "value": "04",
+          "unit": "Mar",
+          "confidence": 94.44,
+          "line_number": 61
+        },
+        {
+          "test_name": "Sample Received (SRT)",
+          "value": "04",
+          "unit": "Mar",
+          "confidence": 95.0,
+          "line_number": 62
+        }
+      ],
+      "other_fields": {
+        "doctor": "Arjun"
+      },
+      "confidence_scores": {},
+      "page": 10,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {
+        "name": "NAYANA SURTI (61Y/F) SAMPLE COLLECTED AT:"
+      },
+      "test_results": [
+        {
+          "test_name": "Sample Collected on (SCT)",
+          "value": "04",
+          "unit": "Mar",
+          "confidence": 95.29,
+          "line_number": 32
+        },
+        {
+          "test_name": "Sample Received on (SRT)",
+          "value": "04",
+          "unit": "Mar",
+          "confidence": 93.38,
           "line_number": 34
         },
         {
-          "test_name": "Mean Corpuscular Hb",
-          "value": "32.4",
-          "unit": "g/dL",
-          "confidence": 92.43,
-          "line_number": 37
+          "test_name": "Report Released on (RRT)",
+          "value": "05",
+          "unit": "Mar",
+          "confidence": 94.38,
+          "line_number": 36
+        }
+      ],
+      "other_fields": {
+        "doctor": "Caesar"
+      },
+      "confidence_scores": {
+        "name": 91.75
+      },
+      "page": 11,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "BLOOD UREA NITROGEN (BUN) PHOTOMETRY",
+          "value": "10.5",
+          "unit": "mg/dl",
+          "confidence": 93.5,
+          "line_number": 24
         },
         {
-          "test_name": "Total WBC Count",
-          "value": "7000",
-          "unit": "Cells/emm",
-          "confidence": 87.86,
+          "test_name": "CREATININE SERUM PHOTOMETRY",
+          "value": "0.64",
+          "unit": "mg/dl",
+          "confidence": 91.5,
+          "line_number": 25
+        },
+        {
+          "test_name": "CALCIUM PHOTOMETRY",
+          "value": "9.45",
+          "unit": "mg/dl",
+          "confidence": 92.2,
+          "line_number": 28
+        },
+        {
+          "test_name": "URIC ACID PHOTOMETRY",
+          "value": "4.01",
+          "unit": "mg/dl",
+          "confidence": 92.14,
+          "line_number": 29
+        },
+        {
+          "test_name": "Sample Collected on (SCT)",
+          "value": "04",
+          "unit": "Mar",
+          "confidence": 94.44,
+          "line_number": 43
+        },
+        {
+          "test_name": "Sample Received (SRT)",
+          "value": "04",
+          "unit": "Mar",
+          "confidence": 95.0,
           "line_number": 44
         }
       ],
       "other_fields": {
-        "phone": "9035707662"
+        "doctor": "Arjun"
       },
-      "confidence_scores": {
-        "name": 67.3,
-        "patient_id": 70.92,
-        "lab_id": 67.3,
-        "gender": 67.3,
-        "age": 70.92,
-        "phone": 70.92
+      "confidence_scores": {},
+      "page": 12,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
       }
     },
     {
-      "page": 4,
+      "patient_info": {},
+      "test_results": [],
+      "other_fields": {
+        "doctor": "doctor"
+      },
+      "confidence_scores": {},
+      "page": 13,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
       "patient_info": {
-        "age": "40",
-        "patient_id": "6186848"
+        "name": "NAYANA SURTI (61Y/F) SAMPLE COLLECTED AT:"
       },
       "test_results": [
         {
-          "test_name": "Platelet Count",
-          "value": "335000",
-          "unit": "Cells/emm",
-          "confidence": 86.33,
-          "line_number": 25
-        },
-        {
-          "test_name": "Mean Platelet Volume (MPV)",
-          "value": "8.30",
-          "unit": "fL",
-          "confidence": 81.75,
-          "line_number": 28
+          "test_name": "FASTING BLOOD SUGAR PHOTOMETRY",
+          "value": "138",
+          "unit": "mg/dL",
+          "confidence": 95.0,
+          "line_number": 23
         }
       ],
       "other_fields": {
-        "phone": "9035707662"
+        "doctor": "Arjun"
       },
       "confidence_scores": {
-        "age": 72.17,
-        "patient_id": 72.17,
-        "phone": 72.17
+        "name": 91.88
+      },
+      "page": 14,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
       }
     },
     {
-      "page": 5,
       "patient_info": {
-        "name": "MrK P SHRAVAN",
-        "patient_id": "6186848",
-        "lab_id": "50641000301",
-        "gender": "Male",
-        "age": "40"
-      },
-      "test_results": [
-        {
-          "test_name": "Cholesterol",
-          "value": "118",
-          "unit": "mg/dL",
-          "confidence": 85.2,
-          "line_number": 21
-        },
-        {
-          "test_name": "Triglyceride",
-          "value": "154",
-          "unit": "mg/dL",
-          "confidence": 93.83,
-          "line_number": 26
-        },
-        {
-          "test_name": "HDL Cholesterol",
-          "value": "45.0",
-          "unit": "mg/dL",
-          "confidence": 92.5,
-          "line_number": 35
-        }
-      ],
-      "other_fields": {
-        "phone": "9035707662"
-      },
-      "confidence_scores": {
-        "name": 67.3,
-        "patient_id": 70.92,
-        "lab_id": 67.3,
-        "gender": 67.3,
-        "age": 70.92,
-        "phone": 70.92
-      }
-    },
-    {
-      "page": 6,
-      "patient_info": {
-        "age": "40",
-        "patient_id": "6186848"
-      },
-      "test_results": [
-        {
-          "test_name": "NON HDL Cholestrol",
-          "value": "73.0",
-          "unit": "mg/dL",
-          "confidence": 92.44,
-          "line_number": 19
-        },
-        {
-          "test_name": "TSH",
-          "value": "1.45",
-          "unit": "yIU/mL",
-          "confidence": 82.4,
-          "line_number": 35
-        },
-        {
-          "test_name": "C- Reactive Protein",
-          "value": "0.20",
-          "unit": "mg/dL",
-          "confidence": 91.83,
-          "line_number": 40
-        },
-        {
-          "test_name": "Calcium",
-          "value": "8.50",
-          "unit": "mg/dL",
-          "confidence": 90.8,
-          "line_number": 43
-        },
-        {
-          "test_name": "Albumin",
-          "value": "4.44",
-          "unit": "g/dL",
-          "confidence": 89.4,
-          "line_number": 46
-        },
-        {
-          "test_name": "Adjusted Calcium L",
-          "value": "8.1",
-          "unit": "mg/dL",
-          "confidence": 92.29,
-          "line_number": 49
-        }
-      ],
-      "other_fields": {
-        "phone": "9035707662"
-      },
-      "confidence_scores": {
-        "age": 72.17,
-        "patient_id": 72.17,
-        "phone": 72.17
-      }
-    },
-    {
-      "page": 7,
-      "patient_info": {
-        "age": "40",
-        "patient_id": "6186848"
-      },
-      "test_results": [
-        {
-          "test_name": "Age",
-          "value": "40",
-          "unit": "Years",
-          "confidence": 78.73,
-          "line_number": 12
-        }
-      ],
-      "other_fields": {
-        "phone": "9035707662"
-      },
-      "confidence_scores": {
-        "age": 78.73,
-        "patient_id": 78.73,
-        "phone": 78.73
-      }
-    },
-    {
-      "page": 8,
-      "patient_info": {
-        "age": "40",
-        "patient_id": "6186848",
-        "name": "Pradeep KumarV"
+        "name": "NAYANA SURTI (61Y/F) SAMPLE COLLECTEDAT :"
       },
       "test_results": [],
       "other_fields": {
-        "phone": "9035707662",
-        "doctor": "Pradeep"
+        "doctor": "Arjun"
       },
       "confidence_scores": {
-        "age": 70.92,
-        "patient_id": 70.92,
-        "phone": 70.92,
-        "doctor": 94.5,
-        "name": 94.5
+        "name": 90.78
+      },
+      "page": 15,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
       }
     },
     {
-      "page": 9,
       "patient_info": {
-        "name": "MrK P SHRAVAN",
-        "patient_id": "6186848",
-        "lab_id": "50641000301",
-        "gender": "Male",
-        "age": "40"
+        "name": "NAYANA SURTI (61Y/F) SAMPLE COLLECTED AT:"
       },
       "test_results": [
         {
-          "test_name": "Cholesterol",
-          "value": "118",
-          "unit": "mg/dL",
-          "confidence": 85.2,
-          "line_number": 21
+          "test_name": "and",
+          "value": "14,",
+          "unit": "The",
+          "confidence": 95.83,
+          "line_number": 4
         },
         {
-          "test_name": "Proteins (Total)",
-          "value": "6.84",
-          "unit": "g/dL",
-          "confidence": 92.8,
-          "line_number": 26
+          "test_name": "TOTAL LEUCOCYTES COUNT",
+          "value": "7.34",
+          "unit": "X",
+          "confidence": 84.33,
+          "line_number": 22
         },
         {
-          "test_name": "Albumin",
-          "value": "4.44",
-          "unit": "g/dL",
-          "confidence": 92.0,
-          "line_number": 28
+          "test_name": "NEUTROPHILS ABSOLUTE COUNT",
+          "value": "4.7",
+          "unit": "X",
+          "confidence": 69.67,
+          "line_number": 29
         },
         {
-          "test_name": "Globulin",
-          "value": "2.40",
-          "unit": "g/dL",
-          "confidence": 94.5,
+          "test_name": "LYMPHOCYTES ABSOLUTE COUNT",
+          "value": "1.98",
+          "unit": "X",
+          "confidence": 69.17,
           "line_number": 31
         },
         {
-          "test_name": "Alkaline Phosphatase",
-          "value": "97.0",
-          "unit": "U/L",
-          "confidence": 91.67,
+          "test_name": "MONOCYTES ABSOLUTE COUNT",
+          "value": "0.26",
+          "unit": "X",
+          "confidence": 82.89,
+          "line_number": 33
+        },
+        {
+          "test_name": "BASOPHILS ABSOLUTE COUNT",
+          "value": "0.07",
+          "unit": "X",
+          "confidence": 80.11,
+          "line_number": 35
+        },
+        {
+          "test_name": "EOSINOPHILS ABSOLUTE COUNT",
+          "value": "0.3",
+          "unit": "X",
+          "confidence": 80.11,
+          "line_number": 37
+        },
+        {
+          "test_name": "IMMATURE GRANULOCYTES(IG)",
+          "value": "0.02",
+          "unit": "X",
+          "confidence": 81.62,
           "line_number": 39
         },
         {
-          "test_name": "Bilirubin Total",
-          "value": "0.80",
-          "unit": "mg/dL",
-          "confidence": 91.2,
-          "line_number": 44
-        },
-        {
-          "test_name": "Bilirubin-Direct",
-          "value": "0.31",
-          "unit": "mg/dL",
-          "confidence": 87.5,
-          "line_number": 46
-        }
-      ],
-      "other_fields": {
-        "phone": "9035707662"
-      },
-      "confidence_scores": {
-        "name": 67.3,
-        "patient_id": 70.92,
-        "lab_id": 67.3,
-        "gender": 67.3,
-        "age": 70.92,
-        "phone": 70.92
-      }
-    },
-    {
-      "page": 10,
-      "patient_info": {
-        "age": "40",
-        "patient_id": "6186848"
-      },
-      "test_results": [
-        {
-          "test_name": "Age",
-          "value": "40",
-          "unit": "Years",
-          "confidence": 78.73,
-          "line_number": 12
-        },
-        {
-          "test_name": "Bilirubin Indirect",
-          "value": "0.49",
-          "unit": "mg/dL",
-          "confidence": 92.0,
-          "line_number": 17
-        }
-      ],
-      "other_fields": {
-        "phone": "9035707662"
-      },
-      "confidence_scores": {
-        "age": 78.73,
-        "patient_id": 78.73,
-        "phone": 78.73
-      }
-    },
-    {
-      "page": 11,
-      "patient_info": {
-        "age": "40",
-        "patient_id": "6186848"
-      },
-      "test_results": [
-        {
-          "test_name": "Urea",
-          "value": "31.24",
-          "unit": "mg/dL",
-          "confidence": 89.25,
-          "line_number": 23
-        },
-        {
-          "test_name": "Creatinine",
-          "value": "1.11",
-          "unit": "mg/dL",
-          "confidence": 89.75,
-          "line_number": 25
-        },
-        {
-          "test_name": "Uric Acid",
-          "value": "5.0",
-          "unit": "mg/dL",
-          "confidence": 89.4,
-          "line_number": 27
-        },
-        {
-          "test_name": "Sodium",
-          "value": "140",
-          "unit": "mEq/L",
-          "confidence": 93.2,
-          "line_number": 29
-        },
-        {
-          "test_name": "Potassium",
-          "value": "4.36",
-          "unit": "mEq/L",
-          "confidence": 91.5,
-          "line_number": 32
-        },
-        {
-          "test_name": "Chloride H",
-          "value": "109",
-          "unit": "mEq/L",
-          "confidence": 93.17,
-          "line_number": 34
-        },
-        {
-          "test_name": "BUN",
-          "value": "14.56",
-          "unit": "mg/dL",
-          "confidence": 92.33,
-          "line_number": 37
-        },
-        {
-          "test_name": "Blood Glucose Levels",
-          "value": "96.00",
-          "unit": "mg/dL",
-          "confidence": 94.0,
+          "test_name": "TOTAL RBC",
+          "value": "4.55",
+          "unit": "X",
+          "confidence": 63.5,
           "line_number": 40
-        }
-      ],
-      "other_fields": {
-        "phone": "9035707662"
-      },
-      "confidence_scores": {
-        "age": 70.92,
-        "patient_id": 70.92,
-        "phone": 70.92
-      }
-    },
-    {
-      "page": 12,
-      "patient_info": {
-        "age": "40",
-        "patient_id": "6186848",
-        "name": "Prajwal A"
-      },
-      "test_results": [
-        {
-          "test_name": "Vitamin D (Total)",
-          "value": "35.00",
-          "unit": "ng/mL",
-          "confidence": 93.6,
-          "line_number": 18
-        }
-      ],
-      "other_fields": {
-        "phone": "9035707662",
-        "doctor": "Prajwal"
-      },
-      "confidence_scores": {
-        "age": 72.17,
-        "patient_id": 72.17,
-        "phone": 72.17,
-        "doctor": 93.4,
-        "name": 93.4
-      }
-    },
-    {
-      "page": 13,
-      "patient_info": {
-        "age": "40",
-        "patient_id": "6186848"
-      },
-      "test_results": [],
-      "other_fields": {
-        "phone": "9035707662",
-        "doctor": "VIKRAM KAMATH"
-      },
-      "confidence_scores": {
-        "age": 72.17,
-        "patient_id": 72.17,
-        "phone": 72.17,
-        "doctor": 75.33
-      }
-    },
-    {
-      "page": 14,
-      "patient_info": {
-        "name": "Ashwin Kumar A S"
-      },
-      "test_results": [
-        {
-          "test_name": "SODIUM",
-          "value": "121",
-          "unit": "mmol/L",
-          "confidence": 95.6,
-          "line_number": 29
         },
         {
-          "test_name": "POTASSIUM",
-          "value": "4.4",
-          "unit": "mmol/L",
-          "confidence": 94.2,
-          "line_number": 31
+          "test_name": "NUCLEATED RED BLOOD CELLS Nil X",
+          "value": "103",
+          "unit": "/",
+          "confidence": 84.5,
+          "line_number": 41
         },
         {
-          "test_name": "CHLORIDE",
-          "value": "84",
-          "unit": "mmol/L",
-          "confidence": 96.0,
-          "line_number": 33
-        }
-      ],
-      "other_fields": {
-        "doctor": "Ashwin"
-      },
-      "confidence_scores": {
-        "name": 90.67,
-        "doctor": 90.67
-      }
-    },
-    {
-      "page": 15,
-      "patient_info": {},
-      "test_results": [
-        {
-          "test_name": "BILIRUBIN TOTAL",
-          "value": "0.44",
-          "unit": "mg/dl",
-          "confidence": 90.0,
-          "line_number": 27
-        },
-        {
-          "test_name": "BILIRUBIN DIRECT",
-          "value": "0.26",
-          "unit": "mg/dl",
-          "confidence": 90.17,
-          "line_number": 29
-        },
-        {
-          "test_name": "BILIRUBIN INDIRECT",
-          "value": "0.18",
-          "unit": "mg/dl",
-          "confidence": 89.5,
-          "line_number": 31
-        },
-        {
-          "test_name": "TOTAL PROTEIN",
-          "value": "7.1",
+          "test_name": "HEMOGLOBIN",
+          "value": "12",
           "unit": "g/dL",
-          "confidence": 85.44,
-          "line_number": 33
+          "confidence": 87.5,
+          "line_number": 43
         },
         {
-          "test_name": "ALBUMIN",
-          "value": "3.9",
-          "unit": "g/L",
-          "confidence": 93.5,
-          "line_number": 42
+          "test_name": "MEAN CORPUSCULAR VOLUME(MCV)",
+          "value": "81.5",
+          "unit": "fL",
+          "confidence": 93.0,
+          "line_number": 45
         },
         {
-          "test_name": "GLOBULIN",
-          "value": "3.2",
-          "unit": "g/dL",
-          "confidence": 90.0,
-          "line_number": 48
+          "test_name": "RED CELL DISTRIBUTION WIDTH SD(RDW-SD)",
+          "value": "44.5",
+          "unit": "fL",
+          "confidence": 93.25,
+          "line_number": 49
         },
         {
-          "test_name": "SGOT(AST)",
-          "value": "25",
-          "unit": "U/L",
-          "confidence": 91.0,
+          "test_name": "PLATELET DISTRIBUTION WIDTH(PDW)",
+          "value": "10.9",
+          "unit": "fL",
+          "confidence": 92.33,
+          "line_number": 52
+        },
+        {
+          "test_name": "MEAN PLATELET VOLUME(MPV)",
+          "value": "10.3",
+          "unit": "fL",
+          "confidence": 92.33,
           "line_number": 53
         },
         {
-          "test_name": "SGPT (ALT)",
-          "value": "22",
-          "unit": "U/L",
-          "confidence": 91.83,
+          "test_name": "PLATELET COUNT",
+          "value": "378",
+          "unit": "X",
+          "confidence": 79.38,
+          "line_number": 54
+        },
+        {
+          "test_name": "PLATELET TO LARGE CELL RATIO(PLCR)",
+          "value": "26.9",
+          "unit": "Ve",
+          "confidence": 83.0,
           "line_number": 55
         },
         {
-          "test_name": "GGT",
-          "value": "15",
-          "unit": "U/L",
-          "confidence": 91.4,
-          "line_number": 57
+          "test_name": "Sample Received (SRT)",
+          "value": ",04",
+          "unit": "Mar",
+          "confidence": 89.43,
+          "line_number": 64
         },
         {
-          "test_name": "ALKALINE PHOSPHATASE",
-          "value": "67",
-          "unit": "U/L",
-          "confidence": 92.5,
-          "line_number": 59
+          "test_name": "Report Released (RRT)",
+          "value": ",04",
+          "unit": "Mar",
+          "confidence": 88.71,
+          "line_number": 66
         }
       ],
       "other_fields": {
-        "doctor": "en"
+        "doctor": "Arjun"
       },
       "confidence_scores": {
-        "doctor": 96.0
-      }
-    },
-    {
+        "name": 92.5
+      },
       "page": 16,
-      "patient_info": {
-        "name": "Ashwin Kumar A S"
-      },
-      "test_results": [],
-      "other_fields": {
-        "doctor": "Ashwin"
-      },
-      "confidence_scores": {
-        "name": 93.67,
-        "doctor": 93.67
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
       }
     },
     {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "CYSTATIN C IMMUNOTURBIDIMETRY",
+          "value": "0.83",
+          "unit": "mg/L",
+          "confidence": 92.4,
+          "line_number": 22
+        }
+      ],
+      "other_fields": {},
+      "confidence_scores": {},
       "page": 17,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
       "patient_info": {
-        "name": "Ashwin Kumar A S"
+        "name": "SHAILESH HARAN (51Y/M) SAMPLE COLLECTED AT:"
       },
       "test_results": [
         {
-          "test_name": "SODIUM",
-          "value": "121",
-          "unit": "mmol/L",
-          "confidence": 95.6,
+          "test_name": "HOMOCYSTEINE PHOTOMETRY",
+          "value": "38.2",
+          "unit": "pmol/L",
+          "confidence": 79.25,
+          "line_number": 21
+        }
+      ],
+      "other_fields": {
+        "doctor": "Caesar"
+      },
+      "confidence_scores": {
+        "name": 92.62
+      },
+      "page": 18,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "SHAILESH HARAN (51Y/M) SAMPLE COLLECTEDAT :"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "Caesar"
+      },
+      "confidence_scores": {
+        "name": 89.33
+      },
+      "page": 19,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "OMES. HSCRP LEVELS SHOULD NOT BE SUBSTITUTED FOR"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "OMES."
+      },
+      "confidence_scores": {
+        "name": 95.13
+      },
+      "page": 20,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [],
+      "other_fields": {},
+      "confidence_scores": {},
+      "page": 21,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [],
+      "other_fields": {},
+      "confidence_scores": {},
+      "page": 22,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "SERUM COPPER PHOTOMETRY",
+          "value": "118.79",
+          "unit": "ug/dL",
+          "confidence": 85.0,
+          "line_number": 21
+        }
+      ],
+      "other_fields": {},
+      "confidence_scores": {},
+      "page": 23,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "SERUM ZINC PHOTOMETRY",
+          "value": "144.92",
+          "unit": "Hg/dL",
+          "confidence": 82.4,
+          "line_number": 19
+        }
+      ],
+      "other_fields": {},
+      "confidence_scores": {},
+      "page": 24,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {
+        "name": "SHAILESH HARAN (51Y/M) SAMPLE COLLECTED AT:"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "Caesar"
+      },
+      "confidence_scores": {
+        "name": 93.12
+      },
+      "page": 25,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "IRON PHOTOMETRY",
+          "value": "113.6",
+          "unit": "yg/dl",
+          "confidence": 74.0,
+          "line_number": 23
+        }
+      ],
+      "other_fields": {
+        "doctor": "Prachi"
+      },
+      "confidence_scores": {},
+      "page": 26,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "TOTAL CHOLESTEROL PHOTOMETRY",
+          "value": "220",
+          "unit": "mg/dl",
+          "confidence": 90.57,
+          "line_number": 20
+        },
+        {
+          "test_name": "HDL CHOLESTEROL DIRECT PHOTOMETRY",
+          "value": "41",
+          "unit": "mg/dl",
+          "confidence": 93.71,
+          "line_number": 21
+        },
+        {
+          "test_name": "TRIGLYCERIDES PHOTOMETRY",
+          "value": "172",
+          "unit": "mg/dl",
+          "confidence": 89.33,
+          "line_number": 23
+        },
+        {
+          "test_name": "LDL CHOLESTEROL DIRECT PHOTOMETRY",
+          "value": "159",
+          "unit": "mg/dl",
+          "confidence": 91.0,
+          "line_number": 24
+        },
+        {
+          "test_name": "VLDL CHOLESTEROL CALCULATED",
+          "value": "34.4",
+          "unit": "mg/dl",
+          "confidence": 91.83,
+          "line_number": 28
+        },
+        {
+          "test_name": "NON-HDL CHOLESTEROL CALCULATED",
+          "value": "178.9",
+          "unit": "mg/dl",
+          "confidence": 90.57,
+          "line_number": 29
+        }
+      ],
+      "other_fields": {
+        "doctor": "Prachi"
+      },
+      "confidence_scores": {},
+      "page": 27,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "ALKALINE PHOSPHATASE PHOTOMETRY",
+          "value": "82.5",
+          "unit": "U/L",
+          "confidence": 94.5,
+          "line_number": 21
+        },
+        {
+          "test_name": "BILIRUBIN -DIRECT PHOTOMETRY",
+          "value": "0.21",
+          "unit": "mg/dl",
+          "confidence": 92.17,
+          "line_number": 22
+        },
+        {
+          "test_name": "BILIRUBIN TOTAL PHOTOMETRY",
+          "value": "0.66",
+          "unit": "mg/dl",
+          "confidence": 92.67,
+          "line_number": 24
+        },
+        {
+          "test_name": "BILIRUBIN (INDIRECT) CALCULATED",
+          "value": "0.46",
+          "unit": "mg/dl",
+          "confidence": 93.33,
+          "line_number": 26
+        },
+        {
+          "test_name": "GAMMA GLUTAMYL TRANSFERASE (GGT) PHOTOMETRY",
+          "value": "37.7",
+          "unit": "U/I",
+          "confidence": 93.56,
+          "line_number": 27
+        },
+        {
+          "test_name": "ASPARTATE AMINOTRANSFERASE (SGOT ) PHOTOMETRY",
+          "value": "25.9",
+          "unit": "U/I",
+          "confidence": 94.0,
+          "line_number": 28
+        },
+        {
+          "test_name": "ALANINE TRANSAMINASE (SGPT) PHOTOMETRY",
+          "value": "22.8",
+          "unit": "U/I",
+          "confidence": 90.62,
           "line_number": 29
         },
         {
-          "test_name": "POTASSIUM",
-          "value": "4.4",
-          "unit": "mmol/L",
-          "confidence": 92.4,
+          "test_name": "PROTEIN TOTAL PHOTOMETRY",
+          "value": "6.81",
+          "unit": "gm/dl",
+          "confidence": 93.33,
+          "line_number": 30
+        },
+        {
+          "test_name": "ALBUMIN SERUM PHOTOMETRY",
+          "value": "4.08",
+          "unit": "gm/dl",
+          "confidence": 93.67,
+          "line_number": 32
+        },
+        {
+          "test_name": "SERUM GLOBULIN PHOTOMETRY",
+          "value": "2.73",
+          "unit": "gm/dL",
+          "confidence": 93.0,
+          "line_number": 34
+        },
+        {
+          "test_name": "Sample Collected on (SCT)",
+          "value": "19",
+          "unit": "Apr",
+          "confidence": 95.0,
+          "line_number": 60
+        },
+        {
+          "test_name": "Sample Received on (SRT)",
+          "value": "20",
+          "unit": "Apr",
+          "confidence": 95.88,
+          "line_number": 61
+        }
+      ],
+      "other_fields": {
+        "doctor": "Prachi"
+      },
+      "confidence_scores": {},
+      "page": 28,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {
+        "name": "SHAILESH HARAN (51Y/M) SAMPLE COLLECTED AT:"
+      },
+      "test_results": [
+        {
+          "test_name": "NON",
+          "value": "9",
+          "unit": "if",
+          "confidence": 62.0,
+          "line_number": 9
+        },
+        {
+          "test_name": "Sample Collected on (SCT)",
+          "value": "19",
+          "unit": "Apr",
+          "confidence": 95.75,
+          "line_number": 34
+        },
+        {
+          "test_name": "Sample Received on (SRT)",
+          "value": "20",
+          "unit": "Apr",
+          "confidence": 87.22,
+          "line_number": 36
+        },
+        {
+          "test_name": "Barcode",
+          "value": "74241773",
+          "unit": "Page",
+          "confidence": 90.0,
+          "line_number": 45
+        }
+      ],
+      "other_fields": {
+        "doctor": "Caesar"
+      },
+      "confidence_scores": {
+        "name": 88.5
+      },
+      "page": 29,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "BLOOD UREA NITROGEN (BUN) PHOTOMETRY",
+          "value": "9.59",
+          "unit": "mg/dl",
+          "confidence": 92.12,
+          "line_number": 23
+        },
+        {
+          "test_name": "CREATININE SERUM PHOTOMETRY",
+          "value": "0.77",
+          "unit": "mg/dl",
+          "confidence": 92.17,
+          "line_number": 24
+        },
+        {
+          "test_name": "URIC ACID PHOTOMETRY",
+          "value": "5.55",
+          "unit": "mg/dl",
+          "confidence": 91.17,
+          "line_number": 26
+        },
+        {
+          "test_name": "CALCIUM PHOTOMETRY",
+          "value": "9.62",
+          "unit": "mg/dl",
+          "confidence": 91.8,
+          "line_number": 27
+        },
+        {
+          "test_name": "Sample Collected on (SCT)",
+          "value": "19",
+          "unit": "Apr",
+          "confidence": 94.44,
+          "line_number": 41
+        },
+        {
+          "test_name": "Sample Received on (SRT)",
+          "value": "20",
+          "unit": "Apr",
+          "confidence": 96.0,
+          "line_number": 43
+        }
+      ],
+      "other_fields": {
+        "doctor": "Prachi"
+      },
+      "confidence_scores": {},
+      "page": 30,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [],
+      "other_fields": {
+        "doctor": "doctor"
+      },
+      "confidence_scores": {},
+      "page": 31,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {
+        "name": "SHAILESH HARAN (51Y/M) SAMPLE COLLECTEDAT :"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "Caesar"
+      },
+      "confidence_scores": {
+        "name": 90.78
+      },
+      "page": 32,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "SHAILESH HARAN (51Y/M) SAMPLE COLLECTED AT:"
+      },
+      "test_results": [
+        {
+          "test_name": "TOTAL LEUCOCYTES COUNT",
+          "value": "5.66",
+          "unit": "X",
+          "confidence": 79.78,
+          "line_number": 21
+        },
+        {
+          "test_name": "NEUTROPHILS ABSOLUTE COUNT",
+          "value": "3.58",
+          "unit": "X",
+          "confidence": 79.78,
+          "line_number": 29
+        },
+        {
+          "test_name": "LYMPHOCYTES ABSOLUTE COUNT",
+          "value": "1.77",
+          "unit": "X",
+          "confidence": 80.44,
           "line_number": 31
         },
         {
-          "test_name": "CHLORIDE",
-          "value": "84",
-          "unit": "mmol/L",
-          "confidence": 95.6,
+          "test_name": "MONOCYTES ABSOLUTE COUNT",
+          "value": "0.14",
+          "unit": "X",
+          "confidence": 83.22,
+          "line_number": 33
+        },
+        {
+          "test_name": "BASOPHILS ABSOLUTE COUNT",
+          "value": "0.05",
+          "unit": "X",
+          "confidence": 80.44,
+          "line_number": 35
+        },
+        {
+          "test_name": "EOSINOPHILS ABSOLUTE COUNT",
+          "value": "0.1",
+          "unit": "X",
+          "confidence": 79.11,
+          "line_number": 37
+        },
+        {
+          "test_name": "IMMATURE GRANULOCYTES(IG)",
+          "value": "0.02",
+          "unit": "X",
+          "confidence": 81.12,
+          "line_number": 39
+        },
+        {
+          "test_name": "TOTAL RBC",
+          "value": "6.04",
+          "unit": "X",
+          "confidence": 77.8,
+          "line_number": 40
+        },
+        {
+          "test_name": "NUCLEATED RED BLOOD CELLS Nil X",
+          "value": "103",
+          "unit": "/",
+          "confidence": 81.4,
+          "line_number": 41
+        },
+        {
+          "test_name": "HEMOGLOBIN",
+          "value": "15.2",
+          "unit": "g/dL",
+          "confidence": 90.25,
+          "line_number": 43
+        },
+        {
+          "test_name": "MEAN CORPUSCULAR VOLUME(MCV)",
+          "value": "85.8",
+          "unit": "fL",
+          "confidence": 93.17,
+          "line_number": 45
+        },
+        {
+          "test_name": "RED CELL DISTRIBUTION WIDTH SD(RDW-SD)",
+          "value": "52.8",
+          "unit": "fL",
+          "confidence": 91.25,
+          "line_number": 49
+        },
+        {
+          "test_name": "PLATELET DISTRIBUTION WIDTH(PDW)",
+          "value": "12.9",
+          "unit": "fL",
+          "confidence": 92.17,
+          "line_number": 52
+        },
+        {
+          "test_name": "MEAN PLATELET VOLUME(MPV)",
+          "value": "10.7",
+          "unit": "fL",
+          "confidence": 92.17,
+          "line_number": 53
+        },
+        {
+          "test_name": "PLATELET COUNT",
+          "value": "271",
+          "unit": "X",
+          "confidence": 79.5,
+          "line_number": 54
+        },
+        {
+          "test_name": "Sample Collected on (SCT)",
+          "value": "219",
+          "unit": "Apr",
+          "confidence": 89.5,
+          "line_number": 61
+        },
+        {
+          "test_name": "Sample Received (SRT)",
+          "value": "20",
+          "unit": "Apr",
+          "confidence": 95.71,
+          "line_number": 62
+        },
+        {
+          "test_name": "Report Released (RRT)",
+          "value": "20",
+          "unit": "Apr",
+          "confidence": 94.86,
+          "line_number": 65
+        },
+        {
+          "test_name": "Barcode",
+          "value": "17451793",
+          "unit": "Page",
+          "confidence": 93.17,
+          "line_number": 70
+        }
+      ],
+      "other_fields": {
+        "doctor": "Prachi"
+      },
+      "confidence_scores": {
+        "name": 93.38
+      },
+      "page": 33,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "ARSENIC ICP-MS",
+          "value": "0.91",
+          "unit": "uG/",
+          "confidence": 77.2,
+          "line_number": 23
+        },
+        {
+          "test_name": "LEAD ICP-MS",
+          "value": "20.05",
+          "unit": "uG/",
+          "confidence": 80.17,
+          "line_number": 26
+        },
+        {
+          "test_name": "BARIUM ICP-MS",
+          "value": "1.74",
+          "unit": "ug/",
+          "confidence": 80.67,
+          "line_number": 28
+        },
+        {
+          "test_name": "COBALT ICP-MS",
+          "value": "0.3",
+          "unit": "uG/",
+          "confidence": 77.17,
+          "line_number": 29
+        },
+        {
+          "test_name": "CAESIUM ICP-MS",
+          "value": "2.72",
+          "unit": "ug/",
+          "confidence": 77.0,
+          "line_number": 31
+        },
+        {
+          "test_name": "THALLIUM ICP-MS",
+          "value": "0.01",
+          "unit": "ug/",
+          "confidence": 68.8,
+          "line_number": 32
+        },
+        {
+          "test_name": "URANIUM ICP-MS",
+          "value": "0.05",
+          "unit": "ug/",
+          "confidence": 69.2,
+          "line_number": 33
+        },
+        {
+          "test_name": "STRONTIUM ICP-MS",
+          "value": "19.7",
+          "unit": "ug/l",
+          "confidence": 86.5,
+          "line_number": 34
+        },
+        {
+          "test_name": "ANTIMONY ICP-MS",
+          "value": "3.97",
+          "unit": "uG/",
+          "confidence": 79.67,
+          "line_number": 36
+        },
+        {
+          "test_name": "TIN ICP-MS",
+          "value": "0.22",
+          "unit": "ug/",
+          "confidence": 78.2,
+          "line_number": 38
+        },
+        {
+          "test_name": "SILVER ICP-MS",
+          "value": "0.43",
+          "unit": "ug/",
+          "confidence": 78.2,
+          "line_number": 41
+        },
+        {
+          "test_name": "VANADIUM ICP-MS",
+          "value": "0.44",
+          "unit": "ug/",
+          "confidence": 80.83,
+          "line_number": 42
+        },
+        {
+          "test_name": "BISMUTH ICP-MS",
+          "value": "0.18",
+          "unit": "uG/",
+          "confidence": 79.33,
+          "line_number": 45
+        },
+        {
+          "test_name": "SELENIUM ICP-MS",
+          "value": "196.97",
+          "unit": "uG/",
+          "confidence": 80.0,
+          "line_number": 47
+        },
+        {
+          "test_name": "ALUMINIUM ICP-MS",
+          "value": "4.77",
+          "unit": "ug/",
+          "confidence": 80.5,
+          "line_number": 49
+        },
+        {
+          "test_name": "NICKEL ICP-MS",
+          "value": "3.93",
+          "unit": "ug/",
+          "confidence": 76.8,
+          "line_number": 50
+        },
+        {
+          "test_name": "MANGANESE ICP-MS",
+          "value": "12.4",
+          "unit": "uG/",
+          "confidence": 77.67,
+          "line_number": 51
+        }
+      ],
+      "other_fields": {
+        "doctor": "Caesar"
+      },
+      "confidence_scores": {},
+      "page": 34,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {
+        "name": "Anjali Sawant"
+      },
+      "test_results": [
+        {
+          "test_name": "Estimated Average Glucose (eAG)",
+          "value": "119.76",
+          "unit": "mg/dL",
+          "confidence": 93.17,
+          "line_number": 28
+        },
+        {
+          "test_name": "Excellent Control",
+          "value": "6",
+          "unit": "to",
+          "confidence": 85.5,
+          "line_number": 44
+        },
+        {
+          "test_name": "Fairto Good Control",
+          "value": "7",
+          "unit": "to",
+          "confidence": 91.88,
+          "line_number": 46
+        },
+        {
+          "test_name": "Unsatisfactory Control",
+          "value": "8",
+          "unit": "to",
+          "confidence": 93.17,
+          "line_number": 48
+        }
+      ],
+      "other_fields": {
+        "doctor": "Anjali"
+      },
+      "confidence_scores": {
+        "name": 96.0
+      },
+      "page": 35,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "Glucose fasting",
+          "value": "96",
+          "unit": "mg/dL",
+          "confidence": 94.17,
+          "line_number": 21
+        },
+        {
+          "test_name": "Glucose post prandial",
+          "value": "135",
+          "unit": "mg/dL",
+          "confidence": 93.57,
+          "line_number": 28
+        }
+      ],
+      "other_fields": {},
+      "confidence_scores": {},
+      "page": 36,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A I I",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HEMOGLOBIN (HB)",
+          "value": "11.3",
+          "unit": "Low",
+          "confidence": 90.71,
+          "line_number": 25
+        },
+        {
+          "test_name": "RED BLOOD CELL (RBC) COUNT",
+          "value": "4.44",
+          "unit": "Low",
+          "confidence": 94.5,
+          "line_number": 28
+        },
+        {
+          "test_name": "HEMATOCRIT (PCV)",
+          "value": "35.6",
+          "unit": "Low",
+          "confidence": 93.57,
+          "line_number": 37
+        },
+        {
+          "test_name": "MEAN CORPUSCULAR VOLUME (MCV)",
+          "value": "80.0",
+          "unit": "Low",
+          "confidence": 92.62,
+          "line_number": 40
+        },
+        {
+          "test_name": "MEAN CORPUSCULAR HEMOGLOBIN (MCH)",
+          "value": "25.4",
+          "unit": "Low",
+          "confidence": 93.33,
+          "line_number": 42
+        },
+        {
+          "test_name": "EOSINOPHILS",
+          "value": "11",
+          "unit": "High",
+          "confidence": 94.2,
+          "line_number": 65
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 83
+        }
+      ],
+      "other_fields": {
+        "doctor": "A I"
+      },
+      "confidence_scores": {
+        "name": 61.27,
+        "patient_id": 92.67
+      },
+      "page": 37,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "to change from mild to severe in COVID positive"
+      },
+      "test_results": [
+        {
+          "test_name": "ABSOLUTE EOSINOPHIL COUNT",
+          "value": "0.89",
+          "unit": "High",
+          "confidence": 92.88,
+          "line_number": 28
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 72
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 95.0
+      },
+      "page": 38,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i"
+      },
+      "test_results": [
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 37
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 81.25
+      },
+      "page": 39,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "M NAGESHWAR RAO REF. DOCTOR :",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "LACTATE DEHYDROGENASE",
+          "value": "356",
+          "unit": "High",
+          "confidence": 95.0,
+          "line_number": 39
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 79
+        }
+      ],
+      "other_fields": {
+        "doctor": "AWN"
+      },
+      "confidence_scores": {
+        "name": 91.67,
+        "patient_id": 81.5
+      },
+      "page": 40,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "M NAGESHWAR RAO REF. DOCTOR:",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 90.0,
+          "line_number": 93
+        }
+      ],
+      "other_fields": {
+        "doctor": "AWN"
+      },
+      "confidence_scores": {
+        "name": 90.0,
+        "patient_id": 86.5
+      },
+      "page": 41,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "M NAGESHWAR RAO REF. DOCTOR:",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 62
+        }
+      ],
+      "other_fields": {
+        "doctor": "AWN"
+      },
+      "confidence_scores": {
+        "name": 89.86,
+        "patient_id": 87.5
+      },
+      "page": 42,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A I I",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HEMOGLOBIN (HB)",
+          "value": "12.6",
+          "unit": "Low",
+          "confidence": 91.71,
+          "line_number": 26
+        },
+        {
+          "test_name": "HEMATOCRIT (PCV)",
+          "value": "39.3",
+          "unit": "Low",
+          "confidence": 94.29,
+          "line_number": 38
+        },
+        {
+          "test_name": "LYMPHOCYTES",
+          "value": "42",
+          "unit": "High",
+          "confidence": 94.0,
+          "line_number": 61
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 82
+        }
+      ],
+      "other_fields": {
+        "doctor": "A I"
+      },
+      "confidence_scores": {
+        "name": 61.73,
+        "patient_id": 95.5
+      },
+      "page": 43,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "to change from mild to severe in COVID positive"
+      },
+      "test_results": [
+        {
+          "test_name": "ABSOLUTE BASOPHIL COUNT",
+          "value": "0",
+          "unit": "Low",
+          "confidence": 90.0,
+          "line_number": 34
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 90.0,
+          "line_number": 78
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 95.04
+      },
+      "page": 44,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HBAiC",
+          "value": "6.5",
+          "unit": "High",
+          "confidence": 89.0,
+          "line_number": 30
+        },
+        {
+          "test_name": "ESTIMATED AVERAGE GLUCOSE(EAG)",
+          "value": "139.9",
+          "unit": "High",
+          "confidence": 93.5,
+          "line_number": 39
+        },
+        {
+          "test_name": "CREATININE",
+          "value": "1.45",
+          "unit": "High",
+          "confidence": 93.33,
+          "line_number": 45
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 81
+        }
+      ],
+      "other_fields": {
+        "doctor": "AWN"
+      },
+      "confidence_scores": {
+        "patient_id": 73.67
+      },
+      "page": 45,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "ALBUMIN",
+          "value": "3.2",
+          "unit": "Low",
+          "confidence": 91.5,
+          "line_number": 61
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 90.0,
+          "line_number": 86
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 93.14,
+        "patient_id": 83.33
+      },
+      "page": 46,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i"
+      },
+      "test_results": [
+        {
+          "test_name": "ALBUMIN",
+          "value": "3.2",
+          "unit": "Low",
+          "confidence": 85.67,
+          "line_number": 32
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 90.0,
+          "line_number": 50
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 79.25
+      },
+      "page": 47,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "N PRABHAKAR REF. DOCTOR: SELF",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "well-controlled type",
+          "value": "2",
+          "unit": "diabetic",
+          "confidence": 95.21,
+          "line_number": 51
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 90.0,
+          "line_number": 95
+        }
+      ],
+      "other_fields": {
+        "doctor": "AWN"
+      },
+      "confidence_scores": {
+        "name": 90.5,
+        "patient_id": 86.0
+      },
+      "page": 48,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "N PRABHAKAR REF. DOCTOR : SELF",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 90.0,
+          "line_number": 72
+        }
+      ],
+      "other_fields": {
+        "doctor": "AWN"
+      },
+      "confidence_scores": {
+        "name": 90.67,
+        "patient_id": 86.0
+      },
+      "page": 49,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A I I",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "NON HDL CHOLESTEROL",
+          "value": "112",
+          "unit": "Desirable",
+          "confidence": 92.89,
+          "line_number": 51
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 90.0,
+          "line_number": 92
+        }
+      ],
+      "other_fields": {
+        "doctor": "A I"
+      },
+      "confidence_scores": {
+        "name": 55.08,
+        "patient_id": 96.0
+      },
+      "page": 50,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "ug Therap",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "VeryHigh Risk",
+          "value": "1,",
+          "unit": "EstablishedASCVD",
+          "confidence": 95.4,
+          "line_number": 44
+        },
+        {
+          "test_name": "High Risk",
+          "value": "1.",
+          "unit": "Three",
+          "confidence": 95.2,
+          "line_number": 46
+        },
+        {
+          "test_name": "Moderate Risk",
+          "value": "2",
+          "unit": "majorASCVD",
+          "confidence": 95.0,
+          "line_number": 51
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 90.0,
+          "line_number": 73
+        }
+      ],
+      "other_fields": {
+        "doctor": "ug"
+      },
+      "confidence_scores": {
+        "name": 96.0,
+        "patient_id": 70.43
+      },
+      "page": 51,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i"
+      },
+      "test_results": [
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 83.4,
+          "line_number": 51
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 79.25
+      },
+      "page": 52,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i"
+      },
+      "test_results": [
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 90.0,
+          "line_number": 34
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 79.25
+      },
+      "page": 53,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A I I",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 61
+        }
+      ],
+      "other_fields": {
+        "doctor": "A I"
+      },
+      "confidence_scores": {
+        "name": 64.08,
+        "patient_id": 95.5
+      },
+      "page": 54,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 90.0,
+          "line_number": 45
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 82.25,
+        "patient_id": 79.17
+      },
+      "page": 55,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "oxylase in the lesion.",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "oxylase"
+      },
+      "confidence_scores": {
+        "name": 88.55,
+        "patient_id": 86.83
+      },
+      "page": 56,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "that all tests have been performed or",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "doctor"
+      },
+      "confidence_scores": {
+        "name": 94.09,
+        "patient_id": 72.83
+      },
+      "page": 57,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "FARKHUNDA JABEEN REF. DOCTOR :"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 16
+        },
+        {
+          "test_name": "HEMOGLOBIN (HB)",
+          "value": "11.8",
+          "unit": "Low",
+          "confidence": 93.86,
+          "line_number": 23
+        },
+        {
+          "test_name": "MEAN CORPUSCULAR VOLUME (MCV)",
+          "value": "82.0",
+          "unit": "Low",
+          "confidence": 92.11,
+          "line_number": 39
+        },
+        {
+          "test_name": "MEAN CORPUSCULAR HEMOGLOBIN (MCH)",
+          "value": "25.1",
+          "unit": "Low",
+          "confidence": 93.56,
+          "line_number": 42
+        },
+        {
+          "test_name": "MEAN CORPUSCULAR HEMOGLOBIN",
+          "value": "30.7",
+          "unit": "Low",
+          "confidence": 94.12,
+          "line_number": 45
+        },
+        {
+          "test_name": "RED CELL DISTRIBUTION WIDTH (RDW)",
+          "value": "14.3",
+          "unit": "High",
+          "confidence": 93.5,
+          "line_number": 49
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 84
+        }
+      ],
+      "other_fields": {
+        "doctor": "AWN"
+      },
+      "confidence_scores": {
+        "name": 88.88
+      },
+      "page": 58,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "to change from mild to severe in COVID positive"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 14
+        },
+        {
+          "test_name": "ABSOLUTE LYMPHOCYTE COUNT",
+          "value": "3.03",
+          "unit": "High",
+          "confidence": 90.38,
+          "line_number": 22
+        },
+        {
+          "test_name": "ABSOLUTE BASOPHIL COUNT",
+          "value": "0",
+          "unit": "Low",
+          "confidence": 91.5,
+          "line_number": 31
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 72
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 95.04
+      },
+      "page": 59,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "FBS (FASTING BLOOD SUGAR)",
+          "value": "206",
+          "unit": "High",
+          "confidence": 90.33,
+          "line_number": 22
+        },
+        {
+          "test_name": "ESTIMATED AVERAGE GLUCOSE(EAG)",
+          "value": "271.9",
+          "unit": "High",
+          "confidence": 91.38,
+          "line_number": 36
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 81
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 89.29,
+        "patient_id": 88.83
+      },
+      "page": 60,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 15
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 84
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 93.0,
+        "patient_id": 89.0
+      },
+      "page": 61,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 16
+        },
+        {
+          "test_name": "PPBS(POST PRANDIAL BLOOD SUGAR)",
+          "value": "300",
+          "unit": "High",
+          "confidence": 90.44,
+          "line_number": 37
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 58
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 89.71,
+        "patient_id": 88.83
+      },
+      "page": 62,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 12
+        },
+        {
+          "test_name": "well-controlled type",
+          "value": "2",
+          "unit": "diabetic",
+          "confidence": 95.05,
+          "line_number": 45
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 85
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 89.43,
+        "patient_id": 89.0
+      },
+      "page": 63,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "FARKHUNDA JABEEN REF. DOCTOR:",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 14
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 90.0,
+          "line_number": 82
+        }
+      ],
+      "other_fields": {
+        "doctor": "AWN"
+      },
+      "confidence_scores": {
+        "name": 89.86,
+        "patient_id": 89.0
+      },
+      "page": 64,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 87.5,
+          "line_number": 16
+        },
+        {
+          "test_name": "TRIGLYCERIDES",
+          "value": "177",
+          "unit": "High",
+          "confidence": 92.33,
+          "line_number": 29
+        },
+        {
+          "test_name": "NON HDL CHOLESTEROL",
+          "value": "132",
+          "unit": "High",
+          "confidence": 79.1,
+          "line_number": 50
+        },
+        {
+          "test_name": "VERY LOW DENSITY LIPOPROTEIN",
+          "value": "35.4",
+          "unit": "High",
+          "confidence": 94.44,
+          "line_number": 59
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 92
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 89.43,
+        "patient_id": 89.17
+      },
+      "page": 65,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i I",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 94.5,
+          "line_number": 15
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 35
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 83.86,
+        "patient_id": 82.0
+      },
+      "page": 66,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "ug Therap"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 15
+        },
+        {
+          "test_name": "VeryHigh Risk",
+          "value": "1,",
+          "unit": "EstablishedASCVD",
+          "confidence": 95.4,
+          "line_number": 40
+        },
+        {
+          "test_name": "High Risk",
+          "value": "1.",
+          "unit": "Three",
+          "confidence": 95.05,
+          "line_number": 42
+        },
+        {
+          "test_name": "Moderate Risk",
+          "value": "2",
+          "unit": "majorASCVD",
+          "confidence": 94.86,
+          "line_number": 47
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 71
+        }
+      ],
+      "other_fields": {
+        "doctor": "ug"
+      },
+      "confidence_scores": {
+        "name": 96.0
+      },
+      "page": 67,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 16
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 52
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 89.29,
+        "patient_id": 88.5
+      },
+      "page": 68,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "FARKHUNDA JABEEN REF. DOCTOR:"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 17
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 73
+        }
+      ],
+      "other_fields": {
+        "doctor": "AWN"
+      },
+      "confidence_scores": {
+        "name": 90.29
+      },
+      "page": 69,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 16
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 43
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 90.88,
+        "patient_id": 88.17
+      },
+      "page": 70,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "FARKHUNDA JABEEN REF. DOCTOR :",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 93.5,
+          "line_number": 18
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 48
+        }
+      ],
+      "other_fields": {
+        "doctor": "ESS"
+      },
+      "confidence_scores": {
+        "name": 86.62,
+        "patient_id": 71.75
+      },
+      "page": 71,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A I I",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 16
+        },
+        {
+          "test_name": "TSH (ULTRASENSITIVE)",
+          "value": "2.400",
+          "unit": "Non",
+          "confidence": 81.14,
+          "line_number": 46
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 88.2,
+          "line_number": 76
+        }
+      ],
+      "other_fields": {
+        "doctor": "A I"
+      },
+      "confidence_scores": {
+        "name": 75.0,
+        "patient_id": 88.5
+      },
+      "page": 72,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "ug and",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "NO",
+          "confidence": 96.0,
+          "line_number": 17
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 71
+        }
+      ],
+      "other_fields": {
+        "doctor": "ome"
+      },
+      "confidence_scores": {
+        "name": 84.62,
+        "patient_id": 94.0
+      },
+      "page": 73,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "oxylase in the lesion.",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "oxylase"
+      },
+      "confidence_scores": {
+        "name": 92.82,
+        "patient_id": 89.0
+      },
+      "page": 74,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {
+        "name": "A i i",
+        "patient_id": "RECEIVED"
+      },
+      "test_results": [
+        {
+          "test_name": "HYDERABAD",
+          "value": "500072",
+          "unit": "LABHA",
+          "confidence": 77.2,
+          "line_number": 16
+        },
+        {
+          "test_name": "Tel",
+          "value": "9111591115,",
+          "unit": "Fax",
+          "confidence": 89.8,
+          "line_number": 48
+        }
+      ],
+      "other_fields": {
+        "doctor": "A i"
+      },
+      "confidence_scores": {
+        "name": 89.43,
+        "patient_id": 89.17
+      },
+      "page": 75,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 2
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "Estimated Average Glucose (eAG)",
+          "value": "237.43",
+          "unit": "mg/dL",
+          "confidence": 92.67,
+          "line_number": 28
+        },
+        {
+          "test_name": "Excellent Control",
+          "value": "6",
+          "unit": "to",
+          "confidence": 90.0,
+          "line_number": 44
+        },
+        {
+          "test_name": "Fairto Good Control",
+          "value": "7",
+          "unit": "to",
+          "confidence": 92.38,
+          "line_number": 46
+        },
+        {
+          "test_name": "Unsatisfactory Control",
+          "value": "8",
+          "unit": "to",
+          "confidence": 93.5,
+          "line_number": 48
+        }
+      ],
+      "other_fields": {},
+      "confidence_scores": {},
+      "page": 76,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "TOTAL CHOLESTEROL PHOTOMETRY",
+          "value": "150",
+          "unit": "mg/dl",
+          "confidence": 93.5,
+          "line_number": 20
+        },
+        {
+          "test_name": "HDL CHOLESTEROL DIRECT PHOTOMETRY",
+          "value": "48",
+          "unit": "mg/dl",
+          "confidence": 93.57,
+          "line_number": 21
+        },
+        {
+          "test_name": "TRIGLYCERIDES PHOTOMETRY",
+          "value": "98",
+          "unit": "mg/dl",
+          "confidence": 93.0,
+          "line_number": 23
+        },
+        {
+          "test_name": "LDL CHOLESTEROL DIRECT PHOTOMETRY",
+          "value": "90",
+          "unit": "mg/dl",
+          "confidence": 94.0,
+          "line_number": 24
+        },
+        {
+          "test_name": "VLDL CHOLESTEROL CALCULATED",
+          "value": "19.66",
+          "unit": "mg/dl",
+          "confidence": 92.33,
+          "line_number": 26
+        },
+        {
+          "test_name": "NON-HDL CHOLESTEROL CALCULATED",
+          "value": "101.6",
+          "unit": "mg/dl",
+          "confidence": 92.5,
+          "line_number": 29
+        }
+      ],
+      "other_fields": {},
+      "confidence_scores": {},
+      "page": 77,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {
+        "name": "SUNNY (31Y/M) SAMPLE COLLECTEDAT :"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "Prachi"
+      },
+      "confidence_scores": {
+        "name": 90.62
+      },
+      "page": 78,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [],
+      "other_fields": {
+        "doctor": "Caesar"
+      },
+      "confidence_scores": {},
+      "page": 79,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {
+        "name": "omes. hsCRP levels should not be substituted for assessment oftraditional cardiovascular risk factors. Patients with persistently"
+      },
+      "test_results": [],
+      "other_fields": {
+        "doctor": "omes."
+      },
+      "confidence_scores": {
+        "name": 95.53
+      },
+      "page": 80,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [],
+      "other_fields": {},
+      "confidence_scores": {},
+      "page": 81,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "IRON PHOTOMETRY",
+          "value": "57.5",
+          "unit": "yg/dl",
+          "confidence": 73.75,
+          "line_number": 24
+        }
+      ],
+      "other_fields": {
+        "doctor": "Caesar"
+      },
+      "confidence_scores": {},
+      "page": 82,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
+      }
+    },
+    {
+      "patient_info": {},
+      "test_results": [
+        {
+          "test_name": "HDL CHOLESTEROL DIRECT PHOTOMETRY",
+          "value": "51",
+          "unit": "mg/dl",
+          "confidence": 93.86,
+          "line_number": 25
+        },
+        {
+          "test_name": "LDL CHOLESTEROL DIRECT PHOTOMETRY",
+          "value": "168",
+          "unit": "mg/dl",
+          "confidence": 94.71,
+          "line_number": 27
+        },
+        {
+          "test_name": "TRIGLYCERIDES PHOTOMETRY",
+          "value": "249",
+          "unit": "mg/dl",
+          "confidence": 89.6,
+          "line_number": 29
+        },
+        {
+          "test_name": "VLDL CHOLESTEROL CALCULATED",
+          "value": "49.76",
+          "unit": "mg/dl",
+          "confidence": 90.17,
+          "line_number": 32
+        },
+        {
+          "test_name": "NON-HDL CHOLESTEROL CALCULATED",
+          "value": "222.3",
+          "unit": "mg/dl",
+          "confidence": 90.57,
           "line_number": 33
         }
       ],
       "other_fields": {
-        "doctor": "Ashwin"
+        "doctor": "Arjun"
       },
-      "confidence_scores": {
-        "name": 93.11,
-        "doctor": 93.11
+      "confidence_scores": {},
+      "page": 83,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
       }
     },
     {
-      "page": 18,
-      "patient_info": {
-        "age": "79"
-      },
-      "test_results": [],
-      "other_fields": {},
-      "confidence_scores": {
-        "age": 79.0
-      }
-    },
-    {
-      "page": 19,
-      "patient_info": {
-        "age": "79"
-      },
+      "patient_info": {},
       "test_results": [
         {
-          "test_name": "Plasma Glucose F",
-          "value": "102",
-          "unit": "mg/dL",
-          "confidence": 92.11,
-          "line_number": 19
+          "test_name": "ALKALINE PHOSPHATASE PHOTOMETRY",
+          "value": "164.8",
+          "unit": "U/L",
+          "confidence": 95.33,
+          "line_number": 22
         },
         {
-          "test_name": "Potassium",
-          "value": "4.57",
-          "unit": "mEq/L",
-          "confidence": 92.0,
-          "line_number": 30
-        }
-      ],
-      "other_fields": {},
-      "confidence_scores": {
-        "age": 79.0
-      }
-    },
-    {
-      "page": 20,
-      "patient_info": {
-        "age": "79",
-        "name": "Pradeep KumarV"
-      },
-      "test_results": [],
-      "other_fields": {
-        "doctor": "Pradeep"
-      },
-      "confidence_scores": {
-        "age": 70.86,
-        "name": 94.5,
-        "doctor": 94.5
-      }
-    },
-    {
-      "page": 21,
-      "patient_info": {
-        "age": "79"
-      },
-      "test_results": [
-        {
-          "test_name": "TSH",
-          "value": "5.25",
-          "unit": "yIU/mL",
-          "confidence": 82.2,
-          "line_number": 16
-        }
-      ],
-      "other_fields": {},
-      "confidence_scores": {
-        "age": 79.0
-      }
-    },
-    {
-      "page": 22,
-      "patient_info": {
-        "name": "Mr. K NAGASHANKAR RAO",
-        "age": "63",
-        "gender": "Male"
-      },
-      "test_results": [
-        {
-          "test_name": "Creatinine",
-          "value": "1.39",
-          "unit": "mg/dL",
-          "confidence": 91.2,
-          "line_number": 20
-        },
-        {
-          "test_name": "GFR Estimated",
-          "value": "57",
-          "unit": "mL/min/",
-          "confidence": 93.4,
+          "test_name": "BILIRUBIN TOTAL PHOTOMETRY",
+          "value": "0.36",
+          "unit": "mg/dl",
+          "confidence": 92.67,
           "line_number": 23
         },
         {
-          "test_name": "Urea",
-          "value": "49.00",
-          "unit": "mg/dL",
-          "confidence": 91.6,
+          "test_name": "BILIRUBIN -DIRECT PHOTOMETRY",
+          "value": "0.11",
+          "unit": "mg/dl",
+          "confidence": 81.0,
           "line_number": 25
         },
         {
-          "test_name": "Urea Nitrogen Blood",
-          "value": "22.88",
-          "unit": "mg/dL",
-          "confidence": 94.0,
+          "test_name": "BILIRUBIN (INDIRECT) CALCULATED",
+          "value": "0.25",
+          "unit": "mg/dl",
+          "confidence": 93.17,
+          "line_number": 27
+        },
+        {
+          "test_name": "GAMMA GLUTAMYL TRANSFERASE (GGT) PHOTOMETRY",
+          "value": "16",
+          "unit": "U/I",
+          "confidence": 93.78,
           "line_number": 28
         },
         {
-          "test_name": "UricAcid",
-          "value": "4.90",
-          "unit": "mg/dL",
-          "confidence": 88.67,
+          "test_name": "ASPARTATE AMINOTRANSFERASE (SGOT ) PHOTOMETRY",
+          "value": "22.4",
+          "unit": "U/I",
+          "confidence": 91.78,
+          "line_number": 29
+        },
+        {
+          "test_name": "ALANINE TRANSAMINASE (SGPT) PHOTOMETRY",
+          "value": "13.4",
+          "unit": "U/I",
+          "confidence": 93.25,
+          "line_number": 30
+        },
+        {
+          "test_name": "PROTEIN TOTAL PHOTOMETRY",
+          "value": "6.84",
+          "unit": "gm/dl",
+          "confidence": 93.17,
           "line_number": 31
         },
         {
-          "test_name": "AST (SGOT)",
-          "value": "21.0",
-          "unit": "U/L",
-          "confidence": 94.8,
-          "line_number": 34
+          "test_name": "ALBUMIN SERUM PHOTOMETRY",
+          "value": "3.83",
+          "unit": "gm/dl",
+          "confidence": 93.5,
+          "line_number": 33
         },
         {
-          "test_name": "ALT (SGPT)",
-          "value": "18.0",
-          "unit": "U/L",
-          "confidence": 95.0,
+          "test_name": "SERUM GLOBULIN PHOTOMETRY",
+          "value": "3.01",
+          "unit": "gm/dL",
+          "confidence": 93.0,
           "line_number": 36
         },
         {
-          "test_name": "GGTP",
-          "value": "119.0",
-          "unit": "U/L",
-          "confidence": 93.75,
-          "line_number": 38
+          "test_name": "Sample Collected on (SCT)",
+          "value": "06",
+          "unit": "Mar",
+          "confidence": 94.67,
+          "line_number": 61
         },
         {
-          "test_name": "Alkaline Phosphatase (ALP)",
-          "value": "121.00",
-          "unit": "U/L",
-          "confidence": 94.0,
-          "line_number": 40
+          "test_name": "Sample Received (SRT)",
+          "value": "06",
+          "unit": "Mar",
+          "confidence": 95.43,
+          "line_number": 62
         },
         {
-          "test_name": "Bilirubin Total",
-          "value": "0.42",
-          "unit": "mg/dL",
-          "confidence": 91.6,
-          "line_number": 43
-        },
-        {
-          "test_name": "Bilirubin Direct",
-          "value": "0.09",
-          "unit": "mg/dL",
-          "confidence": 86.0,
-          "line_number": 45
-        },
-        {
-          "test_name": "Bilirubin Indirect",
-          "value": "0.33",
-          "unit": "mg/dL",
-          "confidence": 87.0,
-          "line_number": 48
-        },
-        {
-          "test_name": "Total Protein",
-          "value": "7.80",
-          "unit": "g/dL",
-          "confidence": 93.17,
-          "line_number": 50
-        },
-        {
-          "test_name": "Albumin",
-          "value": "4.10",
-          "unit": "g/dL",
-          "confidence": 94.2,
-          "line_number": 53
-        },
-        {
-          "test_name": "Globulin(Calculated)",
-          "value": "3.70",
-          "unit": "gm/dL",
-          "confidence": 87.75,
-          "line_number": 59
-        }
-      ],
-      "other_fields": {},
-      "confidence_scores": {
-        "name": 79.17,
-        "age": 95.0,
-        "gender": 94.57
-      }
-    },
-    {
-      "page": 23,
-      "patient_info": {
-        "name": "Mr. K NAGASHANKAR RAO",
-        "age": "63",
-        "gender": "Male"
-      },
-      "test_results": [
-        {
-          "test_name": "Phosphorus",
-          "value": "4.40",
-          "unit": "mg/dL",
-          "confidence": 91.8,
-          "line_number": 20
-        },
-        {
-          "test_name": "Sodium",
-          "value": "135.30",
-          "unit": "mEq/L",
-          "confidence": 92.8,
-          "line_number": 23
-        },
-        {
-          "test_name": "Potassium",
-          "value": "4.16",
-          "unit": "mEq/L",
-          "confidence": 91.6,
-          "line_number": 26
-        }
-      ],
-      "other_fields": {},
-      "confidence_scores": {
-        "name": 91.67,
-        "age": 94.86,
-        "gender": 94.71
-      }
-    },
-    {
-      "page": 24,
-      "patient_info": {},
-      "test_results": [
-        {
-          "test_name": "Triglycerides",
-          "value": "179.00",
-          "unit": "mg/dL",
-          "confidence": 89.75,
-          "line_number": 22
-        },
-        {
-          "test_name": "HDL Cholesterol",
-          "value": "51.00",
-          "unit": "mg/dL",
-          "confidence": 90.6,
-          "line_number": 23
-        },
-        {
-          "test_name": "Non-HDL Cholesterol",
-          "value": "130",
-          "unit": "mg/dL",
-          "confidence": 90.2,
-          "line_number": 26
-        }
-      ],
-      "other_fields": {},
-      "confidence_scores": {}
-    },
-    {
-      "page": 25,
-      "patient_info": {},
-      "test_results": [
-        {
-          "test_name": "Glucose Fasting",
-          "value": "270.00",
-          "unit": "mg/dL",
-          "confidence": 92.17,
-          "line_number": 21
+          "test_name": "Barcode",
+          "value": "17345412",
+          "unit": "Page",
+          "confidence": 87.33,
+          "line_number": 71
         }
       ],
       "other_fields": {
-        "doctor": "oxy"
+        "doctor": "Arjun"
       },
-      "confidence_scores": {
-        "doctor": 94.62
+      "confidence_scores": {},
+      "page": 84,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
       }
     },
     {
-      "page": 26,
-      "patient_info": {},
-      "test_results": [],
-      "other_fields": {},
-      "confidence_scores": {}
-    },
-    {
-      "page": 27,
       "patient_info": {
-        "name": "Mr. K NAGASHANKAR RAO",
-        "age": "63",
-        "gender": "Male"
-      },
-      "test_results": [],
-      "other_fields": {},
-      "confidence_scores": {
-        "name": 91.33,
-        "age": 95.0,
-        "gender": 94.14
-      }
-    },
-    {
-      "page": 28,
-      "patient_info": {},
-      "test_results": [
-        {
-          "test_name": "Estimated average glucose (eAG)",
-          "value": "283",
-          "unit": "mg/dL",
-          "confidence": 91.83,
-          "line_number": 22
-        }
-      ],
-      "other_fields": {},
-      "confidence_scores": {}
-    },
-    {
-      "page": 29,
-      "patient_info": {
-        "name": "Mr. K NAGASHANKAR RAO",
-        "age": "63",
-        "gender": "Male"
-      },
-      "test_results": [],
-      "other_fields": {},
-      "confidence_scores": {
-        "name": 90.67,
-        "age": 94.75,
-        "gender": 94.57
-      }
-    },
-    {
-      "page": 30,
-      "patient_info": {
-        "name": "Mr. K NAGASHANKAR RAO",
-        "age": "63",
-        "gender": "Male"
+        "name": "USHA (65Y/F) SAMPLE COLLECTED AT:"
       },
       "test_results": [
         {
-          "test_name": "Hemoglobin",
-          "value": "13.60",
-          "unit": "g/dL",
-          "confidence": 92.8,
-          "line_number": 21
-        },
-        {
-          "test_name": "MCHC",
-          "value": "32.00",
-          "unit": "g/dL",
-          "confidence": 92.8,
+          "test_name": "Sample Collected on (SCT)",
+          "value": "06",
+          "unit": "Mar",
+          "confidence": 95.62,
           "line_number": 32
         },
         {
-          "test_name": "Neutrophils",
-          "value": "4.61",
-          "unit": "thou/mm",
-          "confidence": 93.4,
-          "line_number": 47
-        },
-        {
-          "test_name": "Lymphocytes",
-          "value": "3.45",
-          "unit": "thou/mm",
-          "confidence": 93.6,
-          "line_number": 49
-        },
-        {
-          "test_name": "Monocytes",
-          "value": "0.73",
-          "unit": "thou/mm",
-          "confidence": 93.6,
-          "line_number": 51
-        },
-        {
-          "test_name": "Eosinophils",
-          "value": "0.25",
-          "unit": "thou/mm",
-          "confidence": 94.2,
-          "line_number": 53
-        }
-      ],
-      "other_fields": {
-        "doctor": "Lat"
-      },
-      "confidence_scores": {
-        "name": 91.83,
-        "doctor": 67.33,
-        "age": 94.75,
-        "gender": 96.0
-      }
-    },
-    {
-      "page": 31,
-      "patient_info": {
-        "name": "LalPathLabsLtd",
-        "age": "63",
-        "gender": "Male"
-      },
-      "test_results": [
-        {
-          "test_name": "Basophils",
-          "value": "0.09",
-          "unit": "thou/mm",
-          "confidence": 93.4,
-          "line_number": 19
-        },
-        {
-          "test_name": "Platelet Count",
-          "value": "288",
-          "unit": "thou/mm",
-          "confidence": 94.67,
-          "line_number": 21
-        }
-      ],
-      "other_fields": {
-        "doctor": "LalPathLabsLtd"
-      },
-      "confidence_scores": {
-        "name": 93.5,
-        "age": 94.5,
-        "gender": 96.0,
-        "doctor": 93.5
-      }
-    },
-    {
-      "page": 32,
-      "patient_info": {
-        "name": "awnfrom outsidesource.",
-        "age": "63",
-        "gender": "Male"
-      },
-      "test_results": [],
-      "other_fields": {
-        "doctor": "awnfrom"
-      },
-      "confidence_scores": {
-        "name": 95.0,
-        "age": 94.75,
-        "gender": 96.0,
-        "doctor": 95.0
-      }
-    },
-    {
-      "page": 33,
-      "patient_info": {
-        "name": "Mrs. SWARNA LATA",
-        "age": "41",
-        "gender": "Female"
-      },
-      "test_results": [
-        {
-          "test_name": "Creatinine",
-          "value": "0.63",
-          "unit": "mg/dL",
-          "confidence": 90.0,
-          "line_number": 20
-        },
-        {
-          "test_name": "GFR Estimated",
-          "value": "114",
-          "unit": "mL/min/",
-          "confidence": 93.6,
-          "line_number": 23
-        },
-        {
-          "test_name": "Urea",
-          "value": "17.00",
-          "unit": "mg/dL",
-          "confidence": 91.8,
-          "line_number": 25
-        },
-        {
-          "test_name": "Urea Nitrogen Blood",
-          "value": "7.94",
-          "unit": "mg/dL",
-          "confidence": 91.43,
-          "line_number": 28
-        },
-        {
-          "test_name": "UricAcid",
-          "value": "3.40",
-          "unit": "mg/dL",
-          "confidence": 92.33,
-          "line_number": 31
-        },
-        {
-          "test_name": "AST (SGOT)",
-          "value": "21.0",
-          "unit": "U/L",
-          "confidence": 94.0,
+          "test_name": "Sample Received on (SRT)",
+          "value": "06",
+          "unit": "Mar",
+          "confidence": 95.38,
           "line_number": 34
         },
         {
-          "test_name": "ALT (SGPT)",
-          "value": "18.0",
-          "unit": "U/L",
-          "confidence": 94.0,
-          "line_number": 36
-        },
-        {
-          "test_name": "GGTP",
-          "value": "13.0",
-          "unit": "U/L",
-          "confidence": 93.5,
-          "line_number": 38
-        },
-        {
-          "test_name": "Alkaline Phosphatase (ALP)",
-          "value": "79.00",
-          "unit": "U/L",
-          "confidence": 93.71,
-          "line_number": 40
-        },
-        {
-          "test_name": "Bilirubin Total",
-          "value": "0.63",
-          "unit": "mg/dL",
-          "confidence": 92.4,
-          "line_number": 43
-        },
-        {
-          "test_name": "Bilirubin Direct",
-          "value": "0.11",
-          "unit": "mg/dL",
-          "confidence": 85.83,
-          "line_number": 45
-        },
-        {
-          "test_name": "Bilirubin Indirect",
-          "value": "0.52",
-          "unit": "mg/dL",
-          "confidence": 85.6,
-          "line_number": 48
-        },
-        {
-          "test_name": "Total Protein",
-          "value": "7.20",
-          "unit": "g/dL",
-          "confidence": 94.17,
-          "line_number": 50
-        },
-        {
-          "test_name": "Albumin",
-          "value": "3.90",
-          "unit": "g/dL",
-          "confidence": 92.6,
-          "line_number": 53
-        },
-        {
-          "test_name": "Globulin(Calculated)",
-          "value": "3.30",
-          "unit": "gm/dL",
-          "confidence": 75.8,
-          "line_number": 59
+          "test_name": "Barcode",
+          "value": "77345412",
+          "unit": "Page",
+          "confidence": 85.29,
+          "line_number": 42
         }
       ],
-      "other_fields": {},
-      "confidence_scores": {
-        "name": 92.4,
-        "age": 95.43,
-        "gender": 94.71
-      }
-    },
-    {
-      "page": 34,
-      "patient_info": {
-        "name": "Mrs. SWARNA LATA",
-        "age": "41",
-        "gender": "Female"
+      "other_fields": {
+        "doctor": "Caesar"
       },
-      "test_results": [
-        {
-          "test_name": "Phosphorus",
-          "value": "4.26",
-          "unit": "mg/dL",
-          "confidence": 94.0,
-          "line_number": 20
-        },
-        {
-          "test_name": "Sodium",
-          "value": "134.90",
-          "unit": "mEq/L",
-          "confidence": 94.6,
-          "line_number": 23
-        },
-        {
-          "test_name": "Potassium",
-          "value": "5.75",
-          "unit": "mEq/L",
-          "confidence": 94.4,
-          "line_number": 26
-        },
-        {
-          "test_name": "Chloride",
-          "value": "104.00",
-          "unit": "mEq/L",
-          "confidence": 95.0,
-          "line_number": 29
-        }
-      ],
-      "other_fields": {},
       "confidence_scores": {
-        "name": 93.0,
-        "age": 95.43,
-        "gender": 94.86
+        "name": 93.43
+      },
+      "page": 85,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 1
       }
     },
     {
-      "page": 35,
       "patient_info": {},
       "test_results": [
         {
-          "test_name": "Triglycerides",
-          "value": "140.00",
-          "unit": "mg/dL",
-          "confidence": 89.75,
+          "test_name": "BLOOD UREA NITROGEN (BUN) PHOTOMETRY",
+          "value": "12.42",
+          "unit": "mg/dl",
+          "confidence": 93.75,
           "line_number": 22
         },
         {
-          "test_name": "HDL Cholesterol",
-          "value": "45.00",
-          "unit": "mg/dL",
-          "confidence": 90.6,
+          "test_name": "CREATININE SERUM PHOTOMETRY",
+          "value": "0.72",
+          "unit": "mg/dl",
+          "confidence": 91.83,
           "line_number": 23
         },
         {
-          "test_name": "Non-HDL Cholesterol",
-          "value": "129",
-          "unit": "mg/dL",
-          "confidence": 90.2,
-          "line_number": 26
-        }
-      ],
-      "other_fields": {},
-      "confidence_scores": {}
-    },
-    {
-      "page": 36,
-      "patient_info": {},
-      "test_results": [
-        {
-          "test_name": "Glucose Fasting",
-          "value": "93.00",
-          "unit": "mg/dL",
-          "confidence": 92.17,
-          "line_number": 21
-        }
-      ],
-      "other_fields": {
-        "doctor": "oxy"
-      },
-      "confidence_scores": {
-        "doctor": 94.88
-      }
-    },
-    {
-      "page": 37,
-      "patient_info": {},
-      "test_results": [],
-      "other_fields": {},
-      "confidence_scores": {}
-    },
-    {
-      "page": 38,
-      "patient_info": {
-        "name": "Mrs. SWARNA LATA",
-        "age": "41",
-        "gender": "Female"
-      },
-      "test_results": [],
-      "other_fields": {},
-      "confidence_scores": {
-        "name": 93.0,
-        "age": 95.29,
-        "gender": 94.29
-      }
-    },
-    {
-      "page": 39,
-      "patient_info": {},
-      "test_results": [
-        {
-          "test_name": "Estimated average glucose (eAG)",
-          "value": "108",
-          "unit": "mg/dL",
-          "confidence": 91.33,
-          "line_number": 22
-        }
-      ],
-      "other_fields": {},
-      "confidence_scores": {}
-    },
-    {
-      "page": 40,
-      "patient_info": {
-        "name": "Mrs. SWARNA LATA",
-        "age": "41",
-        "gender": "Female"
-      },
-      "test_results": [
-        {
-          "test_name": "MCHC",
-          "value": "27.30",
-          "unit": "g/dL",
-          "confidence": 93.4,
-          "line_number": 28
-        },
-        {
-          "test_name": "Neutrophils",
-          "value": "4.20",
-          "unit": "thou/mm",
-          "confidence": 94.0,
-          "line_number": 43
-        },
-        {
-          "test_name": "Lymphocytes",
-          "value": "1.50",
-          "unit": "thou/mm",
-          "confidence": 94.0,
-          "line_number": 45
-        },
-        {
-          "test_name": "Monocytes",
-          "value": "0.37",
-          "unit": "thou/mm",
-          "confidence": 94.0,
-          "line_number": 47
-        },
-        {
-          "test_name": "Eosinophils",
-          "value": "0.18",
-          "unit": "thou/mm",
-          "confidence": 94.2,
-          "line_number": 49
-        }
-      ],
-      "other_fields": {
-        "doctor": "Lat"
-      },
-      "confidence_scores": {
-        "name": 92.2,
-        "doctor": 67.33,
-        "age": 92.12,
-        "gender": 96.0
-      }
-    },
-    {
-      "page": 41,
-      "patient_info": {
-        "name": "LalPathLabsLtd",
-        "age": "41",
-        "gender": "Female"
-      },
-      "test_results": [
-        {
-          "test_name": "Basophils",
-          "value": "0.05",
-          "unit": "thou/mm",
-          "confidence": 93.4,
-          "line_number": 19
-        },
-        {
-          "test_name": "Platelet Count",
-          "value": "478",
-          "unit": "thou/mm",
-          "confidence": 94.67,
-          "line_number": 21
-        }
-      ],
-      "other_fields": {
-        "doctor": "LalPathLabsLtd"
-      },
-      "confidence_scores": {
-        "name": 93.5,
-        "age": 91.12,
-        "gender": 96.0,
-        "doctor": 93.5
-      }
-    },
-    {
-      "page": 42,
-      "patient_info": {
-        "name": "awnfrom outsidesource.",
-        "age": "41",
-        "gender": "Female"
-      },
-      "test_results": [],
-      "other_fields": {
-        "doctor": "awnfrom"
-      },
-      "confidence_scores": {
-        "name": 95.0,
-        "age": 92.12,
-        "gender": 96.0,
-        "doctor": 95.0
-      }
-    },
-    {
-      "page": 43,
-      "patient_info": {
-        "name": "Mr. MANISH BAJPIE",
-        "age": "48",
-        "gender": "Male"
-      },
-      "test_results": [
-        {
-          "test_name": "Creatinine",
-          "value": "0.90",
-          "unit": "mg/dL",
-          "confidence": 93.6,
-          "line_number": 20
-        },
-        {
-          "test_name": "GFR Estimated",
-          "value": "105",
-          "unit": "mL/min/",
-          "confidence": 83.6,
-          "line_number": 23
-        },
-        {
-          "test_name": "Urea",
-          "value": "19.00",
-          "unit": "mg/dL",
-          "confidence": 92.0,
-          "line_number": 25
-        },
-        {
-          "test_name": "Urea Nitrogen Blood",
-          "value": "8.87",
-          "unit": "mg/dL",
-          "confidence": 92.0,
-          "line_number": 28
-        },
-        {
-          "test_name": "UricAcid",
-          "value": "3.30",
-          "unit": "mg/dL",
-          "confidence": 88.33,
-          "line_number": 31
-        },
-        {
-          "test_name": "AST (SGOT)",
-          "value": "37.0",
-          "unit": "U/L",
-          "confidence": 94.6,
-          "line_number": 34
-        },
-        {
-          "test_name": "ALT (SGPT)",
-          "value": "36.0",
-          "unit": "U/L",
-          "confidence": 94.6,
-          "line_number": 36
-        },
-        {
-          "test_name": "GGTP",
-          "value": "65.0",
-          "unit": "U/L",
-          "confidence": 93.25,
-          "line_number": 38
-        },
-        {
-          "test_name": "Alkaline Phosphatase (ALP)",
-          "value": "90.00",
-          "unit": "U/L",
-          "confidence": 93.14,
-          "line_number": 40
-        },
-        {
-          "test_name": "Bilirubin Total",
-          "value": "0.50",
-          "unit": "mg/dL",
-          "confidence": 91.6,
-          "line_number": 43
-        },
-        {
-          "test_name": "Bilirubin Direct",
-          "value": "0.03",
-          "unit": "mg/dL",
-          "confidence": 86.0,
-          "line_number": 45
-        },
-        {
-          "test_name": "Bilirubin Indirect",
-          "value": "0.47",
-          "unit": "mg/dL",
-          "confidence": 85.6,
-          "line_number": 48
-        },
-        {
-          "test_name": "Total Protein",
-          "value": "8.10",
-          "unit": "g/dL",
-          "confidence": 94.0,
-          "line_number": 50
-        },
-        {
-          "test_name": "Albumin",
-          "value": "4.20",
-          "unit": "g/dL",
-          "confidence": 93.2,
-          "line_number": 53
-        },
-        {
-          "test_name": "Globulin(Calculated)",
-          "value": "3.90",
-          "unit": "gm/dL",
-          "confidence": 87.75,
-          "line_number": 59
-        }
-      ],
-      "other_fields": {},
-      "confidence_scores": {
-        "name": 92.4,
-        "age": 95.29,
-        "gender": 94.57
-      }
-    },
-    {
-      "page": 44,
-      "patient_info": {
-        "name": "Mr. MANISH BAJPIE",
-        "age": "48",
-        "gender": "Male"
-      },
-      "test_results": [
-        {
-          "test_name": "Phosphorus",
-          "value": "3.05",
-          "unit": "mg/dL",
-          "confidence": 94.0,
-          "line_number": 20
-        },
-        {
-          "test_name": "Sodium",
-          "value": "131.30",
-          "unit": "mEq/L",
-          "confidence": 94.6,
-          "line_number": 23
-        },
-        {
-          "test_name": "Potassium",
-          "value": "4.73",
-          "unit": "mEq/L",
-          "confidence": 94.4,
+          "test_name": "CALCIUM PHOTOMETRY",
+          "value": "10.69",
+          "unit": "mg/dl",
+          "confidence": 90.8,
           "line_number": 26
         },
         {
-          "test_name": "Chloride",
-          "value": "99.00",
-          "unit": "mEq/L",
-          "confidence": 91.8,
-          "line_number": 29
-        }
-      ],
-      "other_fields": {},
-      "confidence_scores": {
-        "name": 92.0,
-        "age": 95.43,
-        "gender": 94.71
-      }
-    },
-    {
-      "page": 45,
-      "patient_info": {},
-      "test_results": [
-        {
-          "test_name": "Triglycerides",
-          "value": "220.00",
-          "unit": "mg/dL",
-          "confidence": 89.75,
-          "line_number": 22
+          "test_name": "URIC ACID PHOTOMETRY",
+          "value": "4.49",
+          "unit": "mg/dl",
+          "confidence": 91.71,
+          "line_number": 27
         },
         {
-          "test_name": "HDL Cholesterol",
-          "value": "38.00",
-          "unit": "mg/dL",
-          "confidence": 90.6,
-          "line_number": 23
+          "test_name": "Sample Collected on (SCT)",
+          "value": "06",
+          "unit": "Mar",
+          "confidence": 95.22,
+          "line_number": 41
         },
         {
-          "test_name": "Non-HDL Cholesterol",
-          "value": "154",
-          "unit": "mg/dL",
-          "confidence": 90.2,
-          "line_number": 26
-        }
-      ],
-      "other_fields": {},
-      "confidence_scores": {}
-    },
-    {
-      "page": 46,
-      "patient_info": {},
-      "test_results": [
-        {
-          "test_name": "Glucose Fasting",
-          "value": "281.00",
-          "unit": "mg/dL",
-          "confidence": 92.17,
-          "line_number": 21
+          "test_name": "Sample Received (SRT)",
+          "value": "06",
+          "unit": "Mar",
+          "confidence": 95.14,
+          "line_number": 42
         }
       ],
       "other_fields": {
-        "doctor": "oxy"
+        "doctor": "Arjun"
       },
-      "confidence_scores": {
-        "doctor": 94.62
+      "confidence_scores": {},
+      "page": 86,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
       }
     },
     {
-      "page": 47,
       "patient_info": {},
       "test_results": [],
-      "other_fields": {},
-      "confidence_scores": {}
-    },
-    {
-      "page": 48,
-      "patient_info": {
-        "name": "Mr. MANISH BAJPIE",
-        "age": "48",
-        "gender": "Male"
+      "other_fields": {
+        "doctor": "doctor"
       },
-      "test_results": [],
-      "other_fields": {},
-      "confidence_scores": {
-        "name": 92.4,
-        "age": 95.29,
-        "gender": 94.14
+      "confidence_scores": {},
+      "page": 87,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
       }
     },
     {
-      "page": 49,
       "patient_info": {},
       "test_results": [
         {
-          "test_name": "Estimated average glucose (eAG)",
-          "value": "214",
-          "unit": "mg/dL",
-          "confidence": 91.33,
-          "line_number": 22
+          "test_name": "Page",
+          "value": "10",
+          "unit": "of",
+          "confidence": 90.8,
+          "line_number": 82
         }
       ],
       "other_fields": {},
-      "confidence_scores": {}
-    },
-    {
-      "page": 50,
-      "patient_info": {
-        "name": "Mr. MANISH BAJPIE",
-        "age": "48",
-        "gender": "Male"
-      },
-      "test_results": [
-        {
-          "test_name": "Hemoglobin",
-          "value": "14.60",
-          "unit": "g/dL",
-          "confidence": 92.8,
-          "line_number": 21
-        },
-        {
-          "test_name": "MCHC",
-          "value": "33.30",
-          "unit": "g/dL",
-          "confidence": 91.8,
-          "line_number": 31
-        },
-        {
-          "test_name": "Neutrophils",
-          "value": "3.09",
-          "unit": "thou/mm",
-          "confidence": 93.8,
-          "line_number": 47
-        },
-        {
-          "test_name": "Lymphocytes",
-          "value": "3.08",
-          "unit": "thou/mm",
-          "confidence": 94.0,
-          "line_number": 49
-        },
-        {
-          "test_name": "Monocytes",
-          "value": "0.45",
-          "unit": "thou/mm",
-          "confidence": 93.8,
-          "line_number": 51
-        },
-        {
-          "test_name": "Eosinophils",
-          "value": "0.32",
-          "unit": "thou/mm",
-          "confidence": 94.2,
-          "line_number": 53
-        }
-      ],
-      "other_fields": {
-        "doctor": "Lat"
-      },
-      "confidence_scores": {
-        "name": 92.6,
-        "doctor": 67.33,
-        "age": 94.12,
-        "gender": 96.0
-      }
-    },
-    {
-      "page": 51,
-      "patient_info": {
-        "name": "LalPathLabsLtd",
-        "age": "48",
-        "gender": "Male"
-      },
-      "test_results": [
-        {
-          "test_name": "Basophils",
-          "value": "0.06",
-          "unit": "thou/mm",
-          "confidence": 93.2,
-          "line_number": 19
-        },
-        {
-          "test_name": "Platelet Count",
-          "value": "147",
-          "unit": "thou/mm",
-          "confidence": 94.67,
-          "line_number": 21
-        }
-      ],
-      "other_fields": {
-        "doctor": "LalPathLabsLtd"
-      },
-      "confidence_scores": {
-        "name": 93.5,
-        "age": 94.12,
-        "gender": 96.0,
-        "doctor": 93.5
-      }
-    },
-    {
-      "page": 52,
-      "patient_info": {
-        "name": "awnfrom outsidesource.",
-        "age": "48",
-        "gender": "Male"
-      },
-      "test_results": [],
-      "other_fields": {
-        "doctor": "awnfrom"
-      },
-      "confidence_scores": {
-        "name": 95.0,
-        "age": 94.12,
-        "gender": 96.0,
-        "doctor": 95.0
+      "confidence_scores": {},
+      "page": 88,
+      "extraction_methods": {
+        "ml_model_used": true,
+        "rule_based_used": true,
+        "ml_entities_found": 0,
+        "rule_entities_found": 0
       }
     }
   ]

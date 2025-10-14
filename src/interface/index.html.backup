@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical NER - Human-in-the-Loop Interface</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0; padding: 20px; background-color: #f5f5f5; line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px; margin: 0 auto; background-color: white;
+            padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2c3e50; text-align: center; margin-bottom: 30px; }
+        h2 { color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .loading { text-align: center; padding: 40px; color: #7f8c8d; }
+        .error { background-color: #e74c3c; color: white; padding: 15px; border-radius: 5px; margin: 10px 0; }
+        .success { background-color: #27ae60; color: white; padding: 15px; border-radius: 5px; margin: 10px 0; }
+        .field-group { background-color: #f8f9fa; padding: 15px; margin: 15px 0; border-radius: 8px; border-left: 4px solid #3498db; }
+        .field-item { display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: white; border-radius: 5px; border: 1px solid #dee2e6; }
+        .field-label { font-weight: bold; min-width: 120px; color: #495057; }
+        .field-input { flex: 1; padding: 8px 12px; border: 1px solid #ced4da; border-radius: 4px; margin: 0 10px; }
+        .confidence { min-width: 80px; font-size: 0.9em; padding: 4px 8px; border-radius: 12px; text-align: center; color: white; }
+        .confidence.high { background-color: #27ae60; }
+        .confidence.medium { background-color: #f39c12; }
+        .confidence.low { background-color: #e74c3c; }
+        .btn { padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin: 5px; }
+        .btn-primary { background-color: #3498db; color: white; }
+        .btn-success { background-color: #27ae60; color: white; }
+        .btn-danger { background-color: #e74c3c; color: white; }
+        .btn:hover { opacity: 0.9; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .controls { text-align: center; margin: 30px 0; }
+        .status { text-align: center; margin: 10px 0; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 Medical NER - Human-in-the-Loop Interface</h1>
+        
+        <div id="loading" class="loading"><p>Loading data...</p></div>
+        <div id="error" class="error" style="display: none;"></div>
+        <div id="success" class="success" style="display: none;"></div>
+
+        <div id="content" style="display: none;">
+            <div id="extractionResults">
+                <h2>🔍 Extracted Medical Information</h2>
+                <div id="extractionFields"></div>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-success" id="confirmBtn">✅ Confirm All</button>
+                <button class="btn btn-primary" id="saveCorrectionsBtn">💾 Save Corrections</button>
+            </div>
+            <div class="status" id="status"></div>
+        </div>
+    </div>
+
+    <script>
+        let extractionData = [];
+        let ocrData = [];
+        let corrections = {};
+
+        async function loadData() {
+            try {
+                const extractionResp = await fetch('/api/extraction_results');
+                extractionData = await extractionResp.json();
+                console.log('Extraction data:', extractionData);
+                console.log('Type:', typeof extractionData, 'Length:', extractionData.length);
+                
+                const ocrResp = await fetch('/api/ocr_results');
+                ocrData = await ocrResp.json();
+                console.log('OCR data:', ocrData);
+
+                displayExtractions();
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+            } catch (error) {
+                console.error('Load error:', error);
+                showError('Failed to load data: ' + error.message);
+            }
+        }
+
+        function displayExtractions() {
+            const container = document.getElementById('extractionFields');
+            container.innerHTML = '';
+
+            console.log('displayExtractions called with:', extractionData);
+
+            let pages = [];
+            
+            if (Array.isArray(extractionData)) {
+                // Data comes as array of pages directly
+                pages = extractionData;
+            } else if (extractionData && extractionData.pages) {
+                // Handle nested format: {total_pages: N, pages: [...]}
+                pages = extractionData.pages;
+            } else {
+                container.innerHTML = '<p>No extraction results available or unexpected format.</p>';
+                return;
+            }
+
+            if (pages.length === 0) {
+                container.innerHTML = '<p>No extraction results found.</p>';
+                return;
+            }
+
+            // Display each page as a separate group
+            pages.forEach((page, pageIndex) => {
+                const pageNumber = page.page || pageIndex + 1;
+                
+                // Create page container
+                const pageContainer = document.createElement('div');
+                pageContainer.className = 'page-container';
+                pageContainer.style.marginBottom = '30px';
+                pageContainer.style.border = '2px solid #3498db';
+                pageContainer.style.borderRadius = '10px';
+                pageContainer.style.padding = '20px';
+                pageContainer.style.backgroundColor = '#f8f9fa';
+
+                // Page header
+                const pageHeader = document.createElement('h2');
+                pageHeader.innerHTML = `📄 Page ${pageNumber}`;
+                pageHeader.style.color = '#2c3e50';
+                pageHeader.style.marginTop = '0';
+                pageContainer.appendChild(pageHeader);
+
+                let hasContent = false;
+
+                // Patient Information Section
+                if (page.patient_info && Object.keys(page.patient_info).length > 0) {
+                    hasContent = true;
+                    const patientGroup = document.createElement('div');
+                    patientGroup.className = 'field-group';
+                    patientGroup.innerHTML = '<h3>👤 Patient Information</h3>';
+                    
+                    Object.entries(page.patient_info).forEach(([key, value], index) => {
+                        const field = {
+                            test_name: key.charAt(0).toUpperCase() + key.slice(1),
+                            value: value,
+                            confidence: page.confidence_scores?.[key] || 0,
+                            page: pageNumber,
+                            type: 'patient_info'
+                        };
+                        patientGroup.appendChild(createFieldEditor(`patient_${pageNumber}_${index}`, field, 'patient'));
+                    });
+                    pageContainer.appendChild(patientGroup);
+                }
+
+                // Test Results Section
+                if (page.test_results && page.test_results.length > 0) {
+                    hasContent = true;
+                    const testGroup = document.createElement('div');
+                    testGroup.className = 'field-group';
+                    testGroup.innerHTML = '<h3>🧪 Test Results</h3>';
+                    
+                    page.test_results.forEach((test, index) => {
+                        const field = {
+                            ...test,
+                            page: pageNumber,
+                            type: 'test_result'
+                        };
+                        testGroup.appendChild(createFieldEditor(`test_${pageNumber}_${index}`, field, 'test'));
+                    });
+                    pageContainer.appendChild(testGroup);
+                }
+
+                // Other Information Section
+                if (page.other_fields && Object.keys(page.other_fields).length > 0) {
+                    hasContent = true;
+                    const otherGroup = document.createElement('div');
+                    otherGroup.className = 'field-group';
+                    otherGroup.innerHTML = '<h3>� Other Information</h3>';
+                    
+                    Object.entries(page.other_fields).forEach(([key, value], index) => {
+                        const field = {
+                            test_name: key.charAt(0).toUpperCase() + key.slice(1),
+                            value: value,
+                            confidence: page.confidence_scores?.[key] || 0,
+                            page: pageNumber,
+                            type: 'other'
+                        };
+                        otherGroup.appendChild(createFieldEditor(`other_${pageNumber}_${index}`, field, 'other'));
+                    });
+                    pageContainer.appendChild(otherGroup);
+                }
+
+                // Only add the page container if it has content
+                if (hasContent) {
+                    container.appendChild(pageContainer);
+                } else {
+                    // Show empty page indicator
+                    pageContainer.innerHTML = `<h2>� Page ${pageNumber}</h2><p style="color: #7f8c8d; font-style: italic;">No data extracted from this page.</p>`;
+                    container.appendChild(pageContainer);
+                }
+            });
+        }
+
+        function createFieldEditor(index, field, fieldType) {
+            const fieldItem = document.createElement('div');
+            fieldItem.className = 'field-item';
+
+            const label = document.createElement('div');
+            label.className = 'field-label';
+            
+            // Simpler labels since page info is now in the header
+            let labelText = field.test_name || field.field_name || `Field ${index}`;
+            label.textContent = labelText;
+
+            const input = document.createElement('input');
+            input.className = 'field-input';
+            input.value = field.value || '';
+            
+            // Add unit info as placeholder if available
+            if (field.unit) {
+                input.placeholder = `Unit: ${field.unit}`;
+            }
+            
+            input.onchange = () => trackCorrection(index, field, input.value, fieldType);
+
+            const confidence = document.createElement('div');
+            confidence.className = 'confidence';
+            
+            // Handle confidence as either percentage or decimal
+            let confValue = field.confidence || 0;
+            if (confValue > 1) {
+                confValue = confValue / 100; // Convert percentage to decimal
+            }
+            
+            confidence.textContent = `${(confValue * 100).toFixed(1)}%`;
+            
+            if (confValue >= 0.7) confidence.classList.add('high');
+            else if (confValue >= 0.4) confidence.classList.add('medium');
+            else confidence.classList.add('low');
+
+            fieldItem.appendChild(label);
+            fieldItem.appendChild(input);
+            fieldItem.appendChild(confidence);
+            return fieldItem;
+        }
+
+        function trackCorrection(index, originalField, newValue, fieldType) {
+            const correctionKey = `${fieldType}_${index}`;
+            corrections[correctionKey] = {
+                original: originalField,
+                corrected_value: newValue,
+                field_type: fieldType,
+                page: originalField.page,
+                timestamp: new Date().toISOString()
+            };
+        }
+
+        async function saveCorrections() {
+            try {
+                document.getElementById('saveCorrectionsBtn').disabled = true;
+                showStatus('Saving corrections...');
+
+                const payload = {
+                    corrections: corrections,
+                    extraction_results: extractionData,
+                    ocr_results: ocrData,
+                    timestamp: new Date().toISOString()
+                };
+
+                const response = await fetch('/api/save_corrections', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                const result = await response.json();
+                
+                if (response.ok) {
+                    showSuccess(`Corrections saved: ${result.path}`);
+                    corrections = {};
+                } else {
+                    throw new Error(result.error || 'Failed to save');
+                }
+            } catch (error) {
+                showError('Failed to save corrections: ' + error.message);
+            } finally {
+                document.getElementById('saveCorrectionsBtn').disabled = false;
+            }
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+            document.getElementById('success').style.display = 'none';
+            setTimeout(() => errorDiv.style.display = 'none', 5000);
+        }
+
+        function showSuccess(message) {
+            const successDiv = document.getElementById('success');
+            successDiv.textContent = message;
+            successDiv.style.display = 'block';
+            document.getElementById('error').style.display = 'none';
+            setTimeout(() => successDiv.style.display = 'none', 3000);
+        }
+
+        function showStatus(message) {
+            document.getElementById('status').textContent = message;
+        }
+
+        document.getElementById('confirmBtn').onclick = () => showSuccess('All extractions confirmed!');
+        document.getElementById('saveCorrectionsBtn').onclick = saveCorrections;
+
+        window.onload = loadData;
+    </script>
+</body>
+</html>

@@ -1,7 +1,23 @@
 {
-  "page": 26,
   "patient_info": {},
-  "test_results": [],
-  "other_fields": {},
-  "confidence_scores": {}
+  "test_results": [
+    {
+      "test_name": "IRON PHOTOMETRY",
+      "value": "113.6",
+      "unit": "yg/dl",
+      "confidence": 74.0,
+      "line_number": 23
+    }
+  ],
+  "other_fields": {
+    "doctor": "Prachi"
+  },
+  "confidence_scores": {},
+  "page": 26,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
 }

@@ -1,0 +1,42 @@
+{
+  "patient_info": {},
+  "test_results": [
+    {
+      "test_name": "Estimated Average Glucose (eAG)",
+      "value": "237.43",
+      "unit": "mg/dL",
+      "confidence": 92.67,
+      "line_number": 28
+    },
+    {
+      "test_name": "Excellent Control",
+      "value": "6",
+      "unit": "to",
+      "confidence": 90.0,
+      "line_number": 44
+    },
+    {
+      "test_name": "Fairto Good Control",
+      "value": "7",
+      "unit": "to",
+      "confidence": 92.38,
+      "line_number": 46
+    },
+    {
+      "test_name": "Unsatisfactory Control",
+      "value": "8",
+      "unit": "to",
+      "confidence": 93.5,
+      "line_number": 48
+    }
+  ],
+  "other_fields": {},
+  "confidence_scores": {},
+  "page": 76,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
+}

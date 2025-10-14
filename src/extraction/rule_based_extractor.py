@@ -35,10 +35,10 @@ def rule_based_extraction(ocr_data):
             'confidence_scores': {}
         }
         
-        # Detect sections first to apply targeted extraction
+        
         sections = detect_report_sections(line_texts)
         
-        # Apply field extraction with section awareness
+        
         extracted_fields = apply_field_extraction_rules(line_texts, lines, extracted_fields, sections) 
         extracted_fields = extract_test_tables(lines, extracted_fields, sections) 
         all_extracted_data.append(extracted_fields) 
@@ -68,23 +68,23 @@ def detect_report_sections(line_texts):
     for i, line_text in enumerate(line_texts):
         line_lower = line_text.lower().strip()
         
-        # Header indicators
+        
         if any(keyword in line_lower for keyword in ['laboratory', 'reference', 'neuberg', 'report']):
             current_section = 'header'
             
-        # Patient info section indicators
+        
         elif any(keyword in line_lower for keyword in ['name:', 'age:', 'gender:', 'patient', 'mob. no', 'pt.id']):
             current_section = 'patient_info'
             
-        # Test results section indicators
+        
         elif any(keyword in line_lower for keyword in ['test results', 'abnormal result', 'test name', 'result value', 'unit']):
             current_section = 'test_results'
             
-        # Footer indicators
+        
         elif any(keyword in line_lower for keyword in ['page', 'printed on', 'bangalore', 'chennai', 'www.', '@']):
             current_section = 'footer'
             
-        # Add line to current section
+        
         sections[current_section].append(i)
     
     return sections 
@@ -103,7 +103,7 @@ def apply_field_extraction_rules(line_texts, lines, extracted_fields, sections=N
     Returns:
         dict: Updated extraction results
     """
-    # Define regex patterns for common fields specific to medical lab reports
+    
     patterns = {
         'name': [
             r'name\s*:\s*(.+?)(?:\s+gender|\s+age|\s*$)',
@@ -127,7 +127,7 @@ def apply_field_extraction_rules(line_texts, lines, extracted_fields, sections=N
         ],
         'doctor': [
             r'(?:ref\.?\s*by|referred\s*by|consultant)\s*:\s*([a-zA-Z][a-zA-Z\s\.]+?)(?:\s+pi\.|$)',
-            r'dr\.?\s*([a-zA-Z][a-zA-Z\s\.]+?)(?:\s|$)',
+            r'doctor|dr\.?\s*([a-zA-Z][a-zA-Z\s\.]+?)(?:\s|$)',
         ], 
         'gender': [
             r'gender\s*[:\s]+(male|female|m|f)(?:\s+lab|\s|$)',
@@ -137,7 +137,7 @@ def apply_field_extraction_rules(line_texts, lines, extracted_fields, sections=N
         ]
     } 
     
-    # Additional validation rules to avoid false positives
+    
     validation_rules = {
         'name': lambda x: len(x.strip()) > 2 and not re.match(r'^\d+$', x.strip()) and not x.lower() in ['male', 'female', 'result', 'test'],
         'age': lambda x: x.isdigit() and 0 < int(x) < 150,
@@ -147,7 +147,7 @@ def apply_field_extraction_rules(line_texts, lines, extracted_fields, sections=N
         'phone': lambda x: x.isdigit() and len(x) >= 10,
     }
     
-    # Focus on patient_info section if sections are detected
+    
     lines_to_process = range(len(line_texts))
     if sections and sections.get('patient_info'):
         lines_to_process = sections['patient_info']
@@ -159,7 +159,7 @@ def apply_field_extraction_rules(line_texts, lines, extracted_fields, sections=N
         line_text = line_texts[i]
         line_text_lower = line_text.lower().strip()
         
-        # Skip lines that are clearly not patient info (too short, just numbers, etc.)
+        
         if len(line_text_lower) < 3 or re.match(r'^\d+\s*$', line_text_lower):
             continue
             
@@ -167,9 +167,13 @@ def apply_field_extraction_rules(line_texts, lines, extracted_fields, sections=N
             for pattern in field_patterns: 
                 match = re.search(pattern, line_text, re.IGNORECASE) 
                 if match: 
-                    value = match.group(1).strip()
+                    # Check if group 1 exists, otherwise use group 0 (full match)
+                    try:
+                        value = match.group(1).strip() if match.lastindex and match.lastindex >= 1 else match.group(0).strip()
+                    except (IndexError, AttributeError):
+                        continue
                     
-                    # Apply validation rules
+                    
                     if field_name in validation_rules:
                         if not validation_rules[field_name](value):
                             continue
@@ -177,7 +181,7 @@ def apply_field_extraction_rules(line_texts, lines, extracted_fields, sections=N
                     line_tokens = lines[i] 
                     avg_confidence = sum(token['confidence'] for token in line_tokens) / len(line_tokens)
                     
-                    # Store extracted field 
+                    
                     if field_name in ['name', 'age', 'patient_id', 'lab_id', 'gender']: 
                         extracted_fields['patient_info'][field_name] = value 
                     else: 
@@ -200,42 +204,51 @@ def extract_test_tables(lines, extracted_fields, sections=None):
     Returns:
         dict: Updated extraction results with test results
     """
-    # Improved patterns for medical test results
+    
     test_patterns = [
-        # Test Name followed by numeric value and unit, possibly with range
-        r'^([A-Za-z][A-Za-z\s\(\)-]+?)\s+([\d.,]+)\s+([a-zA-Z/]+)\s*(?:[\d.,\s<>-]+)?$',
-        # Test Name with Value Unit (more structured)
-        r'^([A-Za-z][A-Za-z\s\(\)-]{3,}?)\s+([\d.,]+)\s+([a-zA-Z/μ]+(?:/[a-zA-Z]+)?)\s*',
-        # Catch some variations
-        r'^([A-Za-z][A-Za-z\s\(\)-]{2,}?)\s*[:\s]+([\d.,]+)\s+([a-zA-Z/μ]+)',
+        # Standard format: Test Name  Value  Unit
+        r'^([A-Za-z][A-Za-z\s\(\)-]+?)\s+([\d.,<>]+)\s+([a-zA-Z/μ]+(?:/[a-zA-Z]+)?)\s*',
+        # With colon: Test Name: Value Unit
+        r'^([A-Za-z][A-Za-z\s\(\)-]{2,}?)\s*[:\s]+([\d.,<>]+)\s+([a-zA-Z/μ]+)',
+        # Loose format: allows more spacing
+        r'([A-Za-z][A-Za-z\s\(\)-]{3,}?)\s{2,}([\d.,<>]+)\s+([a-zA-Z/μ]+)',
+        # Value at end: Test Name ... Value
+        r'^([A-Za-z][A-Za-z\s\(\)-]+?)\s+([\d.,<>]+)$',
     ]
     
-    # Known medical test name patterns (to validate)
+    
     medical_test_indicators = [
         'calcium', 'chloride', 'sodium', 'potassium', 'glucose', 'cholesterol', 
         'ldl', 'hdl', 'triglycerides', 'hemoglobin', 'hematocrit', 'platelets',
         'creatinine', 'bun', 'urea', 'albumin', 'protein', 'bilirubin',
         'vitamin', 'b12', 'folate', 'iron', 'ferritin', 'tsh', 'testosterone',
-        'homocysteine', 'profile', 'function', 'test'
+        'homocysteine', 'profile', 'function', 'test', 'wbc', 'rbc', 'count',
+        'serum', 'blood', 'urine', 'level', 'total', 'direct', 'indirect',
+        'ratio', 'phosphorus', 'magnesium', 'zinc', 'copper', 'acid', 'alkaline',
+        'phosphatase', 'transaminase', 'alt', 'ast', 'ggt', 'alp', 'lymphocyte',
+        'neutrophil', 'eosinophil', 'basophil', 'monocyte', 'mcv', 'mch', 'mchc'
     ]
     
-    # Common units in medical tests
+    
     valid_units = [
         'mg/dl', 'mg/l', 'mmol/l', 'μmol/l', 'mcmol/l', 'meq/l', 'iu/l', 'u/l',
-        'g/dl', 'g/l', 'ng/ml', 'pg/ml', 'pmol/l', 'nmol/l', '%', 'ratio'
+        'g/dl', 'g/l', 'ng/ml', 'pg/ml', 'pmol/l', 'nmol/l', '%', 'ratio',
+        'μiu/ml', 'miu/ml', 'μg/dl', 'μg/l', 'cells/cumm', 'thou/cumm', '/cumm',
+        'fl', 'pg', 'gm/dl', 'ml/min', 'seconds', 'sec', 'mm/hr', 'lakhs/cumm',
+        'k/ul', 'm/ul', 'cells/μl', 'ng/dl', 'ug/dl', 'mm', 'cm'
     ]
     
-    # Exclude patterns that are clearly not test results
+    
     exclusion_patterns = [
         r'^page\s+\d+',
-        r'^\d{1,2}[-/]\w{3}[-/]\d{4}',  # Dates
+        r'^\d{1,2}[-/]\w{3}[-/]\d{4}',  
         r'^printed\s+on',
         r'^note:',
         r'^laboratory',
         r'^neuberg',
         r'^bangalore',
         r'^chennai',
-        r'^\d+\s*$',  # Just numbers
+        r'^\d+\s*$',  
         r'^www\.',
         r'@',
         r'reference\s+range',
@@ -243,13 +256,13 @@ def extract_test_tables(lines, extracted_fields, sections=None):
         r'result\s+value',
         r'abnormal\s+result',
         r'summary',
-        r'more\s+than\s+\d+',  # Reference range text
+        r'more\s+than\s+\d+',  
         r'very\s+high',
         r'borderline',
         r'optimal',
     ]
     
-    # Focus on test_results section if sections are detected
+    
     lines_to_process = range(len(lines))
     if sections and sections.get('test_results'):
         lines_to_process = sections['test_results']
@@ -262,19 +275,19 @@ def extract_test_tables(lines, extracted_fields, sections=None):
         line_text = extract_line_text(line).strip()
         line_text_lower = line_text.lower()
         
-        # Skip empty lines or very short lines
+        
         if len(line_text) < 5:
             continue
             
-        # Skip header lines or navigation elements
+        
         if any(re.search(pattern, line_text_lower) for pattern in exclusion_patterns):
             continue
             
-        # Skip lines that are likely headers or section dividers
+        
         if re.search(r'test|result|parameter|value|unit|range|name|biological|ref|remarks', line_text_lower) and len(line_text) < 50:
             continue
             
-        # Try to match test result patterns
+        
         for pattern in test_patterns:
             match = re.search(pattern, line_text, re.IGNORECASE)
             if match:
@@ -282,37 +295,38 @@ def extract_test_tables(lines, extracted_fields, sections=None):
                 test_value = match.group(2).strip()
                 test_unit = match.group(3).strip() if len(match.groups()) > 2 else ""
                 
-                # Validate test name (should contain medical terms and be reasonable length)
+                
                 test_name_lower = test_name.lower()
                 
-                # Must be a reasonable length
+                
                 if len(test_name) < 3 or len(test_name) > 50:
                     continue
                     
-                # Should not start with numbers or special characters
+                
                 if not re.match(r'^[A-Za-z]', test_name):
                     continue
                     
-                # Should contain at least one medical indicator or be structured properly
+                
                 has_medical_term = any(indicator in test_name_lower for indicator in medical_test_indicators)
                 has_reasonable_structure = re.match(r'^[A-Za-z][A-Za-z\s\(\)-]+$', test_name)
                 
                 if not (has_medical_term or has_reasonable_structure):
                     continue
                 
-                # Validate test value (should be numeric)
+                
                 if not re.match(r'^[\d.,<>]+$', test_value):
                     continue
                     
-                # Validate unit if present
+                
                 if test_unit and test_unit.lower() not in valid_units and not re.match(r'^[a-zA-Z/μ]+$', test_unit):
                     continue
                 
-                # Calculate confidence
+                
                 avg_confidence = sum(token['confidence'] for token in line) / len(line)
                 
-                # Additional confidence check
-                if avg_confidence < 60:
+                
+                # Lowered confidence threshold for better recall
+                if avg_confidence < 40:
                     continue
                     
                 test_result = {
@@ -340,7 +354,7 @@ def save_extraction_results(extraction_results, output_dir='extraction_results')
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
-    # Save individual page results
+    
     for page_data in extraction_results:
         page_num = page_data['page']
         filename = os.path.join(output_dir, f'extracted_page_{page_num:02d}.json')
@@ -350,7 +364,7 @@ def save_extraction_results(extraction_results, output_dir='extraction_results')
         
         print(f"Saved extraction results to {filename}")
     
-    # Save combined results
+    
     combined_filename = os.path.join(output_dir, 'all_extractions.json')
     with open(combined_filename, 'w', encoding='utf-8') as f:
         json.dump({
@@ -387,16 +401,16 @@ def print_extraction_summary(extraction_results):
         print(f"  Other fields: {other_fields}")
         print(f"  Test results: {test_count}")
         
-        # Show extracted patient info
+        
         if page_data['patient_info']:
             print("  Patient Info:")
             for key, value in page_data['patient_info'].items():
                 confidence = page_data['confidence_scores'].get(key, 0)
                 print(f"    {key}: {value} (confidence: {confidence}%)")
-        # Show test results
+        
         if page_data['test_results']:
             print("  Test Results:")
-            for test in page_data['test_results'][:3]:  # Show first 3 tests
+            for test in page_data['test_results'][:3]:  
                 print(f"    {test['test_name']}: {test['value']} {test['unit']} (confidence: {test['confidence']}%)")
             if len(page_data['test_results']) > 3:
                 print(f"    ... and {len(page_data['test_results']) - 3} more tests")

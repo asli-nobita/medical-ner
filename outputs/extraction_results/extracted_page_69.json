@@ -1,0 +1,34 @@
+{
+  "patient_info": {
+    "name": "FARKHUNDA JABEEN REF. DOCTOR:"
+  },
+  "test_results": [
+    {
+      "test_name": "HYDERABAD",
+      "value": "500072",
+      "unit": "NO",
+      "confidence": 96.0,
+      "line_number": 17
+    },
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 88.2,
+      "line_number": 73
+    }
+  ],
+  "other_fields": {
+    "doctor": "AWN"
+  },
+  "confidence_scores": {
+    "name": 90.29
+  },
+  "page": 69,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
+  }
+}

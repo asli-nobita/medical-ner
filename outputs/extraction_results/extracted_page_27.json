@@ -1,15 +1,58 @@
 {
-  "page": 27,
-  "patient_info": {
-    "name": "Mr. K NAGASHANKAR RAO",
-    "age": "63",
-    "gender": "Male"
+  "patient_info": {},
+  "test_results": [
+    {
+      "test_name": "TOTAL CHOLESTEROL PHOTOMETRY",
+      "value": "220",
+      "unit": "mg/dl",
+      "confidence": 90.57,
+      "line_number": 20
+    },
+    {
+      "test_name": "HDL CHOLESTEROL DIRECT PHOTOMETRY",
+      "value": "41",
+      "unit": "mg/dl",
+      "confidence": 93.71,
+      "line_number": 21
+    },
+    {
+      "test_name": "TRIGLYCERIDES PHOTOMETRY",
+      "value": "172",
+      "unit": "mg/dl",
+      "confidence": 89.33,
+      "line_number": 23
+    },
+    {
+      "test_name": "LDL CHOLESTEROL DIRECT PHOTOMETRY",
+      "value": "159",
+      "unit": "mg/dl",
+      "confidence": 91.0,
+      "line_number": 24
+    },
+    {
+      "test_name": "VLDL CHOLESTEROL CALCULATED",
+      "value": "34.4",
+      "unit": "mg/dl",
+      "confidence": 91.83,
+      "line_number": 28
+    },
+    {
+      "test_name": "NON-HDL CHOLESTEROL CALCULATED",
+      "value": "178.9",
+      "unit": "mg/dl",
+      "confidence": 90.57,
+      "line_number": 29
+    }
+  ],
+  "other_fields": {
+    "doctor": "Prachi"
   },
-  "test_results": [],
-  "other_fields": {},
-  "confidence_scores": {
-    "name": 91.33,
-    "age": 95.0,
-    "gender": 94.14
+  "confidence_scores": {},
+  "page": 27,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
   }
 }

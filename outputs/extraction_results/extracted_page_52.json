@@ -1,18 +1,27 @@
 {
-  "page": 52,
   "patient_info": {
-    "name": "awnfrom outsidesource.",
-    "age": "48",
-    "gender": "Male"
+    "name": "A i i"
   },
-  "test_results": [],
+  "test_results": [
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 83.4,
+      "line_number": 51
+    }
+  ],
   "other_fields": {
-    "doctor": "awnfrom"
+    "doctor": "A i"
   },
   "confidence_scores": {
-    "name": 95.0,
-    "age": 94.12,
-    "gender": 96.0,
-    "doctor": 95.0
+    "name": 79.25
+  },
+  "page": 52,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

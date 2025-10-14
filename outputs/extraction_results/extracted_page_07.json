@@ -1,24 +1,19 @@
 {
-  "page": 7,
   "patient_info": {
-    "age": "40",
-    "patient_id": "6186848"
+    "name": "NAYANA SURTI (61Y/F) SAMPLE COLLECTED AT:"
   },
-  "test_results": [
-    {
-      "test_name": "Age",
-      "value": "40",
-      "unit": "Years",
-      "confidence": 78.73,
-      "line_number": 12
-    }
-  ],
+  "test_results": [],
   "other_fields": {
-    "phone": "9035707662"
+    "doctor": "Arjun"
   },
   "confidence_scores": {
-    "age": 78.73,
-    "patient_id": 78.73,
-    "phone": 78.73
+    "name": 92.12
+  },
+  "page": 7,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

@@ -1,15 +1,48 @@
 {
-  "page": 29,
   "patient_info": {
-    "name": "Mr. K NAGASHANKAR RAO",
-    "age": "63",
-    "gender": "Male"
+    "name": "SHAILESH HARAN (51Y/M) SAMPLE COLLECTED AT:"
   },
-  "test_results": [],
-  "other_fields": {},
+  "test_results": [
+    {
+      "test_name": "NON",
+      "value": "9",
+      "unit": "if",
+      "confidence": 62.0,
+      "line_number": 9
+    },
+    {
+      "test_name": "Sample Collected on (SCT)",
+      "value": "19",
+      "unit": "Apr",
+      "confidence": 95.75,
+      "line_number": 34
+    },
+    {
+      "test_name": "Sample Received on (SRT)",
+      "value": "20",
+      "unit": "Apr",
+      "confidence": 87.22,
+      "line_number": 36
+    },
+    {
+      "test_name": "Barcode",
+      "value": "74241773",
+      "unit": "Page",
+      "confidence": 90.0,
+      "line_number": 45
+    }
+  ],
+  "other_fields": {
+    "doctor": "Caesar"
+  },
   "confidence_scores": {
-    "name": 90.67,
-    "age": 94.75,
-    "gender": 94.57
+    "name": 88.5
+  },
+  "page": 29,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

@@ -1,0 +1,23 @@
+{
+  "patient_info": {},
+  "test_results": [
+    {
+      "test_name": "IRON PHOTOMETRY",
+      "value": "57.5",
+      "unit": "yg/dl",
+      "confidence": 73.75,
+      "line_number": 24
+    }
+  ],
+  "other_fields": {
+    "doctor": "Caesar"
+  },
+  "confidence_scores": {},
+  "page": 82,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
+}

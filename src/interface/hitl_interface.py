@@ -131,6 +131,42 @@ def start_working_hitl_review(extraction_results, ocr_results, host="127.0.0.1",
             json.dump(payload, f, indent=2, ensure_ascii=False)
         return jsonify({"status": "saved", "path": out_path})
 
+    @app.route("/api/images/<int:page_num>", methods=["GET"])
+    def get_page_image(page_num):
+        """Serve preprocessed page images from cleaned_images directory."""
+        try:
+            # Get absolute path to project root (where main.py is run from)
+            # Since this file is in src/interface/, go up 2 levels
+            current_file = os.path.abspath(__file__)
+            project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
+            cleaned_images_dir = os.path.join(project_root, "outputs", "cleaned_images")
+            
+            # Try different filename patterns
+            patterns = [
+                f'cleaned_image_{page_num}.png',
+                f'cleaned_image_{page_num}.jpg',
+                f'page_{page_num}.png',
+                f'page_{page_num}.jpg',
+            ]
+            
+            for pattern in patterns:
+                img_path = os.path.join(cleaned_images_dir, pattern)
+                if os.path.exists(img_path):
+                    return send_from_directory(cleaned_images_dir, pattern)
+            
+            # Debug: Print what we tried
+            print(f"❌ Image not found for page {page_num}")
+            print(f"   Searched in: {cleaned_images_dir}")
+            print(f"   Tried patterns: {patterns}")
+            
+            # Image not found
+            return make_response(jsonify({"error": f"Image for page {page_num} not found"}), 404)
+        except Exception as e:
+            print(f"❌ Error serving image for page {page_num}: {e}")
+            import traceback
+            traceback.print_exc()
+            return make_response(jsonify({"error": str(e)}), 500)
+
     free_port = _find_free_port(port, max_tries=50)
     if free_port is None:
         print(f"❌ No free port found starting at {port}. Cannot start HITL server.")

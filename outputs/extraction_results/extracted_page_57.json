@@ -1,0 +1,21 @@
+{
+  "patient_info": {
+    "name": "that all tests have been performed or",
+    "patient_id": "RECEIVED"
+  },
+  "test_results": [],
+  "other_fields": {
+    "doctor": "doctor"
+  },
+  "confidence_scores": {
+    "name": 94.09,
+    "patient_id": 72.83
+  },
+  "page": 57,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
+  }
+}

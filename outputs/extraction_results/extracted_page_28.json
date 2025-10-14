@@ -1,15 +1,100 @@
 {
-  "page": 28,
   "patient_info": {},
   "test_results": [
     {
-      "test_name": "Estimated average glucose (eAG)",
-      "value": "283",
-      "unit": "mg/dL",
-      "confidence": 91.83,
+      "test_name": "ALKALINE PHOSPHATASE PHOTOMETRY",
+      "value": "82.5",
+      "unit": "U/L",
+      "confidence": 94.5,
+      "line_number": 21
+    },
+    {
+      "test_name": "BILIRUBIN -DIRECT PHOTOMETRY",
+      "value": "0.21",
+      "unit": "mg/dl",
+      "confidence": 92.17,
       "line_number": 22
+    },
+    {
+      "test_name": "BILIRUBIN TOTAL PHOTOMETRY",
+      "value": "0.66",
+      "unit": "mg/dl",
+      "confidence": 92.67,
+      "line_number": 24
+    },
+    {
+      "test_name": "BILIRUBIN (INDIRECT) CALCULATED",
+      "value": "0.46",
+      "unit": "mg/dl",
+      "confidence": 93.33,
+      "line_number": 26
+    },
+    {
+      "test_name": "GAMMA GLUTAMYL TRANSFERASE (GGT) PHOTOMETRY",
+      "value": "37.7",
+      "unit": "U/I",
+      "confidence": 93.56,
+      "line_number": 27
+    },
+    {
+      "test_name": "ASPARTATE AMINOTRANSFERASE (SGOT ) PHOTOMETRY",
+      "value": "25.9",
+      "unit": "U/I",
+      "confidence": 94.0,
+      "line_number": 28
+    },
+    {
+      "test_name": "ALANINE TRANSAMINASE (SGPT) PHOTOMETRY",
+      "value": "22.8",
+      "unit": "U/I",
+      "confidence": 90.62,
+      "line_number": 29
+    },
+    {
+      "test_name": "PROTEIN TOTAL PHOTOMETRY",
+      "value": "6.81",
+      "unit": "gm/dl",
+      "confidence": 93.33,
+      "line_number": 30
+    },
+    {
+      "test_name": "ALBUMIN SERUM PHOTOMETRY",
+      "value": "4.08",
+      "unit": "gm/dl",
+      "confidence": 93.67,
+      "line_number": 32
+    },
+    {
+      "test_name": "SERUM GLOBULIN PHOTOMETRY",
+      "value": "2.73",
+      "unit": "gm/dL",
+      "confidence": 93.0,
+      "line_number": 34
+    },
+    {
+      "test_name": "Sample Collected on (SCT)",
+      "value": "19",
+      "unit": "Apr",
+      "confidence": 95.0,
+      "line_number": 60
+    },
+    {
+      "test_name": "Sample Received on (SRT)",
+      "value": "20",
+      "unit": "Apr",
+      "confidence": 95.88,
+      "line_number": 61
     }
   ],
-  "other_fields": {},
-  "confidence_scores": {}
+  "other_fields": {
+    "doctor": "Prachi"
+  },
+  "confidence_scores": {},
+  "page": 28,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
 }

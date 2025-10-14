@@ -1,29 +1,21 @@
 {
-  "page": 24,
   "patient_info": {},
   "test_results": [
     {
-      "test_name": "Triglycerides",
-      "value": "179.00",
-      "unit": "mg/dL",
-      "confidence": 89.75,
-      "line_number": 22
-    },
-    {
-      "test_name": "HDL Cholesterol",
-      "value": "51.00",
-      "unit": "mg/dL",
-      "confidence": 90.6,
-      "line_number": 23
-    },
-    {
-      "test_name": "Non-HDL Cholesterol",
-      "value": "130",
-      "unit": "mg/dL",
-      "confidence": 90.2,
-      "line_number": 26
+      "test_name": "SERUM ZINC PHOTOMETRY",
+      "value": "144.92",
+      "unit": "Hg/dL",
+      "confidence": 82.4,
+      "line_number": 19
     }
   ],
   "other_fields": {},
-  "confidence_scores": {}
+  "confidence_scores": {},
+  "page": 24,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
 }

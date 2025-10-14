@@ -1,28 +1,58 @@
 {
-  "page": 12,
-  "patient_info": {
-    "age": "40",
-    "patient_id": "6186848",
-    "name": "Prajwal A"
-  },
+  "patient_info": {},
   "test_results": [
     {
-      "test_name": "Vitamin D (Total)",
-      "value": "35.00",
-      "unit": "ng/mL",
-      "confidence": 93.6,
-      "line_number": 18
+      "test_name": "BLOOD UREA NITROGEN (BUN) PHOTOMETRY",
+      "value": "10.5",
+      "unit": "mg/dl",
+      "confidence": 93.5,
+      "line_number": 24
+    },
+    {
+      "test_name": "CREATININE SERUM PHOTOMETRY",
+      "value": "0.64",
+      "unit": "mg/dl",
+      "confidence": 91.5,
+      "line_number": 25
+    },
+    {
+      "test_name": "CALCIUM PHOTOMETRY",
+      "value": "9.45",
+      "unit": "mg/dl",
+      "confidence": 92.2,
+      "line_number": 28
+    },
+    {
+      "test_name": "URIC ACID PHOTOMETRY",
+      "value": "4.01",
+      "unit": "mg/dl",
+      "confidence": 92.14,
+      "line_number": 29
+    },
+    {
+      "test_name": "Sample Collected on (SCT)",
+      "value": "04",
+      "unit": "Mar",
+      "confidence": 94.44,
+      "line_number": 43
+    },
+    {
+      "test_name": "Sample Received (SRT)",
+      "value": "04",
+      "unit": "Mar",
+      "confidence": 95.0,
+      "line_number": 44
     }
   ],
   "other_fields": {
-    "phone": "9035707662",
-    "doctor": "Prajwal"
+    "doctor": "Arjun"
   },
-  "confidence_scores": {
-    "age": 72.17,
-    "patient_id": 72.17,
-    "phone": 72.17,
-    "doctor": 93.4,
-    "name": 93.4
+  "confidence_scores": {},
+  "page": 12,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
   }
 }

@@ -1,15 +1,29 @@
 {
-  "page": 49,
-  "patient_info": {},
+  "patient_info": {
+    "name": "N PRABHAKAR REF. DOCTOR : SELF",
+    "patient_id": "RECEIVED"
+  },
   "test_results": [
     {
-      "test_name": "Estimated average glucose (eAG)",
-      "value": "214",
-      "unit": "mg/dL",
-      "confidence": 91.33,
-      "line_number": 22
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 90.0,
+      "line_number": 72
     }
   ],
-  "other_fields": {},
-  "confidence_scores": {}
+  "other_fields": {
+    "doctor": "AWN"
+  },
+  "confidence_scores": {
+    "name": 90.67,
+    "patient_id": 86.0
+  },
+  "page": 49,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
+  }
 }

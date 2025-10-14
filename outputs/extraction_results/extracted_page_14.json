@@ -1,36 +1,27 @@
 {
-  "page": 14,
   "patient_info": {
-    "name": "Ashwin Kumar A S"
+    "name": "NAYANA SURTI (61Y/F) SAMPLE COLLECTED AT:"
   },
   "test_results": [
     {
-      "test_name": "SODIUM",
-      "value": "121",
-      "unit": "mmol/L",
-      "confidence": 95.6,
-      "line_number": 29
-    },
-    {
-      "test_name": "POTASSIUM",
-      "value": "4.4",
-      "unit": "mmol/L",
-      "confidence": 94.2,
-      "line_number": 31
-    },
-    {
-      "test_name": "CHLORIDE",
-      "value": "84",
-      "unit": "mmol/L",
-      "confidence": 96.0,
-      "line_number": 33
+      "test_name": "FASTING BLOOD SUGAR PHOTOMETRY",
+      "value": "138",
+      "unit": "mg/dL",
+      "confidence": 95.0,
+      "line_number": 23
     }
   ],
   "other_fields": {
-    "doctor": "Ashwin"
+    "doctor": "Arjun"
   },
   "confidence_scores": {
-    "name": 90.67,
-    "doctor": 90.67
+    "name": 91.88
+  },
+  "page": 14,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

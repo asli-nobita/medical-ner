@@ -1,19 +1,19 @@
 {
-  "page": 25,
-  "patient_info": {},
-  "test_results": [
-    {
-      "test_name": "Glucose Fasting",
-      "value": "270.00",
-      "unit": "mg/dL",
-      "confidence": 92.17,
-      "line_number": 21
-    }
-  ],
+  "patient_info": {
+    "name": "SHAILESH HARAN (51Y/M) SAMPLE COLLECTED AT:"
+  },
+  "test_results": [],
   "other_fields": {
-    "doctor": "oxy"
+    "doctor": "Caesar"
   },
   "confidence_scores": {
-    "doctor": 94.62
+    "name": 93.12
+  },
+  "page": 25,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

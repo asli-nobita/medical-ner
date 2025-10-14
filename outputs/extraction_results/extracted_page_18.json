@@ -1,11 +1,27 @@
 {
-  "page": 18,
   "patient_info": {
-    "age": "79"
+    "name": "SHAILESH HARAN (51Y/M) SAMPLE COLLECTED AT:"
   },
-  "test_results": [],
-  "other_fields": {},
+  "test_results": [
+    {
+      "test_name": "HOMOCYSTEINE PHOTOMETRY",
+      "value": "38.2",
+      "unit": "pmol/L",
+      "confidence": 79.25,
+      "line_number": 21
+    }
+  ],
+  "other_fields": {
+    "doctor": "Caesar"
+  },
   "confidence_scores": {
-    "age": 79.0
+    "name": 92.62
+  },
+  "page": 18,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

@@ -18,27 +18,27 @@ class ModelTrainerSklearn:
         """Train the complete model."""
         print("🚀 Starting Sklearn-based Model Training")
         
-        # Check if corrections exist
+        
         if not os.path.exists('hitl_results/corrections'):
             print("No corrections found.")
         
-        # Prepare training data
+        
         features, labels, tokens = self.processor.create_training_data()
         
         if not features:
             print("No training data available")
             return None
         
-        # Train model
+        
         accuracy = self.classifier.train(features, labels)
         
-        # Save model
+        
         os.makedirs('models', exist_ok=True)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         model_path = f'models/sklearn_model_{timestamp}.pkl'
         self.classifier.save_model(model_path)
         
-        # Save metadata
+        
         metadata = {
             'timestamp': timestamp,
             'training_examples': len(features),
@@ -53,16 +53,13 @@ class ModelTrainerSklearn:
         print(f"Model training completed!")
         print(f"Model saved to: {model_path}")
         
-        # Quick test
-        self.test_model(model_path)
-        
         return model_path
     
     def test_model(self, model_path):
         """Test the trained model."""
         print("\n🧪 Testing model...")
         
-        # This is a simplified test - in practice you'd need actual token features
+        
         print("Model testing completed. Use the model for inference on new documents.")
 
 

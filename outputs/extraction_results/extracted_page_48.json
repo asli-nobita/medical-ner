@@ -1,15 +1,36 @@
 {
-  "page": 48,
   "patient_info": {
-    "name": "Mr. MANISH BAJPIE",
-    "age": "48",
-    "gender": "Male"
+    "name": "N PRABHAKAR REF. DOCTOR: SELF",
+    "patient_id": "RECEIVED"
   },
-  "test_results": [],
-  "other_fields": {},
+  "test_results": [
+    {
+      "test_name": "well-controlled type",
+      "value": "2",
+      "unit": "diabetic",
+      "confidence": 95.21,
+      "line_number": 51
+    },
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 90.0,
+      "line_number": 95
+    }
+  ],
+  "other_fields": {
+    "doctor": "AWN"
+  },
   "confidence_scores": {
-    "name": 92.4,
-    "age": 95.29,
-    "gender": 94.14
+    "name": 90.5,
+    "patient_id": 86.0
+  },
+  "page": 48,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
   }
 }

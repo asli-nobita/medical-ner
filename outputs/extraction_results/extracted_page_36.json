@@ -1,19 +1,28 @@
 {
-  "page": 36,
   "patient_info": {},
   "test_results": [
     {
-      "test_name": "Glucose Fasting",
-      "value": "93.00",
+      "test_name": "Glucose fasting",
+      "value": "96",
       "unit": "mg/dL",
-      "confidence": 92.17,
+      "confidence": 94.17,
       "line_number": 21
+    },
+    {
+      "test_name": "Glucose post prandial",
+      "value": "135",
+      "unit": "mg/dL",
+      "confidence": 93.57,
+      "line_number": 28
     }
   ],
-  "other_fields": {
-    "doctor": "oxy"
-  },
-  "confidence_scores": {
-    "doctor": 94.88
+  "other_fields": {},
+  "confidence_scores": {},
+  "page": 36,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
   }
 }

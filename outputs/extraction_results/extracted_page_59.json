@@ -1,0 +1,48 @@
+{
+  "patient_info": {
+    "name": "to change from mild to severe in COVID positive"
+  },
+  "test_results": [
+    {
+      "test_name": "HYDERABAD",
+      "value": "500072",
+      "unit": "NO",
+      "confidence": 96.0,
+      "line_number": 14
+    },
+    {
+      "test_name": "ABSOLUTE LYMPHOCYTE COUNT",
+      "value": "3.03",
+      "unit": "High",
+      "confidence": 90.38,
+      "line_number": 22
+    },
+    {
+      "test_name": "ABSOLUTE BASOPHIL COUNT",
+      "value": "0",
+      "unit": "Low",
+      "confidence": 91.5,
+      "line_number": 31
+    },
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 89.8,
+      "line_number": 72
+    }
+  ],
+  "other_fields": {
+    "doctor": "A i"
+  },
+  "confidence_scores": {
+    "name": 95.04
+  },
+  "page": 59,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
+  }
+}

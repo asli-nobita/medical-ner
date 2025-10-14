@@ -1,18 +1,19 @@
 {
-  "page": 32,
   "patient_info": {
-    "name": "awnfrom outsidesource.",
-    "age": "63",
-    "gender": "Male"
+    "name": "SHAILESH HARAN (51Y/M) SAMPLE COLLECTEDAT :"
   },
   "test_results": [],
   "other_fields": {
-    "doctor": "awnfrom"
+    "doctor": "Caesar"
   },
   "confidence_scores": {
-    "name": 95.0,
-    "age": 94.75,
-    "gender": 96.0,
-    "doctor": 95.0
+    "name": 90.78
+  },
+  "page": 32,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

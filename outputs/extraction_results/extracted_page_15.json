@@ -1,82 +1,19 @@
 {
-  "page": 15,
-  "patient_info": {},
-  "test_results": [
-    {
-      "test_name": "BILIRUBIN TOTAL",
-      "value": "0.44",
-      "unit": "mg/dl",
-      "confidence": 90.0,
-      "line_number": 27
-    },
-    {
-      "test_name": "BILIRUBIN DIRECT",
-      "value": "0.26",
-      "unit": "mg/dl",
-      "confidence": 90.17,
-      "line_number": 29
-    },
-    {
-      "test_name": "BILIRUBIN INDIRECT",
-      "value": "0.18",
-      "unit": "mg/dl",
-      "confidence": 89.5,
-      "line_number": 31
-    },
-    {
-      "test_name": "TOTAL PROTEIN",
-      "value": "7.1",
-      "unit": "g/dL",
-      "confidence": 85.44,
-      "line_number": 33
-    },
-    {
-      "test_name": "ALBUMIN",
-      "value": "3.9",
-      "unit": "g/L",
-      "confidence": 93.5,
-      "line_number": 42
-    },
-    {
-      "test_name": "GLOBULIN",
-      "value": "3.2",
-      "unit": "g/dL",
-      "confidence": 90.0,
-      "line_number": 48
-    },
-    {
-      "test_name": "SGOT(AST)",
-      "value": "25",
-      "unit": "U/L",
-      "confidence": 91.0,
-      "line_number": 53
-    },
-    {
-      "test_name": "SGPT (ALT)",
-      "value": "22",
-      "unit": "U/L",
-      "confidence": 91.83,
-      "line_number": 55
-    },
-    {
-      "test_name": "GGT",
-      "value": "15",
-      "unit": "U/L",
-      "confidence": 91.4,
-      "line_number": 57
-    },
-    {
-      "test_name": "ALKALINE PHOSPHATASE",
-      "value": "67",
-      "unit": "U/L",
-      "confidence": 92.5,
-      "line_number": 59
-    }
-  ],
+  "patient_info": {
+    "name": "NAYANA SURTI (61Y/F) SAMPLE COLLECTEDAT :"
+  },
+  "test_results": [],
   "other_fields": {
-    "doctor": "en"
+    "doctor": "Arjun"
   },
   "confidence_scores": {
-    "doctor": 96.0
+    "name": 90.78
+  },
+  "page": 15,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

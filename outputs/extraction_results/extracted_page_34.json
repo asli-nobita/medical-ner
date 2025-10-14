@@ -1,44 +1,135 @@
 {
-  "page": 34,
-  "patient_info": {
-    "name": "Mrs. SWARNA LATA",
-    "age": "41",
-    "gender": "Female"
-  },
+  "patient_info": {},
   "test_results": [
     {
-      "test_name": "Phosphorus",
-      "value": "4.26",
-      "unit": "mg/dL",
-      "confidence": 94.0,
-      "line_number": 20
-    },
-    {
-      "test_name": "Sodium",
-      "value": "134.90",
-      "unit": "mEq/L",
-      "confidence": 94.6,
+      "test_name": "ARSENIC ICP-MS",
+      "value": "0.91",
+      "unit": "uG/",
+      "confidence": 77.2,
       "line_number": 23
     },
     {
-      "test_name": "Potassium",
-      "value": "5.75",
-      "unit": "mEq/L",
-      "confidence": 94.4,
+      "test_name": "LEAD ICP-MS",
+      "value": "20.05",
+      "unit": "uG/",
+      "confidence": 80.17,
       "line_number": 26
     },
     {
-      "test_name": "Chloride",
-      "value": "104.00",
-      "unit": "mEq/L",
-      "confidence": 95.0,
+      "test_name": "BARIUM ICP-MS",
+      "value": "1.74",
+      "unit": "ug/",
+      "confidence": 80.67,
+      "line_number": 28
+    },
+    {
+      "test_name": "COBALT ICP-MS",
+      "value": "0.3",
+      "unit": "uG/",
+      "confidence": 77.17,
       "line_number": 29
+    },
+    {
+      "test_name": "CAESIUM ICP-MS",
+      "value": "2.72",
+      "unit": "ug/",
+      "confidence": 77.0,
+      "line_number": 31
+    },
+    {
+      "test_name": "THALLIUM ICP-MS",
+      "value": "0.01",
+      "unit": "ug/",
+      "confidence": 68.8,
+      "line_number": 32
+    },
+    {
+      "test_name": "URANIUM ICP-MS",
+      "value": "0.05",
+      "unit": "ug/",
+      "confidence": 69.2,
+      "line_number": 33
+    },
+    {
+      "test_name": "STRONTIUM ICP-MS",
+      "value": "19.7",
+      "unit": "ug/l",
+      "confidence": 86.5,
+      "line_number": 34
+    },
+    {
+      "test_name": "ANTIMONY ICP-MS",
+      "value": "3.97",
+      "unit": "uG/",
+      "confidence": 79.67,
+      "line_number": 36
+    },
+    {
+      "test_name": "TIN ICP-MS",
+      "value": "0.22",
+      "unit": "ug/",
+      "confidence": 78.2,
+      "line_number": 38
+    },
+    {
+      "test_name": "SILVER ICP-MS",
+      "value": "0.43",
+      "unit": "ug/",
+      "confidence": 78.2,
+      "line_number": 41
+    },
+    {
+      "test_name": "VANADIUM ICP-MS",
+      "value": "0.44",
+      "unit": "ug/",
+      "confidence": 80.83,
+      "line_number": 42
+    },
+    {
+      "test_name": "BISMUTH ICP-MS",
+      "value": "0.18",
+      "unit": "uG/",
+      "confidence": 79.33,
+      "line_number": 45
+    },
+    {
+      "test_name": "SELENIUM ICP-MS",
+      "value": "196.97",
+      "unit": "uG/",
+      "confidence": 80.0,
+      "line_number": 47
+    },
+    {
+      "test_name": "ALUMINIUM ICP-MS",
+      "value": "4.77",
+      "unit": "ug/",
+      "confidence": 80.5,
+      "line_number": 49
+    },
+    {
+      "test_name": "NICKEL ICP-MS",
+      "value": "3.93",
+      "unit": "ug/",
+      "confidence": 76.8,
+      "line_number": 50
+    },
+    {
+      "test_name": "MANGANESE ICP-MS",
+      "value": "12.4",
+      "unit": "uG/",
+      "confidence": 77.67,
+      "line_number": 51
     }
   ],
-  "other_fields": {},
-  "confidence_scores": {
-    "name": 93.0,
-    "age": 95.43,
-    "gender": 94.86
+  "other_fields": {
+    "doctor": "Caesar"
+  },
+  "confidence_scores": {},
+  "page": 34,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
   }
 }

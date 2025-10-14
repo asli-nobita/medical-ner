@@ -1,0 +1,69 @@
+{
+  "patient_info": {
+    "name": "FARKHUNDA JABEEN REF. DOCTOR :"
+  },
+  "test_results": [
+    {
+      "test_name": "HYDERABAD",
+      "value": "500072",
+      "unit": "NO",
+      "confidence": 96.0,
+      "line_number": 16
+    },
+    {
+      "test_name": "HEMOGLOBIN (HB)",
+      "value": "11.8",
+      "unit": "Low",
+      "confidence": 93.86,
+      "line_number": 23
+    },
+    {
+      "test_name": "MEAN CORPUSCULAR VOLUME (MCV)",
+      "value": "82.0",
+      "unit": "Low",
+      "confidence": 92.11,
+      "line_number": 39
+    },
+    {
+      "test_name": "MEAN CORPUSCULAR HEMOGLOBIN (MCH)",
+      "value": "25.1",
+      "unit": "Low",
+      "confidence": 93.56,
+      "line_number": 42
+    },
+    {
+      "test_name": "MEAN CORPUSCULAR HEMOGLOBIN",
+      "value": "30.7",
+      "unit": "Low",
+      "confidence": 94.12,
+      "line_number": 45
+    },
+    {
+      "test_name": "RED CELL DISTRIBUTION WIDTH (RDW)",
+      "value": "14.3",
+      "unit": "High",
+      "confidence": 93.5,
+      "line_number": 49
+    },
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 88.2,
+      "line_number": 84
+    }
+  ],
+  "other_fields": {
+    "doctor": "AWN"
+  },
+  "confidence_scores": {
+    "name": 88.88
+  },
+  "page": 58,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
+  }
+}

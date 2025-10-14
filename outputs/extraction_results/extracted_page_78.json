@@ -1,0 +1,19 @@
+{
+  "patient_info": {
+    "name": "SUNNY (31Y/M) SAMPLE COLLECTEDAT :"
+  },
+  "test_results": [],
+  "other_fields": {
+    "doctor": "Prachi"
+  },
+  "confidence_scores": {
+    "name": 90.62
+  },
+  "page": 78,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
+  }
+}

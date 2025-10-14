@@ -1,33 +1,29 @@
 {
-  "page": 41,
   "patient_info": {
-    "name": "LalPathLabsLtd",
-    "age": "41",
-    "gender": "Female"
+    "name": "M NAGESHWAR RAO REF. DOCTOR:",
+    "patient_id": "RECEIVED"
   },
   "test_results": [
     {
-      "test_name": "Basophils",
-      "value": "0.05",
-      "unit": "thou/mm",
-      "confidence": 93.4,
-      "line_number": 19
-    },
-    {
-      "test_name": "Platelet Count",
-      "value": "478",
-      "unit": "thou/mm",
-      "confidence": 94.67,
-      "line_number": 21
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 90.0,
+      "line_number": 93
     }
   ],
   "other_fields": {
-    "doctor": "LalPathLabsLtd"
+    "doctor": "AWN"
   },
   "confidence_scores": {
-    "name": 93.5,
-    "age": 91.12,
-    "gender": 96.0,
-    "doctor": 93.5
+    "name": 90.0,
+    "patient_id": 86.5
+  },
+  "page": 41,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
   }
 }

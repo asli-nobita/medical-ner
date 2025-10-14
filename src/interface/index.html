@@ -5,53 +5,301 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medical NER - Human-in-the-Loop Interface</title>
     <style>
-        * { box-sizing: border-box; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0; padding: 20px; background-color: #f5f5f5; line-height: 1.6;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+            padding: 20px;
         }
+        
         .container {
-            max-width: 1200px; margin: 0 auto; background-color: white;
-            padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        h1 { color: #2c3e50; text-align: center; margin-bottom: 30px; }
-        h2 { color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        .loading { text-align: center; padding: 40px; color: #7f8c8d; }
-        .error { background-color: #e74c3c; color: white; padding: 15px; border-radius: 5px; margin: 10px 0; }
-        .success { background-color: #27ae60; color: white; padding: 15px; border-radius: 5px; margin: 10px 0; }
-        .field-group { background-color: #f8f9fa; padding: 15px; margin: 15px 0; border-radius: 8px; border-left: 4px solid #3498db; }
-        .field-item { display: flex; align-items: center; margin: 10px 0; padding: 10px; background-color: white; border-radius: 5px; border: 1px solid #dee2e6; }
-        .field-label { font-weight: bold; min-width: 120px; color: #495057; }
-        .field-input { flex: 1; padding: 8px 12px; border: 1px solid #ced4da; border-radius: 4px; margin: 0 10px; }
-        .confidence { min-width: 80px; font-size: 0.9em; padding: 4px 8px; border-radius: 12px; text-align: center; color: white; }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+        }
+        
+        .error {
+            background-color: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        .success {
+            background-color: #27ae60;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        /* Carousel Container */
+        .carousel-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        
+        .carousel-wrapper {
+            display: flex;
+            transition: transform 0.4s ease-in-out;
+        }
+        
+        .carousel-slide {
+            min-width: 100%;
+            padding: 0 10px;
+        }
+        
+        /* Page Image */
+        .page-image-container {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .page-image {
+            max-width: 100%;
+            height: auto;
+            max-height: 600px;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .image-loading {
+            color: #7f8c8d;
+            padding: 40px;
+            font-style: italic;
+        }
+        
+        .image-error {
+            color: #e74c3c;
+            padding: 20px;
+            font-style: italic;
+        }
+        
+        /* Page Header */
+        .page-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        
+        /* Field Groups */
+        .field-group {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .field-group h3 {
+            color: #34495e;
+            margin-bottom: 15px;
+        }
+        
+        .field-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+        }
+        
+        .field-label {
+            font-weight: bold;
+            min-width: 140px;
+            color: #495057;
+        }
+        
+        .field-input {
+            flex: 1;
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+        
+        .field-input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+        }
+        
+        .confidence {
+            min-width: 80px;
+            font-size: 0.9em;
+            padding: 4px 8px;
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+        
         .confidence.high { background-color: #27ae60; }
         .confidence.medium { background-color: #f39c12; }
         .confidence.low { background-color: #e74c3c; }
-        .btn { padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin: 5px; }
-        .btn-primary { background-color: #3498db; color: white; }
-        .btn-success { background-color: #27ae60; color: white; }
-        .btn-danger { background-color: #e74c3c; color: white; }
-        .btn:hover { opacity: 0.9; }
-        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
-        .controls { text-align: center; margin: 30px 0; }
-        .status { text-align: center; margin: 10px 0; font-weight: bold; }
+        
+        /* Navigation Controls */
+        .carousel-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0;
+        }
+        
+        .nav-btn {
+            padding: 12px 24px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .nav-btn:hover:not(:disabled) {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .nav-btn:disabled {
+            background-color: #95a5a6;
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+        
+        /* Page Counter */
+        .page-counter {
+            text-align: center;
+            flex: 1;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-weight: 500;
+        }
+        
+        /* Action Buttons */
+        .action-controls {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .btn-success {
+            background-color: #27ae60;
+            color: white;
+        }
+        
+        .btn-success:hover {
+            background-color: #229954;
+        }
+        
+        .btn-primary {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+        }
+        
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .status {
+            text-align: center;
+            margin: 10px 0;
+            font-weight: bold;
+            color: #34495e;
+        }
+        
+        /* Empty Page Indicator */
+        .empty-page {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>🏥 Medical NER - Human-in-the-Loop Interface</h1>
         
-        <div id="loading" class="loading"><p>Loading data...</p></div>
+        <div id="loading" class="loading">
+            <p>Loading data...</p>
+        </div>
+        
         <div id="error" class="error" style="display: none;"></div>
         <div id="success" class="success" style="display: none;"></div>
 
         <div id="content" style="display: none;">
-            <div id="extractionResults">
-                <h2>🔍 Extracted Medical Information</h2>
-                <div id="extractionFields"></div>
+            <!-- Carousel Navigation -->
+            <div class="carousel-controls">
+                <button class="nav-btn" id="prevBtn" onclick="navigatePage(-1)">
+                    ⬅️ Previous
+                </button>
+                <div class="page-counter" id="pageCounter">
+                    Page 1 of 1
+                </div>
+                <button class="nav-btn" id="nextBtn" onclick="navigatePage(1)">
+                    Next ➡️
+                </button>
             </div>
 
-            <div class="controls">
+            <!-- Carousel Container -->
+            <div class="carousel-container">
+                <div class="carousel-wrapper" id="carouselWrapper">
+                    <!-- Pages will be inserted here dynamically -->
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-controls">
                 <button class="btn btn-success" id="confirmBtn">✅ Confirm All</button>
                 <button class="btn btn-primary" id="saveCorrectionsBtn">💾 Save Corrections</button>
             </div>
@@ -63,19 +311,20 @@
         let extractionData = [];
         let ocrData = [];
         let corrections = {};
+        let currentPage = 0;
+        let totalPages = 0;
 
         async function loadData() {
             try {
                 const extractionResp = await fetch('/api/extraction_results');
                 extractionData = await extractionResp.json();
                 console.log('Extraction data:', extractionData);
-                console.log('Type:', typeof extractionData, 'Length:', extractionData.length);
                 
                 const ocrResp = await fetch('/api/ocr_results');
                 ocrData = await ocrResp.json();
                 console.log('OCR data:', ocrData);
 
-                displayExtractions();
+                initializeCarousel();
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('content').style.display = 'block';
             } catch (error) {
@@ -84,119 +333,161 @@
             }
         }
 
-        function displayExtractions() {
-            const container = document.getElementById('extractionFields');
-            container.innerHTML = '';
-
-            console.log('displayExtractions called with:', extractionData);
+        function initializeCarousel() {
+            const wrapper = document.getElementById('carouselWrapper');
+            wrapper.innerHTML = '';
 
             let pages = [];
             
             if (Array.isArray(extractionData)) {
-                // Data comes as array of pages directly
                 pages = extractionData;
             } else if (extractionData && extractionData.pages) {
-                // Handle nested format: {total_pages: N, pages: [...]}
                 pages = extractionData.pages;
             } else {
-                container.innerHTML = '<p>No extraction results available or unexpected format.</p>';
+                wrapper.innerHTML = '<div class="empty-page">No extraction results available.</div>';
                 return;
             }
 
             if (pages.length === 0) {
-                container.innerHTML = '<p>No extraction results found.</p>';
+                wrapper.innerHTML = '<div class="empty-page">No extraction results found.</div>';
                 return;
             }
 
-            // Display each page as a separate group
+            totalPages = pages.length;
+            
+            // Create a slide for each page
+            pages.forEach((page, pageIndex) => {
+                const slide = createPageSlide(page, pageIndex);
+                wrapper.appendChild(slide);
+            });
+
+            // Load images after all slides are in the DOM
             pages.forEach((page, pageIndex) => {
                 const pageNumber = page.page || pageIndex + 1;
-                
-                // Create page container
-                const pageContainer = document.createElement('div');
-                pageContainer.className = 'page-container';
-                pageContainer.style.marginBottom = '30px';
-                pageContainer.style.border = '2px solid #3498db';
-                pageContainer.style.borderRadius = '10px';
-                pageContainer.style.padding = '20px';
-                pageContainer.style.backgroundColor = '#f8f9fa';
-
-                // Page header
-                const pageHeader = document.createElement('h2');
-                pageHeader.innerHTML = `📄 Page ${pageNumber}`;
-                pageHeader.style.color = '#2c3e50';
-                pageHeader.style.marginTop = '0';
-                pageContainer.appendChild(pageHeader);
-
-                let hasContent = false;
-
-                // Patient Information Section
-                if (page.patient_info && Object.keys(page.patient_info).length > 0) {
-                    hasContent = true;
-                    const patientGroup = document.createElement('div');
-                    patientGroup.className = 'field-group';
-                    patientGroup.innerHTML = '<h3>👤 Patient Information</h3>';
-                    
-                    Object.entries(page.patient_info).forEach(([key, value], index) => {
-                        const field = {
-                            test_name: key.charAt(0).toUpperCase() + key.slice(1),
-                            value: value,
-                            confidence: page.confidence_scores?.[key] || 0,
-                            page: pageNumber,
-                            type: 'patient_info'
-                        };
-                        patientGroup.appendChild(createFieldEditor(`patient_${pageNumber}_${index}`, field, 'patient'));
-                    });
-                    pageContainer.appendChild(patientGroup);
-                }
-
-                // Test Results Section
-                if (page.test_results && page.test_results.length > 0) {
-                    hasContent = true;
-                    const testGroup = document.createElement('div');
-                    testGroup.className = 'field-group';
-                    testGroup.innerHTML = '<h3>🧪 Test Results</h3>';
-                    
-                    page.test_results.forEach((test, index) => {
-                        const field = {
-                            ...test,
-                            page: pageNumber,
-                            type: 'test_result'
-                        };
-                        testGroup.appendChild(createFieldEditor(`test_${pageNumber}_${index}`, field, 'test'));
-                    });
-                    pageContainer.appendChild(testGroup);
-                }
-
-                // Other Information Section
-                if (page.other_fields && Object.keys(page.other_fields).length > 0) {
-                    hasContent = true;
-                    const otherGroup = document.createElement('div');
-                    otherGroup.className = 'field-group';
-                    otherGroup.innerHTML = '<h3>� Other Information</h3>';
-                    
-                    Object.entries(page.other_fields).forEach(([key, value], index) => {
-                        const field = {
-                            test_name: key.charAt(0).toUpperCase() + key.slice(1),
-                            value: value,
-                            confidence: page.confidence_scores?.[key] || 0,
-                            page: pageNumber,
-                            type: 'other'
-                        };
-                        otherGroup.appendChild(createFieldEditor(`other_${pageNumber}_${index}`, field, 'other'));
-                    });
-                    pageContainer.appendChild(otherGroup);
-                }
-
-                // Only add the page container if it has content
-                if (hasContent) {
-                    container.appendChild(pageContainer);
-                } else {
-                    // Show empty page indicator
-                    pageContainer.innerHTML = `<h2>� Page ${pageNumber}</h2><p style="color: #7f8c8d; font-style: italic;">No data extracted from this page.</p>`;
-                    container.appendChild(pageContainer);
-                }
+                loadPageImage(pageNumber, pageIndex);
             });
+
+            currentPage = 0;
+            updateCarousel();
+        }
+
+        function createPageSlide(page, pageIndex) {
+            const pageNumber = page.page || pageIndex + 1;
+            const slide = document.createElement('div');
+            slide.className = 'carousel-slide';
+
+            // Page Header
+            const header = document.createElement('div');
+            header.className = 'page-header';
+            header.innerHTML = `📄 Page ${pageNumber}`;
+            slide.appendChild(header);
+
+            // Image Container
+            const imageContainer = document.createElement('div');
+            imageContainer.className = 'page-image-container';
+            imageContainer.id = `image-container-${pageIndex}`;
+            imageContainer.innerHTML = '<div class="image-loading">Loading image...</div>';
+            slide.appendChild(imageContainer);
+
+            // Note: Image will be loaded after slide is appended to DOM
+
+            let hasContent = false;
+
+            // Patient Information Section
+            if (page.patient_info && Object.keys(page.patient_info).length > 0) {
+                hasContent = true;
+                const patientGroup = document.createElement('div');
+                patientGroup.className = 'field-group';
+                patientGroup.innerHTML = '<h3>👤 Patient Information</h3>';
+                
+                Object.entries(page.patient_info).forEach(([key, value], index) => {
+                    const field = {
+                        test_name: key.charAt(0).toUpperCase() + key.slice(1),
+                        value: value,
+                        confidence: page.confidence_scores?.[key] || 0,
+                        page: pageNumber,
+                        type: 'patient_info'
+                    };
+                    patientGroup.appendChild(createFieldEditor(`patient_${pageNumber}_${index}`, field, 'patient'));
+                });
+                slide.appendChild(patientGroup);
+            }
+
+            // Test Results Section
+            if (page.test_results && page.test_results.length > 0) {
+                hasContent = true;
+                const testGroup = document.createElement('div');
+                testGroup.className = 'field-group';
+                testGroup.innerHTML = '<h3>🧪 Test Results</h3>';
+                
+                page.test_results.forEach((test, index) => {
+                    const field = {
+                        ...test,
+                        page: pageNumber,
+                        type: 'test_result'
+                    };
+                    testGroup.appendChild(createFieldEditor(`test_${pageNumber}_${index}`, field, 'test'));
+                });
+                slide.appendChild(testGroup);
+            }
+
+            // Other Information Section
+            if (page.other_fields && Object.keys(page.other_fields).length > 0) {
+                hasContent = true;
+                const otherGroup = document.createElement('div');
+                otherGroup.className = 'field-group';
+                otherGroup.innerHTML = '<h3>ℹ️ Other Information</h3>';
+                
+                Object.entries(page.other_fields).forEach(([key, value], index) => {
+                    const field = {
+                        test_name: key.charAt(0).toUpperCase() + key.slice(1),
+                        value: value,
+                        confidence: page.confidence_scores?.[key] || 0,
+                        page: pageNumber,
+                        type: 'other'
+                    };
+                    otherGroup.appendChild(createFieldEditor(`other_${pageNumber}_${index}`, field, 'other'));
+                });
+                slide.appendChild(otherGroup);
+            }
+
+            // Show message if no content
+            if (!hasContent) {
+                const emptyMsg = document.createElement('div');
+                emptyMsg.className = 'empty-page';
+                emptyMsg.textContent = 'No data extracted from this page.';
+                slide.appendChild(emptyMsg);
+            }
+
+            return slide;
+        }
+
+        async function loadPageImage(pageNumber, pageIndex) {
+            const container = document.getElementById(`image-container-${pageIndex}`);
+            
+            // Check if container exists
+            if (!container) {
+                console.warn(`Image container for page ${pageNumber} (index ${pageIndex}) not found in DOM`);
+                return;
+            }
+            
+            try {
+                const response = await fetch(`/api/images/${pageNumber}`);
+                
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const imageUrl = URL.createObjectURL(blob);
+                    
+                    container.innerHTML = `<img src="${imageUrl}" alt="Page ${pageNumber}" class="page-image">`;
+                } else {
+                    container.innerHTML = '<div class="image-error">Image not available</div>';
+                }
+            } catch (error) {
+                console.error(`Error loading image for page ${pageNumber}:`, error);
+                if (container) {
+                    container.innerHTML = '<div class="image-error">Failed to load image</div>';
+                }
+            }
         }
 
         function createFieldEditor(index, field, fieldType) {
@@ -205,16 +496,12 @@
 
             const label = document.createElement('div');
             label.className = 'field-label';
-            
-            // Simpler labels since page info is now in the header
-            let labelText = field.test_name || field.field_name || `Field ${index}`;
-            label.textContent = labelText;
+            label.textContent = field.test_name || field.field_name || `Field ${index}`;
 
             const input = document.createElement('input');
             input.className = 'field-input';
             input.value = field.value || '';
             
-            // Add unit info as placeholder if available
             if (field.unit) {
                 input.placeholder = `Unit: ${field.unit}`;
             }
@@ -224,10 +511,9 @@
             const confidence = document.createElement('div');
             confidence.className = 'confidence';
             
-            // Handle confidence as either percentage or decimal
             let confValue = field.confidence || 0;
             if (confValue > 1) {
-                confValue = confValue / 100; // Convert percentage to decimal
+                confValue = confValue / 100;
             }
             
             confidence.textContent = `${(confValue * 100).toFixed(1)}%`;
@@ -252,6 +538,38 @@
                 timestamp: new Date().toISOString()
             };
         }
+
+        function navigatePage(direction) {
+            const newPage = currentPage + direction;
+            
+            if (newPage >= 0 && newPage < totalPages) {
+                currentPage = newPage;
+                updateCarousel();
+            }
+        }
+
+        function updateCarousel() {
+            const wrapper = document.getElementById('carouselWrapper');
+            const offset = -currentPage * 100;
+            wrapper.style.transform = `translateX(${offset}%)`;
+
+            // Update page counter
+            document.getElementById('pageCounter').textContent = 
+                `Page ${currentPage + 1} of ${totalPages}`;
+
+            // Update button states
+            document.getElementById('prevBtn').disabled = currentPage === 0;
+            document.getElementById('nextBtn').disabled = currentPage === totalPages - 1;
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') {
+                navigatePage(-1);
+            } else if (e.key === 'ArrowRight') {
+                navigatePage(1);
+            }
+        });
 
         async function saveCorrections() {
             try {

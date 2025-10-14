@@ -1,0 +1,57 @@
+{
+  "patient_info": {
+    "name": "A i i",
+    "patient_id": "RECEIVED"
+  },
+  "test_results": [
+    {
+      "test_name": "HYDERABAD",
+      "value": "500072",
+      "unit": "NO",
+      "confidence": 87.5,
+      "line_number": 16
+    },
+    {
+      "test_name": "TRIGLYCERIDES",
+      "value": "177",
+      "unit": "High",
+      "confidence": 92.33,
+      "line_number": 29
+    },
+    {
+      "test_name": "NON HDL CHOLESTEROL",
+      "value": "132",
+      "unit": "High",
+      "confidence": 79.1,
+      "line_number": 50
+    },
+    {
+      "test_name": "VERY LOW DENSITY LIPOPROTEIN",
+      "value": "35.4",
+      "unit": "High",
+      "confidence": 94.44,
+      "line_number": 59
+    },
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 89.8,
+      "line_number": 92
+    }
+  ],
+  "other_fields": {
+    "doctor": "A i"
+  },
+  "confidence_scores": {
+    "name": 89.43,
+    "patient_id": 89.17
+  },
+  "page": 65,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
+  }
+}

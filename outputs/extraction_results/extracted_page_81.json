@@ -1,0 +1,13 @@
+{
+  "patient_info": {},
+  "test_results": [],
+  "other_fields": {},
+  "confidence_scores": {},
+  "page": 81,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
+}

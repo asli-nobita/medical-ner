@@ -1,54 +1,36 @@
 {
-  "page": 40,
   "patient_info": {
-    "name": "Mrs. SWARNA LATA",
-    "age": "41",
-    "gender": "Female"
+    "name": "M NAGESHWAR RAO REF. DOCTOR :",
+    "patient_id": "RECEIVED"
   },
   "test_results": [
     {
-      "test_name": "MCHC",
-      "value": "27.30",
-      "unit": "g/dL",
-      "confidence": 93.4,
-      "line_number": 28
+      "test_name": "LACTATE DEHYDROGENASE",
+      "value": "356",
+      "unit": "High",
+      "confidence": 95.0,
+      "line_number": 39
     },
     {
-      "test_name": "Neutrophils",
-      "value": "4.20",
-      "unit": "thou/mm",
-      "confidence": 94.0,
-      "line_number": 43
-    },
-    {
-      "test_name": "Lymphocytes",
-      "value": "1.50",
-      "unit": "thou/mm",
-      "confidence": 94.0,
-      "line_number": 45
-    },
-    {
-      "test_name": "Monocytes",
-      "value": "0.37",
-      "unit": "thou/mm",
-      "confidence": 94.0,
-      "line_number": 47
-    },
-    {
-      "test_name": "Eosinophils",
-      "value": "0.18",
-      "unit": "thou/mm",
-      "confidence": 94.2,
-      "line_number": 49
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 88.2,
+      "line_number": 79
     }
   ],
   "other_fields": {
-    "doctor": "Lat"
+    "doctor": "AWN"
   },
   "confidence_scores": {
-    "name": 92.2,
-    "doctor": 67.33,
-    "age": 92.12,
-    "gender": 96.0
+    "name": 91.67,
+    "patient_id": 81.5
+  },
+  "page": 40,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
   }
 }

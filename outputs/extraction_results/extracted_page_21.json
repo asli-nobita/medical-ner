@@ -1,19 +1,13 @@
 {
-  "page": 21,
-  "patient_info": {
-    "age": "79"
-  },
-  "test_results": [
-    {
-      "test_name": "TSH",
-      "value": "5.25",
-      "unit": "yIU/mL",
-      "confidence": 82.2,
-      "line_number": 16
-    }
-  ],
+  "patient_info": {},
+  "test_results": [],
   "other_fields": {},
-  "confidence_scores": {
-    "age": 79.0
+  "confidence_scores": {},
+  "page": 21,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
   }
 }

@@ -1,18 +1,29 @@
 {
-  "page": 42,
   "patient_info": {
-    "name": "awnfrom outsidesource.",
-    "age": "41",
-    "gender": "Female"
+    "name": "M NAGESHWAR RAO REF. DOCTOR:",
+    "patient_id": "RECEIVED"
   },
-  "test_results": [],
+  "test_results": [
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 88.2,
+      "line_number": 62
+    }
+  ],
   "other_fields": {
-    "doctor": "awnfrom"
+    "doctor": "AWN"
   },
   "confidence_scores": {
-    "name": 95.0,
-    "age": 92.12,
-    "gender": 96.0,
-    "doctor": 95.0
+    "name": 89.86,
+    "patient_id": 87.5
+  },
+  "page": 42,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
   }
 }

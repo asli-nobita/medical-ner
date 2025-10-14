@@ -1,1 +1,7 @@
-Please provide the desired project directory structure, including the folders, subfolders, and files you want to create.
+"""Smoke tests for data processing utilities."""
+
+
+def test_placeholder():
+    """Placeholder test ensuring pytest configuration is valid."""
+
+    assert True

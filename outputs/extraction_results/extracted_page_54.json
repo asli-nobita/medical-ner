@@ -1,0 +1,29 @@
+{
+  "patient_info": {
+    "name": "A I I",
+    "patient_id": "RECEIVED"
+  },
+  "test_results": [
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 89.8,
+      "line_number": 61
+    }
+  ],
+  "other_fields": {
+    "doctor": "A I"
+  },
+  "confidence_scores": {
+    "name": 64.08,
+    "patient_id": 95.5
+  },
+  "page": 54,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
+  }
+}

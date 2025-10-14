@@ -1,0 +1,21 @@
+{
+  "patient_info": {
+    "name": "oxylase in the lesion.",
+    "patient_id": "RECEIVED"
+  },
+  "test_results": [],
+  "other_fields": {
+    "doctor": "oxylase"
+  },
+  "confidence_scores": {
+    "name": 88.55,
+    "patient_id": 86.83
+  },
+  "page": 56,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
+  }
+}

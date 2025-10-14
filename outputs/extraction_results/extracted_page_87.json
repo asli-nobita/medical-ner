@@ -1,0 +1,15 @@
+{
+  "patient_info": {},
+  "test_results": [],
+  "other_fields": {
+    "doctor": "doctor"
+  },
+  "confidence_scores": {},
+  "page": 87,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "patient_info": {
+    "name": "A i i",
+    "patient_id": "RECEIVED"
+  },
+  "test_results": [
+    {
+      "test_name": "FBS (FASTING BLOOD SUGAR)",
+      "value": "206",
+      "unit": "High",
+      "confidence": 90.33,
+      "line_number": 22
+    },
+    {
+      "test_name": "ESTIMATED AVERAGE GLUCOSE(EAG)",
+      "value": "271.9",
+      "unit": "High",
+      "confidence": 91.38,
+      "line_number": 36
+    },
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 88.2,
+      "line_number": 81
+    }
+  ],
+  "other_fields": {
+    "doctor": "A i"
+  },
+  "confidence_scores": {
+    "name": 89.29,
+    "patient_id": 88.83
+  },
+  "page": 60,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
+  }
+}

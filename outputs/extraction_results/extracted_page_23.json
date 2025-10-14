@@ -1,37 +1,21 @@
 {
-  "page": 23,
-  "patient_info": {
-    "name": "Mr. K NAGASHANKAR RAO",
-    "age": "63",
-    "gender": "Male"
-  },
+  "patient_info": {},
   "test_results": [
     {
-      "test_name": "Phosphorus",
-      "value": "4.40",
-      "unit": "mg/dL",
-      "confidence": 91.8,
-      "line_number": 20
-    },
-    {
-      "test_name": "Sodium",
-      "value": "135.30",
-      "unit": "mEq/L",
-      "confidence": 92.8,
-      "line_number": 23
-    },
-    {
-      "test_name": "Potassium",
-      "value": "4.16",
-      "unit": "mEq/L",
-      "confidence": 91.6,
-      "line_number": 26
+      "test_name": "SERUM COPPER PHOTOMETRY",
+      "value": "118.79",
+      "unit": "ug/dL",
+      "confidence": 85.0,
+      "line_number": 21
     }
   ],
   "other_fields": {},
-  "confidence_scores": {
-    "name": 91.67,
-    "age": 94.86,
-    "gender": 94.71
+  "confidence_scores": {},
+  "page": 23,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
   }
 }

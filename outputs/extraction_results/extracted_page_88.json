@@ -1,0 +1,21 @@
+{
+  "patient_info": {},
+  "test_results": [
+    {
+      "test_name": "Page",
+      "value": "10",
+      "unit": "of",
+      "confidence": 90.8,
+      "line_number": 82
+    }
+  ],
+  "other_fields": {},
+  "confidence_scores": {},
+  "page": 88,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
+}

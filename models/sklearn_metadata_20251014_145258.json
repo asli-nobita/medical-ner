@@ -1,0 +1,7 @@
+{
+  "timestamp": "20251014_145258",
+  "training_examples": 90377,
+  "accuracy": 0.9939697046815008,
+  "model_path": "models/sklearn_model_20251014_145258.pkl",
+  "model_type": "sklearn_logistic_regression"
+}

@@ -1,0 +1,19 @@
+{
+  "patient_info": {
+    "name": "omes. hsCRP levels should not be substituted for assessment oftraditional cardiovascular risk factors. Patients with persistently"
+  },
+  "test_results": [],
+  "other_fields": {
+    "doctor": "omes."
+  },
+  "confidence_scores": {
+    "name": 95.53
+  },
+  "page": 80,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
+  }
+}

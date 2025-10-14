@@ -1,19 +1,36 @@
 {
-  "page": 46,
-  "patient_info": {},
+  "patient_info": {
+    "name": "A i i",
+    "patient_id": "RECEIVED"
+  },
   "test_results": [
     {
-      "test_name": "Glucose Fasting",
-      "value": "281.00",
-      "unit": "mg/dL",
-      "confidence": 92.17,
-      "line_number": 21
+      "test_name": "ALBUMIN",
+      "value": "3.2",
+      "unit": "Low",
+      "confidence": 91.5,
+      "line_number": 61
+    },
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 90.0,
+      "line_number": 86
     }
   ],
   "other_fields": {
-    "doctor": "oxy"
+    "doctor": "A i"
   },
   "confidence_scores": {
-    "doctor": 94.62
+    "name": 93.14,
+    "patient_id": 83.33
+  },
+  "page": 46,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
   }
 }

@@ -1,26 +1,19 @@
 {
-  "page": 19,
   "patient_info": {
-    "age": "79"
+    "name": "SHAILESH HARAN (51Y/M) SAMPLE COLLECTEDAT :"
   },
-  "test_results": [
-    {
-      "test_name": "Plasma Glucose F",
-      "value": "102",
-      "unit": "mg/dL",
-      "confidence": 92.11,
-      "line_number": 19
-    },
-    {
-      "test_name": "Potassium",
-      "value": "4.57",
-      "unit": "mEq/L",
-      "confidence": 92.0,
-      "line_number": 30
-    }
-  ],
-  "other_fields": {},
+  "test_results": [],
+  "other_fields": {
+    "doctor": "Caesar"
+  },
   "confidence_scores": {
-    "age": 79.0
+    "name": 89.33
+  },
+  "page": 19,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

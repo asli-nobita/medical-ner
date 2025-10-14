@@ -32,7 +32,7 @@ class HybridExtractor:
         for i, token in enumerate(tokens):
             token_features = []
             
-            # Token features
+            
             token_features.extend([
                 token['text'].lower(),
                 str(token['text'].isupper()),
@@ -43,16 +43,16 @@ class HybridExtractor:
                 str(token.get('confidence', 0) / 100.0),
             ])
             
-            # Position features
+            
             token_features.extend([
                 str(token.get('left', 0)),
                 str(token.get('top', 0)),
                 str(token.get('width', 0)),
                 str(token.get('height', 0)),
-                str(i),  # Position in sequence
+                str(i),  
             ])
             
-            # Context features (previous and next tokens)
+            
             if i > 0:
                 prev_token = tokens[i - 1]
                 token_features.extend([
@@ -71,7 +71,7 @@ class HybridExtractor:
             else:
                 token_features.extend(['<END>', 'False'])
             
-            # Convert to string for TfidfVectorizer
+            
             feature_string = ' '.join(token_features)
             features.append(feature_string)
         
@@ -80,7 +80,7 @@ class HybridExtractor:
     def ml_token_classification(self, tokens):
         """Apply ML model to classify each token."""
         if not self.model_loaded:
-            return ['O'] * len(tokens)  # All tokens as 'Other'
+            return ['O'] * len(tokens)  
         
         try:
             features = self.extract_token_features(tokens)
@@ -99,31 +99,31 @@ class HybridExtractor:
             'confidence_scores': {}
         }
         
-        # Group consecutive tokens with same label
+        
         current_entity = None
         current_tokens = []
         
         for i, (token, label) in enumerate(zip(tokens, labels)):
             if label != 'O':
                 if current_entity == label:
-                    # Continue current entity
+                    
                     current_tokens.append(token)
                 else:
-                    # Save previous entity if exists
+                    
                     if current_entity and current_tokens:
                         self._save_entity(entities, current_entity, current_tokens)
                     
-                    # Start new entity
+                    
                     current_entity = label
                     current_tokens = [token]
             else:
-                # Save current entity if exists
+                
                 if current_entity and current_tokens:
                     self._save_entity(entities, current_entity, current_tokens)
                 current_entity = None
                 current_tokens = []
         
-        # Save final entity
+        
         if current_entity and current_tokens:
             self._save_entity(entities, current_entity, current_tokens)
         
@@ -134,7 +134,7 @@ class HybridExtractor:
         text_value = ' '.join(token['text'] for token in tokens)
         avg_confidence = sum(token.get('confidence', 0) for token in tokens) / len(tokens)
         
-        # Map entity types to fields
+        
         if entity_type == 'NAME':
             entities['patient_info']['name'] = text_value
             entities['confidence_scores']['name'] = avg_confidence
@@ -151,8 +151,8 @@ class HybridExtractor:
             entities['patient_info']['phone'] = text_value
             entities['confidence_scores']['phone'] = avg_confidence
         elif entity_type in ['TEST_NAME', 'TEST_VALUE', 'TEST_UNIT']:
-            # For test results, we need to group them properly
-            # This is simplified - in practice you'd need more sophisticated grouping
+            
+            
             pass
         else:
             entities['other_fields'][entity_type.lower()] = text_value
@@ -167,27 +167,27 @@ class HybridExtractor:
             'confidence_scores': {}
         }
         
-        # For patient info, prefer rule-based if it found something, otherwise use ML
+        
         for field in ['name', 'age', 'patient_id', 'gender', 'phone']:
             rule_value = rule_entities['patient_info'].get(field)
             ml_value = ml_entities['patient_info'].get(field)
             
             if rule_value:
-                # Rule-based found something, use it (higher precision)
+                
                 merged['patient_info'][field] = rule_value
                 merged['confidence_scores'][field] = rule_entities['confidence_scores'].get(field, 0)
             elif ml_value:
-                # Rule-based missed it, but ML found it (better recall)
+                
                 merged['patient_info'][field] = ml_value
                 merged['confidence_scores'][field] = ml_entities['confidence_scores'].get(field, 0)
         
-        # For test results, prefer rule-based (more structured approach)
+        
         if rule_entities['test_results']:
             merged['test_results'] = rule_entities['test_results']
         else:
             merged['test_results'] = ml_entities['test_results']
         
-        # Merge other fields
+        
         merged['other_fields'].update(rule_entities.get('other_fields', {}))
         merged['other_fields'].update(ml_entities.get('other_fields', {}))
         
@@ -203,13 +203,13 @@ class HybridExtractor:
             
             print(f'Processing page {page_no} with hybrid extraction...')
             
-            # Method 1: ML token classification (works on ALL tokens)
+            
             ml_entities = {'patient_info': {}, 'test_results': [], 'other_fields': {}, 'confidence_scores': {}}
             if self.model_loaded:
                 predicted_labels = self.ml_token_classification(tokens)
                 ml_entities = self.tokens_to_entities(tokens, predicted_labels)
             
-            # Method 2: Rule-based extraction (structured approach)
+            
             lines = group_tokens_into_lines(tokens)
             line_texts = [extract_line_text(line) for line in lines]
             sections = detect_report_sections(line_texts)
@@ -225,11 +225,11 @@ class HybridExtractor:
             rule_entities = apply_field_extraction_rules(line_texts, lines, rule_entities, sections)
             rule_entities = extract_test_tables(lines, rule_entities, sections)
             
-            # Method 3: Merge both approaches
+            
             merged_entities = self.merge_extractions(ml_entities, rule_entities)
             merged_entities['page'] = page_no
             
-            # Add extraction method info for debugging
+            
             merged_entities['extraction_methods'] = {
                 'ml_model_used': self.model_loaded,
                 'rule_based_used': True,
@@ -252,7 +252,7 @@ def find_latest_model():
     if not model_files:
         return None
     
-    # Sort by timestamp (filename contains timestamp)
+    
     model_files.sort(reverse=True)
     latest_model = os.path.join(models_dir, model_files[0])
     return latest_model

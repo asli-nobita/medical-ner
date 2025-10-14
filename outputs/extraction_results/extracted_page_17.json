@@ -1,36 +1,21 @@
 {
-  "page": 17,
-  "patient_info": {
-    "name": "Ashwin Kumar A S"
-  },
+  "patient_info": {},
   "test_results": [
     {
-      "test_name": "SODIUM",
-      "value": "121",
-      "unit": "mmol/L",
-      "confidence": 95.6,
-      "line_number": 29
-    },
-    {
-      "test_name": "POTASSIUM",
-      "value": "4.4",
-      "unit": "mmol/L",
+      "test_name": "CYSTATIN C IMMUNOTURBIDIMETRY",
+      "value": "0.83",
+      "unit": "mg/L",
       "confidence": 92.4,
-      "line_number": 31
-    },
-    {
-      "test_name": "CHLORIDE",
-      "value": "84",
-      "unit": "mmol/L",
-      "confidence": 95.6,
-      "line_number": 33
+      "line_number": 22
     }
   ],
-  "other_fields": {
-    "doctor": "Ashwin"
-  },
-  "confidence_scores": {
-    "name": 93.11,
-    "doctor": 93.11
+  "other_fields": {},
+  "confidence_scores": {},
+  "page": 17,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
   }
 }

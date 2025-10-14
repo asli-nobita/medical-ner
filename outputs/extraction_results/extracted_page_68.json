@@ -1,0 +1,36 @@
+{
+  "patient_info": {
+    "name": "A i i",
+    "patient_id": "RECEIVED"
+  },
+  "test_results": [
+    {
+      "test_name": "HYDERABAD",
+      "value": "500072",
+      "unit": "NO",
+      "confidence": 96.0,
+      "line_number": 16
+    },
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 88.2,
+      "line_number": 52
+    }
+  ],
+  "other_fields": {
+    "doctor": "A i"
+  },
+  "confidence_scores": {
+    "name": 89.29,
+    "patient_id": 88.5
+  },
+  "page": 68,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
+  }
+}

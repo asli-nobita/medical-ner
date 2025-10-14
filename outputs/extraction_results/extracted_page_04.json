@@ -1,31 +1,19 @@
 {
-  "page": 4,
   "patient_info": {
-    "age": "40",
-    "patient_id": "6186848"
+    "name": "NAYANA SURTI (61Y/F) SAMPLE COLLECTEDAT :"
   },
-  "test_results": [
-    {
-      "test_name": "Platelet Count",
-      "value": "335000",
-      "unit": "Cells/emm",
-      "confidence": 86.33,
-      "line_number": 25
-    },
-    {
-      "test_name": "Mean Platelet Volume (MPV)",
-      "value": "8.30",
-      "unit": "fL",
-      "confidence": 81.75,
-      "line_number": 28
-    }
-  ],
+  "test_results": [],
   "other_fields": {
-    "phone": "9035707662"
+    "doctor": "Arjun"
   },
   "confidence_scores": {
-    "age": 72.17,
-    "patient_id": 72.17,
-    "phone": 72.17
+    "name": 89.56
+  },
+  "page": 4,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

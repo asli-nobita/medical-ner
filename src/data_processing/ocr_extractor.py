@@ -23,7 +23,7 @@ def extract_text(images, output_dir='ocr_results'):
     
     for page_no, img in enumerate(images,1): 
         print(f'Processing page no {page_no}') 
-        # configure tesseract 
+        
         config = r'--oem 3 --psm 6' 
         ocr_data = pytesseract.image_to_data(img, config=config, output_type=pytesseract.Output.DICT) 
         page_tokens = [] 
@@ -58,7 +58,7 @@ def extract_text(images, output_dir='ocr_results'):
                 'tokens': page_tokens
             }, f, indent=2, ensure_ascii=False)
         print(f"Saved {len(page_tokens)} tokens to {json_filename}") 
-        # save as csv for easy viewing 
+        
         csv_filename = os.path.join(output_dir, f'tokens_page_{page_no}.csv')
         save_tokens_as_csv(page_tokens, csv_filename)
         

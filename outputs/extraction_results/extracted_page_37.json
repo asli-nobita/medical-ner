@@ -1,7 +1,71 @@
 {
+  "patient_info": {
+    "name": "A I I",
+    "patient_id": "RECEIVED"
+  },
+  "test_results": [
+    {
+      "test_name": "HEMOGLOBIN (HB)",
+      "value": "11.3",
+      "unit": "Low",
+      "confidence": 90.71,
+      "line_number": 25
+    },
+    {
+      "test_name": "RED BLOOD CELL (RBC) COUNT",
+      "value": "4.44",
+      "unit": "Low",
+      "confidence": 94.5,
+      "line_number": 28
+    },
+    {
+      "test_name": "HEMATOCRIT (PCV)",
+      "value": "35.6",
+      "unit": "Low",
+      "confidence": 93.57,
+      "line_number": 37
+    },
+    {
+      "test_name": "MEAN CORPUSCULAR VOLUME (MCV)",
+      "value": "80.0",
+      "unit": "Low",
+      "confidence": 92.62,
+      "line_number": 40
+    },
+    {
+      "test_name": "MEAN CORPUSCULAR HEMOGLOBIN (MCH)",
+      "value": "25.4",
+      "unit": "Low",
+      "confidence": 93.33,
+      "line_number": 42
+    },
+    {
+      "test_name": "EOSINOPHILS",
+      "value": "11",
+      "unit": "High",
+      "confidence": 94.2,
+      "line_number": 65
+    },
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 88.2,
+      "line_number": 83
+    }
+  ],
+  "other_fields": {
+    "doctor": "A I"
+  },
+  "confidence_scores": {
+    "name": 61.27,
+    "patient_id": 92.67
+  },
   "page": 37,
-  "patient_info": {},
-  "test_results": [],
-  "other_fields": {},
-  "confidence_scores": {}
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
+  }
 }

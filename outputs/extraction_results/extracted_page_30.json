@@ -1,61 +1,58 @@
 {
-  "page": 30,
-  "patient_info": {
-    "name": "Mr. K NAGASHANKAR RAO",
-    "age": "63",
-    "gender": "Male"
-  },
+  "patient_info": {},
   "test_results": [
     {
-      "test_name": "Hemoglobin",
-      "value": "13.60",
-      "unit": "g/dL",
-      "confidence": 92.8,
-      "line_number": 21
+      "test_name": "BLOOD UREA NITROGEN (BUN) PHOTOMETRY",
+      "value": "9.59",
+      "unit": "mg/dl",
+      "confidence": 92.12,
+      "line_number": 23
     },
     {
-      "test_name": "MCHC",
-      "value": "32.00",
-      "unit": "g/dL",
-      "confidence": 92.8,
-      "line_number": 32
+      "test_name": "CREATININE SERUM PHOTOMETRY",
+      "value": "0.77",
+      "unit": "mg/dl",
+      "confidence": 92.17,
+      "line_number": 24
     },
     {
-      "test_name": "Neutrophils",
-      "value": "4.61",
-      "unit": "thou/mm",
-      "confidence": 93.4,
-      "line_number": 47
+      "test_name": "URIC ACID PHOTOMETRY",
+      "value": "5.55",
+      "unit": "mg/dl",
+      "confidence": 91.17,
+      "line_number": 26
     },
     {
-      "test_name": "Lymphocytes",
-      "value": "3.45",
-      "unit": "thou/mm",
-      "confidence": 93.6,
-      "line_number": 49
+      "test_name": "CALCIUM PHOTOMETRY",
+      "value": "9.62",
+      "unit": "mg/dl",
+      "confidence": 91.8,
+      "line_number": 27
     },
     {
-      "test_name": "Monocytes",
-      "value": "0.73",
-      "unit": "thou/mm",
-      "confidence": 93.6,
-      "line_number": 51
+      "test_name": "Sample Collected on (SCT)",
+      "value": "19",
+      "unit": "Apr",
+      "confidence": 94.44,
+      "line_number": 41
     },
     {
-      "test_name": "Eosinophils",
-      "value": "0.25",
-      "unit": "thou/mm",
-      "confidence": 94.2,
-      "line_number": 53
+      "test_name": "Sample Received on (SRT)",
+      "value": "20",
+      "unit": "Apr",
+      "confidence": 96.0,
+      "line_number": 43
     }
   ],
   "other_fields": {
-    "doctor": "Lat"
+    "doctor": "Prachi"
   },
-  "confidence_scores": {
-    "name": 91.83,
-    "doctor": 67.33,
-    "age": 94.75,
-    "gender": 96.0
+  "confidence_scores": {},
+  "page": 30,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
   }
 }

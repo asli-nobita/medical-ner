@@ -1,33 +1,50 @@
 {
-  "page": 51,
   "patient_info": {
-    "name": "LalPathLabsLtd",
-    "age": "48",
-    "gender": "Male"
+    "name": "ug Therap",
+    "patient_id": "RECEIVED"
   },
   "test_results": [
     {
-      "test_name": "Basophils",
-      "value": "0.06",
-      "unit": "thou/mm",
-      "confidence": 93.2,
-      "line_number": 19
+      "test_name": "VeryHigh Risk",
+      "value": "1,",
+      "unit": "EstablishedASCVD",
+      "confidence": 95.4,
+      "line_number": 44
     },
     {
-      "test_name": "Platelet Count",
-      "value": "147",
-      "unit": "thou/mm",
-      "confidence": 94.67,
-      "line_number": 21
+      "test_name": "High Risk",
+      "value": "1.",
+      "unit": "Three",
+      "confidence": 95.2,
+      "line_number": 46
+    },
+    {
+      "test_name": "Moderate Risk",
+      "value": "2",
+      "unit": "majorASCVD",
+      "confidence": 95.0,
+      "line_number": 51
+    },
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 90.0,
+      "line_number": 73
     }
   ],
   "other_fields": {
-    "doctor": "LalPathLabsLtd"
+    "doctor": "ug"
   },
   "confidence_scores": {
-    "name": 93.5,
-    "age": 94.12,
-    "gender": 96.0,
-    "doctor": 93.5
+    "name": 96.0,
+    "patient_id": 70.43
+  },
+  "page": 51,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 2
   }
 }

@@ -1,0 +1,41 @@
+{
+  "patient_info": {
+    "name": "USHA (65Y/F) SAMPLE COLLECTED AT:"
+  },
+  "test_results": [
+    {
+      "test_name": "Sample Collected on (SCT)",
+      "value": "06",
+      "unit": "Mar",
+      "confidence": 95.62,
+      "line_number": 32
+    },
+    {
+      "test_name": "Sample Received on (SRT)",
+      "value": "06",
+      "unit": "Mar",
+      "confidence": 95.38,
+      "line_number": 34
+    },
+    {
+      "test_name": "Barcode",
+      "value": "77345412",
+      "unit": "Page",
+      "confidence": 85.29,
+      "line_number": 42
+    }
+  ],
+  "other_fields": {
+    "doctor": "Caesar"
+  },
+  "confidence_scores": {
+    "name": 93.43
+  },
+  "page": 85,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
+  }
+}

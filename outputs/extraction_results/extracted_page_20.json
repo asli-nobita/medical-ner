@@ -1,16 +1,19 @@
 {
-  "page": 20,
   "patient_info": {
-    "age": "79",
-    "name": "Pradeep KumarV"
+    "name": "OMES. HSCRP LEVELS SHOULD NOT BE SUBSTITUTED FOR"
   },
   "test_results": [],
   "other_fields": {
-    "doctor": "Pradeep"
+    "doctor": "OMES."
   },
   "confidence_scores": {
-    "age": 70.86,
-    "name": 94.5,
-    "doctor": 94.5
+    "name": 95.13
+  },
+  "page": 20,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

@@ -1,44 +1,34 @@
 {
-  "page": 44,
   "patient_info": {
-    "name": "Mr. MANISH BAJPIE",
-    "age": "48",
-    "gender": "Male"
+    "name": "to change from mild to severe in COVID positive"
   },
   "test_results": [
     {
-      "test_name": "Phosphorus",
-      "value": "3.05",
-      "unit": "mg/dL",
-      "confidence": 94.0,
-      "line_number": 20
+      "test_name": "ABSOLUTE BASOPHIL COUNT",
+      "value": "0",
+      "unit": "Low",
+      "confidence": 90.0,
+      "line_number": 34
     },
     {
-      "test_name": "Sodium",
-      "value": "131.30",
-      "unit": "mEq/L",
-      "confidence": 94.6,
-      "line_number": 23
-    },
-    {
-      "test_name": "Potassium",
-      "value": "4.73",
-      "unit": "mEq/L",
-      "confidence": 94.4,
-      "line_number": 26
-    },
-    {
-      "test_name": "Chloride",
-      "value": "99.00",
-      "unit": "mEq/L",
-      "confidence": 91.8,
-      "line_number": 29
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 90.0,
+      "line_number": 78
     }
   ],
-  "other_fields": {},
+  "other_fields": {
+    "doctor": "A i"
+  },
   "confidence_scores": {
-    "name": 92.0,
-    "age": 95.43,
-    "gender": 94.71
+    "name": 95.04
+  },
+  "page": 44,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

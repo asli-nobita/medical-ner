@@ -1,29 +1,48 @@
 {
-  "page": 35,
-  "patient_info": {},
+  "patient_info": {
+    "name": "Anjali Sawant"
+  },
   "test_results": [
     {
-      "test_name": "Triglycerides",
-      "value": "140.00",
+      "test_name": "Estimated Average Glucose (eAG)",
+      "value": "119.76",
       "unit": "mg/dL",
-      "confidence": 89.75,
-      "line_number": 22
+      "confidence": 93.17,
+      "line_number": 28
     },
     {
-      "test_name": "HDL Cholesterol",
-      "value": "45.00",
-      "unit": "mg/dL",
-      "confidence": 90.6,
-      "line_number": 23
+      "test_name": "Excellent Control",
+      "value": "6",
+      "unit": "to",
+      "confidence": 85.5,
+      "line_number": 44
     },
     {
-      "test_name": "Non-HDL Cholesterol",
-      "value": "129",
-      "unit": "mg/dL",
-      "confidence": 90.2,
-      "line_number": 26
+      "test_name": "Fairto Good Control",
+      "value": "7",
+      "unit": "to",
+      "confidence": 91.88,
+      "line_number": 46
+    },
+    {
+      "test_name": "Unsatisfactory Control",
+      "value": "8",
+      "unit": "to",
+      "confidence": 93.17,
+      "line_number": 48
     }
   ],
-  "other_fields": {},
-  "confidence_scores": {}
+  "other_fields": {
+    "doctor": "Anjali"
+  },
+  "confidence_scores": {
+    "name": 96.0
+  },
+  "page": 35,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
+  }
 }

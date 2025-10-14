@@ -1,0 +1,107 @@
+{
+  "patient_info": {},
+  "test_results": [
+    {
+      "test_name": "ALKALINE PHOSPHATASE PHOTOMETRY",
+      "value": "164.8",
+      "unit": "U/L",
+      "confidence": 95.33,
+      "line_number": 22
+    },
+    {
+      "test_name": "BILIRUBIN TOTAL PHOTOMETRY",
+      "value": "0.36",
+      "unit": "mg/dl",
+      "confidence": 92.67,
+      "line_number": 23
+    },
+    {
+      "test_name": "BILIRUBIN -DIRECT PHOTOMETRY",
+      "value": "0.11",
+      "unit": "mg/dl",
+      "confidence": 81.0,
+      "line_number": 25
+    },
+    {
+      "test_name": "BILIRUBIN (INDIRECT) CALCULATED",
+      "value": "0.25",
+      "unit": "mg/dl",
+      "confidence": 93.17,
+      "line_number": 27
+    },
+    {
+      "test_name": "GAMMA GLUTAMYL TRANSFERASE (GGT) PHOTOMETRY",
+      "value": "16",
+      "unit": "U/I",
+      "confidence": 93.78,
+      "line_number": 28
+    },
+    {
+      "test_name": "ASPARTATE AMINOTRANSFERASE (SGOT ) PHOTOMETRY",
+      "value": "22.4",
+      "unit": "U/I",
+      "confidence": 91.78,
+      "line_number": 29
+    },
+    {
+      "test_name": "ALANINE TRANSAMINASE (SGPT) PHOTOMETRY",
+      "value": "13.4",
+      "unit": "U/I",
+      "confidence": 93.25,
+      "line_number": 30
+    },
+    {
+      "test_name": "PROTEIN TOTAL PHOTOMETRY",
+      "value": "6.84",
+      "unit": "gm/dl",
+      "confidence": 93.17,
+      "line_number": 31
+    },
+    {
+      "test_name": "ALBUMIN SERUM PHOTOMETRY",
+      "value": "3.83",
+      "unit": "gm/dl",
+      "confidence": 93.5,
+      "line_number": 33
+    },
+    {
+      "test_name": "SERUM GLOBULIN PHOTOMETRY",
+      "value": "3.01",
+      "unit": "gm/dL",
+      "confidence": 93.0,
+      "line_number": 36
+    },
+    {
+      "test_name": "Sample Collected on (SCT)",
+      "value": "06",
+      "unit": "Mar",
+      "confidence": 94.67,
+      "line_number": 61
+    },
+    {
+      "test_name": "Sample Received (SRT)",
+      "value": "06",
+      "unit": "Mar",
+      "confidence": 95.43,
+      "line_number": 62
+    },
+    {
+      "test_name": "Barcode",
+      "value": "17345412",
+      "unit": "Page",
+      "confidence": 87.33,
+      "line_number": 71
+    }
+  ],
+  "other_fields": {
+    "doctor": "Arjun"
+  },
+  "confidence_scores": {},
+  "page": 84,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
+}

@@ -1,15 +1,34 @@
 {
-  "page": 38,
   "patient_info": {
-    "name": "Mrs. SWARNA LATA",
-    "age": "41",
-    "gender": "Female"
+    "name": "to change from mild to severe in COVID positive"
   },
-  "test_results": [],
-  "other_fields": {},
+  "test_results": [
+    {
+      "test_name": "ABSOLUTE EOSINOPHIL COUNT",
+      "value": "0.89",
+      "unit": "High",
+      "confidence": 92.88,
+      "line_number": 28
+    },
+    {
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 89.8,
+      "line_number": 72
+    }
+  ],
+  "other_fields": {
+    "doctor": "A i"
+  },
   "confidence_scores": {
-    "name": 93.0,
-    "age": 95.29,
-    "gender": 94.29
+    "name": 95.0
+  },
+  "page": 38,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

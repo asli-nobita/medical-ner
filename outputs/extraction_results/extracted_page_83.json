@@ -1,0 +1,51 @@
+{
+  "patient_info": {},
+  "test_results": [
+    {
+      "test_name": "HDL CHOLESTEROL DIRECT PHOTOMETRY",
+      "value": "51",
+      "unit": "mg/dl",
+      "confidence": 93.86,
+      "line_number": 25
+    },
+    {
+      "test_name": "LDL CHOLESTEROL DIRECT PHOTOMETRY",
+      "value": "168",
+      "unit": "mg/dl",
+      "confidence": 94.71,
+      "line_number": 27
+    },
+    {
+      "test_name": "TRIGLYCERIDES PHOTOMETRY",
+      "value": "249",
+      "unit": "mg/dl",
+      "confidence": 89.6,
+      "line_number": 29
+    },
+    {
+      "test_name": "VLDL CHOLESTEROL CALCULATED",
+      "value": "49.76",
+      "unit": "mg/dl",
+      "confidence": 90.17,
+      "line_number": 32
+    },
+    {
+      "test_name": "NON-HDL CHOLESTEROL CALCULATED",
+      "value": "222.3",
+      "unit": "mg/dl",
+      "confidence": 90.57,
+      "line_number": 33
+    }
+  ],
+  "other_fields": {
+    "doctor": "Arjun"
+  },
+  "confidence_scores": {},
+  "page": 83,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
+}

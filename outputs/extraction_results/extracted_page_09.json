@@ -1,72 +1,58 @@
 {
-  "page": 9,
-  "patient_info": {
-    "name": "MrK P SHRAVAN",
-    "patient_id": "6186848",
-    "lab_id": "50641000301",
-    "gender": "Male",
-    "age": "40"
-  },
+  "patient_info": {},
   "test_results": [
     {
-      "test_name": "Cholesterol",
-      "value": "118",
-      "unit": "mg/dL",
-      "confidence": 85.2,
-      "line_number": 21
+      "test_name": "TOTAL CHOLESTEROL PHOTOMETRY",
+      "value": "199",
+      "unit": "mg/dl",
+      "confidence": 93.83,
+      "line_number": 23
     },
     {
-      "test_name": "Proteins (Total)",
-      "value": "6.84",
-      "unit": "g/dL",
-      "confidence": 92.8,
+      "test_name": "HDL CHOLESTEROL DIRECT PHOTOMETRY",
+      "value": "62",
+      "unit": "mg/dl",
+      "confidence": 93.71,
+      "line_number": 24
+    },
+    {
+      "test_name": "LDL CHOLESTEROL DIRECT PHOTOMETRY",
+      "value": "115",
+      "unit": "mg/dl",
+      "confidence": 93.86,
       "line_number": 26
     },
     {
-      "test_name": "Albumin",
-      "value": "4.44",
-      "unit": "g/dL",
-      "confidence": 92.0,
+      "test_name": "TRIGLYCERIDES PHOTOMETRY",
+      "value": "116",
+      "unit": "mg/dl",
+      "confidence": 94.0,
       "line_number": 28
     },
     {
-      "test_name": "Globulin",
-      "value": "2.40",
-      "unit": "g/dL",
-      "confidence": 94.5,
+      "test_name": "VLDL CHOLESTEROL CALCULATED",
+      "value": "23.28",
+      "unit": "mg/dl",
+      "confidence": 91.67,
       "line_number": 31
     },
     {
-      "test_name": "Alkaline Phosphatase",
-      "value": "97.0",
-      "unit": "U/L",
-      "confidence": 91.67,
-      "line_number": 39
-    },
-    {
-      "test_name": "Bilirubin Total",
-      "value": "0.80",
-      "unit": "mg/dL",
-      "confidence": 91.2,
-      "line_number": 44
-    },
-    {
-      "test_name": "Bilirubin-Direct",
-      "value": "0.31",
-      "unit": "mg/dL",
-      "confidence": 87.5,
-      "line_number": 46
+      "test_name": "NON-HDL CHOLESTEROL CALCULATED",
+      "value": "136.8",
+      "unit": "mg/dl",
+      "confidence": 93.17,
+      "line_number": 32
     }
   ],
   "other_fields": {
-    "phone": "9035707662"
+    "doctor": "Arjun"
   },
-  "confidence_scores": {
-    "name": 67.3,
-    "patient_id": 70.92,
-    "lab_id": 67.3,
-    "gender": 67.3,
-    "age": 70.92,
-    "phone": 70.92
+  "confidence_scores": {},
+  "page": 9,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
   }
 }

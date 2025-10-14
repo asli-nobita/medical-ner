@@ -1,0 +1,58 @@
+{
+  "patient_info": {},
+  "test_results": [
+    {
+      "test_name": "BLOOD UREA NITROGEN (BUN) PHOTOMETRY",
+      "value": "12.42",
+      "unit": "mg/dl",
+      "confidence": 93.75,
+      "line_number": 22
+    },
+    {
+      "test_name": "CREATININE SERUM PHOTOMETRY",
+      "value": "0.72",
+      "unit": "mg/dl",
+      "confidence": 91.83,
+      "line_number": 23
+    },
+    {
+      "test_name": "CALCIUM PHOTOMETRY",
+      "value": "10.69",
+      "unit": "mg/dl",
+      "confidence": 90.8,
+      "line_number": 26
+    },
+    {
+      "test_name": "URIC ACID PHOTOMETRY",
+      "value": "4.49",
+      "unit": "mg/dl",
+      "confidence": 91.71,
+      "line_number": 27
+    },
+    {
+      "test_name": "Sample Collected on (SCT)",
+      "value": "06",
+      "unit": "Mar",
+      "confidence": 95.22,
+      "line_number": 41
+    },
+    {
+      "test_name": "Sample Received (SRT)",
+      "value": "06",
+      "unit": "Mar",
+      "confidence": 95.14,
+      "line_number": 42
+    }
+  ],
+  "other_fields": {
+    "doctor": "Arjun"
+  },
+  "confidence_scores": {},
+  "page": 86,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 0
+  }
+}

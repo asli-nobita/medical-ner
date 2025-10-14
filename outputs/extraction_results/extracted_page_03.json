@@ -1,65 +1,19 @@
 {
-  "page": 3,
   "patient_info": {
-    "name": "MrK P SHRAVAN",
-    "patient_id": "6186848",
-    "lab_id": "50641000301",
-    "gender": "Male",
-    "age": "40"
+    "name": "omes. hsCRP levels should not be substituted for assessment oftraditional cardiovascular risk factors. Patients with persistently"
   },
-  "test_results": [
-    {
-      "test_name": "Haemoglobin",
-      "value": "14.5",
-      "unit": "g/dL",
-      "confidence": 92.6,
-      "line_number": 22
-    },
-    {
-      "test_name": "RBC (Electrical Impedance)",
-      "value": "5.31",
-      "unit": "millionfemm",
-      "confidence": 81.29,
-      "line_number": 28
-    },
-    {
-      "test_name": "Mean Corpuscular Volume",
-      "value": "84.4",
-      "unit": "fL",
-      "confidence": 89.71,
-      "line_number": 31
-    },
-    {
-      "test_name": "Mean Corpuscular Hemoglobin",
-      "value": "27.3",
-      "unit": "pg",
-      "confidence": 94.14,
-      "line_number": 34
-    },
-    {
-      "test_name": "Mean Corpuscular Hb",
-      "value": "32.4",
-      "unit": "g/dL",
-      "confidence": 92.43,
-      "line_number": 37
-    },
-    {
-      "test_name": "Total WBC Count",
-      "value": "7000",
-      "unit": "Cells/emm",
-      "confidence": 87.86,
-      "line_number": 44
-    }
-  ],
+  "test_results": [],
   "other_fields": {
-    "phone": "9035707662"
+    "doctor": "omes."
   },
   "confidence_scores": {
-    "name": 67.3,
-    "patient_id": 70.92,
-    "lab_id": 67.3,
-    "gender": 67.3,
-    "age": 70.92,
-    "phone": 70.92
+    "name": 95.47
+  },
+  "page": 3,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
   }
 }

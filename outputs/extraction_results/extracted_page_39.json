@@ -1,15 +1,27 @@
 {
-  "page": 39,
-  "patient_info": {},
+  "patient_info": {
+    "name": "A i i"
+  },
   "test_results": [
     {
-      "test_name": "Estimated average glucose (eAG)",
-      "value": "108",
-      "unit": "mg/dL",
-      "confidence": 91.33,
-      "line_number": 22
+      "test_name": "Tel",
+      "value": "9111591115,",
+      "unit": "Fax",
+      "confidence": 88.2,
+      "line_number": 37
     }
   ],
-  "other_fields": {},
-  "confidence_scores": {}
+  "other_fields": {
+    "doctor": "A i"
+  },
+  "confidence_scores": {
+    "name": 81.25
+  },
+  "page": 39,
+  "extraction_methods": {
+    "ml_model_used": true,
+    "rule_based_used": true,
+    "ml_entities_found": 0,
+    "rule_entities_found": 1
+  }
 }
